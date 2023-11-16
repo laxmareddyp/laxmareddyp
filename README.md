@@ -4,11 +4,11 @@ Config files for my GitHub profile.
 
 🔭 Software Engineer | Deep Learning Enthusiast | Machine Learning Practitioner
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=sineeli&theme=onedark)](https://github.com/sineeli/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=onedark)](https://github.com/laxmareddyp/github-profile-trophy)
 
-![](https://komarev.com/ghpvc/?username=sineeli&color=green)
+![](https://komarev.com/ghpvc/?username=laxmareddyp&color=green)
 
-<img width="43%"  src="https://github-readme-streak-stats.herokuapp.com/?user=sineeli&hide_border=true" /><img width="53%"  src="https://github-readme-stats.vercel.app/api?username=sineeli&count_private=true&show_icons=true&include_all_commits=false&hide_border=true&hide_title=true" />
+<img width="43%"  src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&hide_border=true" /><img width="53%"  src="https://github-readme-stats.vercel.app/api?username=laxmareddyp&count_private=true&show_icons=true&include_all_commits=false&hide_border=true&hide_title=true" />
 
 ## 🔧 Tools
 ### Languages
