@@ -1,8 +1,7 @@
 # laxmareddy patlolla
-Config files for my GitHub profile.
 👋 Hello, I'm Laxma Reddy Patlolla!
 
-🔭 Software Engineer | Deep Learning Enthusiast | Machine Learning Practitioner
+🔭 Software Engineer | Deep Learning | Machine Learning Practitioner
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=onedark)](https://github.com/laxmareddyp/github-profile-trophy)
 
@@ -15,8 +14,6 @@ Config files for my GitHub profile.
 ![Python](http://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
 
 ### API
-![FastAPI](http://img.shields.io/badge/-FastAPI-26a699?style=flat-square&logo=fastapi&logoColor=ffffff)
-![Django](http://img.shields.io/badge/-Django-black?style=flat-square&logo=django&logoColor=0C4B33)
 ![Docker](http://img.shields.io/badge/-Docker-007ACC?style=flat-square&logo=docker&logoColor=ffffff)
 
 ### Deep Learning Frameworks
