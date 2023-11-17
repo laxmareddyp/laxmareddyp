@@ -32,6 +32,3 @@
 
 ### OS
 ![Linux](http://img.shields.io/badge/-Linux-0078D6?style=flat-square&logo=linux&logoColor=ffffff)
-
-
-![Laxma Reddy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=laxmareddyp&show_icons=true) 
