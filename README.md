@@ -1,4 +1,4 @@
-# laxmareddy patlolla
+# Laxmareddy Patlolla
 👋 Hello, I'm Laxma Reddy Patlolla!
 
 🔭 Software Engineer | Deep Learning | Machine Learning Practitioner
