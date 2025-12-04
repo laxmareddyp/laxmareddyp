@@ -19,7 +19,7 @@
 ### Deep Learning Frameworks
 ![Tensorflow](http://img.shields.io/badge/-Tensorflow-orange?style=flat-square&logo=tensorflow&logoColor=ffffff)
 ![Keras](http://img.shields.io/badge/-Keras-white?style=flat-square&logo=keras&logoColor=ff0000)
-
+![Keras Hub](https://img.shields.io/badge/Keras-Hub-blue)
 ### Database
 ![PostgreSQL](http://img.shields.io/badge/-PostgreSQL-3776AB?style=flat-square&logo=postgresql&logoColor=ffffff)
 
