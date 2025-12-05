@@ -10,14 +10,14 @@
 <img width="43%"  src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&hide_border=true" /><img width="53%"  src="https://github-readme-stats.vercel.app/api?username=laxmareddyp&count_private=true&show_icons=true&include_all_commits=false&hide_border=true&hide_title=true" />
 
 ## 🏆 Top Models Architecture
-Here are some of my best contributions to KerasHub projects:
+Here are some of my best contributions to Keras-Hub:
 
 - 🔹 [PR #2384](https://github.com/keras-team/keras-hub/pull/2384) - 🧠 Implemented OpenAI **GPT-OSS** architecture to KerasHub 🏗️  
 - 🔹 [PR #1984](https://github.com/keras-team/keras-hub/pull/1984) - 🧠 Added **BASNet** architecture to KerasHub 🏗️ 
 - 🔹 [PR #2445](https://github.com/keras-team/keras-hub/pull/2445) - 🧠 Enabled **Gemma3** weights conversion from PyTorch to KerasHub 🚀
 
 ## 🏆 Top Published Guides on keras.io
-Here are some of my best contributions guides to open-source projects:
+Here are some of my best contribution guides to Keras-IO:
 
 - 🔹 [PR #2133](https://github.com/keras-team/keras-io/pull/2133) - Function Calling(**FC**) feature with KerasHub 📘
 - 🔹 [PR #2158](https://github.com/keras-team/keras-io/pull/2158) - Supercharging LLMs: Building **RAG** Systems with Keras Hub 📘  
