@@ -1,13 +1,27 @@
-# Laxma Reddy Patlolla
-👋 Hello, I'm Laxma Reddy Patlolla!
+## Laxma Reddy Patlolla
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&background=00000000&center=true&vCenter=true&width=435&lines=Hi+There!+%F0%9F%91%8B;I+Build+AI+Models;Welcome+to+my+profile" alt="Typing SVG" />
+</p>
 
-🔭 Software Engineer | Deep Learning | Machine Learning Practitioner
+🔭 AI Engineer | Deep Learning | Machine Learning Practitioner
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=onedark)](https://github.com/laxmareddyp/github-profile-#trophy)
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=flat&no-frame=true&margin-w=15" alt="laxmareddyp's trophies" />
+  </a>
+</p>
 
-![](https://komarev.com/ghpvc/?username=laxmareddyp&color=green)
+ ![](https://komarev.com/ghpvc/?username=laxmareddyp&color=blue)
 
-<img width="43%"  src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&hide_border=true" /><img width="53%"  src="https://github-readme-stats.vercel.app/api?username=laxmareddyp&count_private=true&show_icons=true&include_all_commits=false&hide_border=true&hide_title=true" />
+
+<p align="center">
+  <!-- The Pulse Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=laxmareddyp&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&area=true" />
+  <br/>
+  <!-- The Stats & Streak Side-by-Side -->
+ <img alt="Streak Stats" src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&theme=high-contrast&hide_border=true&fire=EB4C42" />
+</p>
+
 
 ## 🏆 Top Models Architecture
 Here are some of my best contributions to Keras-Hub:
@@ -52,9 +66,3 @@ Here are some of my best contribution guides to Keras-IO:
   <!-- OS -->
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 </p>
-
-<p align="center">
-  <img alt="GitHub Snake" src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" />
-</p>
-
-
