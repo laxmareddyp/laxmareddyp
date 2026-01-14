@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&background=00000000&center=true&vCenter=true&width=435&lines=Hi+There!+%F0%9F%91%8B;I+Build+AI+Models;Welcome+to+my+profile" alt="Typing SVG" />
 </p>
 
-🔭 AI Engineer | Deep Learning | Machine Learning Practitioner
+🔭 Gen AI Engineer | Deep Learning | Machine Learning Engineer | LLMs
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -23,12 +23,18 @@
 </p>
 
 
+## 🏆 Top Next-Gen AI Workflows Contribution to Keras-Hub: 
+High-Impact LLM Automations in Keras-Hub
+
+- 🔹 [PR #2497](https://github.com/keras-team/keras-hub/pull/2497) - 🧠 **Automated Pipeline:** Migrating **Hugging Face** Causal Language Models to **KerasHub** 🏗️  
+
 ## 🏆 Top Models Architecture
-Here are some of my best contributions to Keras-Hub:
+Here are some of my best Models contributions to Keras-Hub:
 
 - 🔹 [PR #2384](https://github.com/keras-team/keras-hub/pull/2384) - 🧠 Implemented OpenAI **GPT-OSS** architecture to KerasHub 🏗️  
 - 🔹 [PR #1984](https://github.com/keras-team/keras-hub/pull/1984) - 🧠 Added **BASNet** architecture to KerasHub 🏗️ 
 - 🔹 [PR #2445](https://github.com/keras-team/keras-hub/pull/2445) - 🧠 Enabled **Gemma3** weights conversion from PyTorch to KerasHub 🚀
+- 🔹 [PR #2483](https://github.com/keras-team/keras-cv/pull/2483)  - 🧠 Implemented **Mask R-CNN** architecture in **KerasCV** 🏗️  
 
 ## 🏆 Top Published Guides on keras.io
 Here are some of my best contribution guides to Keras-IO:
@@ -37,7 +43,6 @@ Here are some of my best contribution guides to Keras-IO:
 - 🔹 [PR #2158](https://github.com/keras-team/keras-io/pull/2158) - Supercharging LLMs: Building **RAG** Systems with Keras Hub 📘  
 - 🔹 [PR #2166](https://github.com/keras-team/keras-io/pull/2166) - Model Context Protocal(**MCP**) with KerasHub Models 📘
 - 🔹 [PR #2124](https://github.com/keras-team/keras-io/pull/2124) - Loading Hugging Face Transformers Checkpoints into KerasHub 📘
-
 
 
 ## 🔧 Tools
