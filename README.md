@@ -33,7 +33,8 @@ Here are some of my best Models contributions to Keras-Hub:
 
 - 🔹 [PR #2384](https://github.com/keras-team/keras-hub/pull/2384) - 🧠 Implemented OpenAI **GPT-OSS** architecture to KerasHub 🏗️  
 - 🔹 [PR #1984](https://github.com/keras-team/keras-hub/pull/1984) - 🧠 Added **BASNet** architecture to KerasHub 🏗️ 
-- 🔹 [PR #2445](https://github.com/keras-team/keras-hub/pull/2445) - 🧠 Enabled **Gemma3** weights conversion from PyTorch to KerasHub 🚀
+- 🔹 [PR #2445](https://github.com/keras-team/keras-hub/pull/2445) - 🧠 Enables Any **Gemma3** model variants from PyTorch(Hugging Face) to KerasHub 🚀
+- 🔹 [PR #2480](https://github.com/keras-team/keras-hub/pull/2480) - 🧠 Added **FunctionGemma** Model weights to KerasHub 🚀
 - 🔹 [PR #2483](https://github.com/keras-team/keras-cv/pull/2483)  - 🧠 Implemented **Mask R-CNN** architecture in **KerasCV** 🏗️  
 
 ## 🏆 Top Published Guides on keras.io
