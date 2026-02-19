@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/laxmareddyp/github-profile-trophy)" alt="laxmareddyp's trophies" />
+    <img src="[![trophy](https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=onedark)](https://github.com/laxmareddyp/github-profile-trophy)" alt="laxmareddyp's trophies" />
   </a>
 </p>
 
