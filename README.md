@@ -20,6 +20,7 @@
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=laxmareddyp&theme=onedark" height="180px" />
   </a>
 </p>
+
 ### 📊 Profile Views
 ![Views](https://komarev.com/ghpvc/?username=laxmareddyp&color=blue)
 
