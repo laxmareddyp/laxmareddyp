@@ -5,10 +5,11 @@
 
 🔭 Gen AI Engineer | Deep Learning | Machine Learning Engineer | LLMs
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=onedark)](https://github.com/laxmareddyp/github-profile-trophy)
+# 🏆 My GitHub Trophies
+![Trophies](https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=onedark)
 
- ![](https://komarev.com/ghpvc/?username=laxmareddyp&color=blue)
-
+# 📊 Profile Views
+![Views](https://komarev.com/ghpvc/?username=laxmareddyp&color=blue)
 
 <p align="center">
   <!-- The Pulse Graph -->
