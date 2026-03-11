@@ -5,20 +5,28 @@
 
 🔭 Gen AI Engineer | Deep Learning | Machine Learning Engineer | LLMs
 
-# 🏆 My GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=laxmareddyp&theme=onedark)
-
-# 📊 Profile Views
+### 🏆 My GitHub Stats
+<p align="center">
+  <!-- Streak Stats -->
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&theme=onedark" height="180px" />
+  </a>
+  <!-- Overall Stats -->
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=laxmareddyp&show_icons=true&theme=onedark" height="180px" />
+  </a>
+  <!-- Profile Summary -->
+  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=laxmareddyp&theme=onedark" height="180px" />
+  </a>
+</p>
+### 📊 Profile Views
 ![Views](https://komarev.com/ghpvc/?username=laxmareddyp&color=blue)
 
 <p align="center">
   <!-- The Pulse Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=laxmareddyp&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true&area=true" />
   <br/>
-  <!-- The Stats & Streak Side-by-Side -->
- <img alt="Streak Stats" src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&theme=high-contrast&hide_border=true&fire=EB4C42" />
-</p>
-
 
 ## 🏆 Top Next-Gen AI Workflows Contribution to Keras-Hub: 
 High-Impact LLM Automations in Keras-Hub
