@@ -40,6 +40,7 @@ Here are some of my best Models contributions to Keras-Hub:
 ## 🏆 Top Published Guides on keras.io
 Here are some of my best contribution guides to Keras-IO:
 
+- 🔹 [PR #2299](https://github.com/keras-team/keras-io/pull/2299) - Native function calling capabilities with FunctionGemma 📘
 - 🔹 [PR #2133](https://github.com/keras-team/keras-io/pull/2133) - Function Calling(**FC**) feature with KerasHub 📘
 - 🔹 [PR #2158](https://github.com/keras-team/keras-io/pull/2158) - Supercharging LLMs: Building **RAG** Systems with Keras Hub 📘  
 - 🔹 [PR #2166](https://github.com/keras-team/keras-io/pull/2166) - Model Context Protocal(**MCP**) with KerasHub Models 📘
