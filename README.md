@@ -6,20 +6,25 @@
 🔭 Gen AI Engineer | Deep Learning | Machine Learning Engineer | LLMs
 
 ### 🏆 My GitHub Stats
-<p align="center">
-  <!-- Streak Stats -->
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&theme=onedark" height="180px" />
-  </a>
-  <!-- Overall Stats -->
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=laxmareddyp&show_icons=true&theme=onedark" height="180px" />
-  </a>
-  <!-- Profile Summary -->
-  <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=laxmareddyp&theme=onedark" height="180px" />
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://git.io/streak-stats">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=laxmareddyp&theme=onedark" height="170px" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=laxmareddyp&show_icons=true&theme=onedark" height="170px" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=laxmareddyp&theme=onedark" height="170px" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### 📊 Profile Views
 ![Views](https://komarev.com/ghpvc/?username=laxmareddyp&color=blue)
