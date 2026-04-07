@@ -63,6 +63,9 @@ High-Impact LLM Automations in Keras-Hub
 ## 🏆 Top Models Architecture
 Here are some of my best Models contributions to Keras-Hub:
 
+- 🔹 [PR #2631](https://github.com/keras-team/keras-hub/pull/2631) - 🧠 Implemented Qwen Family Multi Model **Qwen3.5** model(VLLM) to KerasHub 🏗️ 
+- 🔹 [PR #2606](https://github.com/keras-team/keras-hub/pull/2606) - 🧠 Implemented Google Audio Nano Model **Gemma3n** model(STT) to KerasHub 🏗️  
+- 🔹 [PR #2619](https://github.com/keras-team/keras-hub/pull/2619) - 🧠 Implemented Google Enocoder-Decoder **T5Gemma2** model(VLLM) to KerasHub 🏗️  
 - 🔹 [PR #2384](https://github.com/keras-team/keras-hub/pull/2384) - 🧠 Implemented OpenAI **GPT-OSS** architecture to KerasHub 🏗️  
 - 🔹 [PR #1984](https://github.com/keras-team/keras-hub/pull/1984) - 🧠 Added **BASNet** architecture to KerasHub 🏗️ 
 - 🔹 [PR #2445](https://github.com/keras-team/keras-hub/pull/2445) - 🧠 Enables Any **Gemma3** model variants from PyTorch(Hugging Face) to KerasHub 🚀
