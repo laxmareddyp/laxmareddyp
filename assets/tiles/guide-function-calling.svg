@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170" width="300" height="170" role="img" aria-label="Function Calling, With KerasHub models, keras.io guide · 2025">
+  <rect width="300" height="170" rx="22" fill="#FF9EC4"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#14182B">
+    <text x="24" y="48" font-size="23" font-weight="800">Function Calling</text>
+    <rect x="24" y="62" width="162" height="26" rx="13" fill="none" stroke="#14182B" stroke-width="1.5"/>
+    <text x="105.0" y="80" font-size="13" font-weight="600" text-anchor="middle">With KerasHub models</text>
+    <text x="24" y="148" font-size="12" font-weight="600" opacity="0.65">keras.io guide · 2025</text>
+  </g>
+  <g transform="translate(196 98)" fill="none" stroke="#14182B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="14" y="0" width="52" height="64" rx="7"/><path d="M26 18 H54 M26 32 H54 M26 46 H44"/>
+  </g>
+</svg>

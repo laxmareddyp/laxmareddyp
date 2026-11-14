@@ -4,8 +4,9 @@ Run from anywhere:
 
     python scripts/build_assets.py
 
-Everything in `assets/` is produced by this file. To add a model, add one
-entry to `TILES` and re-run.
+This file produces the banners, the tiles and the toolbox bar in `assets/`.
+The PR category bars in `assets/categories/` come from
+`build_contributions.py`. To add a tile, add one entry to `TILES` and re-run.
 """
 
 from pathlib import Path
@@ -33,9 +34,12 @@ KIND_COLOURS = {
     "embedding": "#7CC8FF",
     "vision": "#7EDFA4",
     "tooling": "#FF8F70",
+    "guide": "#FF9EC4",
+    "link": "#C9D1E0",
 }
 
-# (slug, name, tag, kind, footer), newest first.
+# (slug, name, tag, kind, footer). Models newest first, then the tiles for
+# the other README sections.
 TILES = [
     (
         "embeddinggemma-2",
@@ -97,6 +101,62 @@ TILES = [
     ),
     ("basnet", "BASNet", "Segmentation", "vision", "KerasHub · 2024"),
     ("mask-rcnn", "Mask R-CNN", "Segmentation", "vision", "KerasCV · 2024"),
+    (
+        "model-porter",
+        "Model Porter",
+        "HF to KerasHub script",
+        "tooling",
+        "KerasHub · 2025",
+    ),
+    (
+        "guide-functiongemma",
+        "FunctionGemma",
+        "Native function calling",
+        "guide",
+        "keras.io guide · 2026",
+    ),
+    (
+        "guide-function-calling",
+        "Function Calling",
+        "With KerasHub models",
+        "guide",
+        "keras.io guide · 2025",
+    ),
+    (
+        "guide-rag",
+        "RAG Pipeline",
+        "With KerasHub",
+        "guide",
+        "keras.io guide · 2025",
+    ),
+    (
+        "guide-hf-checkpoints",
+        "HF Checkpoints",
+        "Loading into KerasHub",
+        "guide",
+        "keras.io guide · 2025",
+    ),
+    (
+        "link-hugging-face",
+        "Hugging Face",
+        "laxmareddyp",
+        "link",
+        "huggingface.co",
+    ),
+    ("link-kaggle", "Kaggle", "laxmareddypatlolla", "link", "kaggle.com"),
+    ("link-linkedin", "LinkedIn", "laxma-patlolla", "link", "linkedin.com"),
+]
+
+TOOLBOX = [
+    "Python",
+    "Keras",
+    "KerasHub",
+    "TensorFlow",
+    "PyTorch",
+    "Docker",
+    "GCP",
+    "FastAPI",
+    "Flask",
 ]
 
 
@@ -144,6 +204,13 @@ def glyph(kind):
             for i, fill in enumerate([NAVY, "none", NAVY, NAVY, "none"])
         )
         return f'<rect x="0" y="16" width="80" height="32" rx="10"/>{dots}'
+    if kind == "guide":
+        return (
+            '<rect x="14" y="0" width="52" height="64" rx="7"/>'
+            '<path d="M26 18 H54 M26 32 H54 M26 46 H44"/>'
+        )
+    if kind == "link":
+        return '<path d="M22 54 L60 16 M32 16 H60 V44"/>'
     raise ValueError(f"Unknown kind: {kind}")
 
 
@@ -220,6 +287,20 @@ def banner(background, foreground, label_colour, accent):
 """
 
 
+def bar(label, value, colour, size=30):
+    """Full-width strip with a label on the left and a value on the right."""
+    aria = xml(f"{label} {value}".strip())
+    label, value = xml(label), xml(value)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="1200" height="84" role="img" aria-label="{aria}">
+  <rect width="1200" height="84" rx="20" fill="{colour}"/>
+  <g font-family="{FONT}" fill="{NAVY}" font-weight="800">
+    <text x="36" y="{42 + round(size * 0.36)}" font-size="{size}">{label}</text>
+    <text x="1164" y="54" font-size="34" text-anchor="end">{value}</text>
+  </g>
+</svg>
+"""
+
+
 def write(path, text):
     # Fixed encoding and newlines keep the output identical on every platform.
     path.write_text(text, encoding="utf-8", newline="\n")
@@ -233,7 +314,9 @@ def main():
     write(ASSETS / "banner-dark.svg", banner(NAVY, "#FFFFFF", AMBER, RED))
     light = banner(CREAM, NAVY, RUST, KERAS_RED)
     write(ASSETS / "banner-light.svg", light)
-    print(f"Wrote {len(TILES)} tiles and 2 banners to {ASSETS}")
+    toolbox = bar(" · ".join(TOOLBOX), "", KIND_COLOURS["link"], size=24)
+    write(ASSETS / "toolbox.svg", toolbox)
+    print(f"Wrote {len(TILES)} tiles, 2 banners and 1 bar to {ASSETS}")
 
 
 if __name__ == "__main__":

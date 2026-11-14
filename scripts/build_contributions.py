@@ -14,6 +14,8 @@ import re
 import subprocess
 from pathlib import Path
 
+from build_assets import ASSETS, bar, write
+
 README = Path(__file__).resolve().parent.parent / "README.md"
 START = "<!-- contributions:start -->"
 END = "<!-- contributions:end -->"
@@ -32,18 +34,19 @@ DOCS = "API docs"
 TFJS = "TensorFlow.js"
 TF_MODELS = "TensorFlow Model Garden"
 
-# Display order.
-CATEGORIES = [
-    MODELS,
-    INFRA,
-    MIGRATIONS,
-    FIXES,
-    RELEASES,
-    GUIDES,
-    DOCS,
-    TFJS,
-    TF_MODELS,
-]
+# Display order, and the colour of each category bar.
+CATEGORY_COLOURS = {
+    MODELS: "#FFB454",
+    INFRA: "#7CC8FF",
+    MIGRATIONS: "#7EDFA4",
+    FIXES: "#B8A4FF",
+    RELEASES: "#FF8F70",
+    GUIDES: "#FF9EC4",
+    DOCS: "#FFE08A",
+    TFJS: "#F6C177",
+    TF_MODELS: "#C9D1E0",
+}
+CATEGORIES = list(CATEGORY_COLOURS)
 
 INFRA_PATTERN = (
     r"\bci\b|workflow|github actions|kokoro|zizmor|runner|nightly"
@@ -173,6 +176,7 @@ def render(prs):
         "in keras-team and TensorFlow. Open a category to see every one.",
         "",
     ]
+    bars = {}
     for category in CATEGORIES:
         items = sorted(
             groups[category],
@@ -181,9 +185,13 @@ def render(prs):
         )
         if not items:
             continue
+        slug = re.sub(r"[^a-z0-9]+", "-", category.lower()).strip("-")
+        count = f"{len(items)} PRs"
+        bars[slug] = bar(category, count, CATEGORY_COLOURS[category])
         lines += [
             "<details>",
-            f"<summary><b>{category}</b> · {len(items)}</summary>",
+            f'<summary><picture><img src="assets/categories/{slug}.svg" '
+            f'width="94%" alt="{category}, {count}"></picture></summary>',
             "",
         ]
         lines += [
@@ -191,20 +199,22 @@ def render(prs):
             for pr in items
         ]
         lines += ["", "</details>", ""]
-    return "\n".join(lines)
+    return "\n".join(lines), bars
 
 
 def main():
     prs = [pr for owner in OWNERS for pr in fetch(owner)]
-    section = render(prs)
+    section, bars = render(prs)
     text = README.read_text(encoding="utf-8")
     if START not in text or END not in text:
         raise SystemExit(f"README.md needs the {START} and {END} markers.")
     before = text[: text.index(START) + len(START)]
     after = text[text.index(END) :]
-    README.write_text(
-        f"{before}\n{section}{after}", encoding="utf-8", newline="\n"
-    )
+    bars_dir = ASSETS / "categories"
+    bars_dir.mkdir(parents=True, exist_ok=True)
+    for slug, svg in bars.items():
+        write(bars_dir / f"{slug}.svg", svg)
+    write(README, f"{before}\n{section}{after}")
     print(f"Wrote {len(prs)} pull requests to {README}")
 
 

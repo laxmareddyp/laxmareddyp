@@ -42,14 +42,21 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 
 ## ⚙️ Automation
 
-[A porter script](https://github.com/keras-team/keras-hub/pull/2497) that generates KerasHub model files for text-only decoder LLMs from their Hugging Face implementation. The GPT-OSS model files above were generated with it.
+<p align="center">
+  <a href="https://github.com/keras-team/keras-hub/pull/2497"><img src="assets/tiles/model-porter.svg" width="32%" alt="Model Porter, a script that ports text-only decoder LLMs from Hugging Face to KerasHub, 2025"></a>
+</p>
+
+A script that generates KerasHub model files for text-only decoder LLMs from their Hugging Face implementation. The GPT-OSS model files above were generated with it.
 
 ## 📘 Guides on keras.io
 
-- [Native Function Calling with FunctionGemma in KerasHub](https://keras.io/keras_hub/guides/function_gemma_with_keras/)
-- [Function Calling with KerasHub models](https://keras.io/keras_hub/guides/function_calling_with_keras_hub/)
-- [RAG Pipeline with KerasHub](https://keras.io/keras_hub/guides/rag_pipeline_with_keras_hub/)
-- [Loading Hugging Face Transformers Checkpoints](https://keras.io/keras_hub/guides/hugging_face_keras_integration/)
+<p align="center">
+  <a href="https://keras.io/keras_hub/guides/function_gemma_with_keras/"><img src="assets/tiles/guide-functiongemma.svg" width="32%" alt="Guide: Native Function Calling with FunctionGemma in KerasHub"></a>
+  <a href="https://keras.io/keras_hub/guides/function_calling_with_keras_hub/"><img src="assets/tiles/guide-function-calling.svg" width="32%" alt="Guide: Function Calling with KerasHub models"></a>
+  <br>
+  <a href="https://keras.io/keras_hub/guides/rag_pipeline_with_keras_hub/"><img src="assets/tiles/guide-rag.svg" width="32%" alt="Guide: RAG Pipeline with KerasHub"></a>
+  <a href="https://keras.io/keras_hub/guides/hugging_face_keras_integration/"><img src="assets/tiles/guide-hf-checkpoints.svg" width="32%" alt="Guide: Loading Hugging Face Transformers Checkpoints"></a>
+</p>
 
 ## 📦 All merged pull requests
 
@@ -57,7 +64,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 262 merged pull requests across 12 repositories in keras-team and TensorFlow. Open a category to see every one.
 
 <details>
-<summary><b>Models, weights and converters</b> · 55</summary>
+<summary><picture><img src="assets/categories/models-weights-and-converters.svg" width="94%" alt="Models, weights and converters, 55 PRs"></picture></summary>
 
 - [Add EmbeddingGemma2 model to Hub](https://github.com/keras-team/keras-hub/pull/3144) · keras-hub#3144
 - [Register Qwen Agent World and Maxbai-ai presets to hub](https://github.com/keras-team/keras-hub/pull/2878) · keras-hub#2878
@@ -118,7 +125,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>CI, tests and infrastructure</b> · 87</summary>
+<summary><picture><img src="assets/categories/ci-tests-and-infrastructure.svg" width="94%" alt="CI, tests and infrastructure, 87 PRs"></picture></summary>
 
 - [Split GPU and TPU tests into four shards](https://github.com/keras-team/keras/pull/24144) · keras#24144
 - [Remove Jules integration](https://github.com/keras-team/keras-hub/pull/3262) · keras-hub#3262
@@ -211,7 +218,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>Migrations</b> · 5</summary>
+<summary><picture><img src="assets/categories/migrations.svg" width="94%" alt="Migrations, 5 PRs"></picture></summary>
 
 - [\[TF-Free Migration\] Make mock Gemma tokenizers work without TensorFlow](https://github.com/keras-team/keras-hub/pull/3097) · keras-hub#3097
 - [\[PyGrain Migration\] Run RandomDeletion and RandomSwap in Grain pipelines](https://github.com/keras-team/keras-hub/pull/3065) · keras-hub#3065
@@ -222,7 +229,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>Features and fixes</b> · 22</summary>
+<summary><picture><img src="assets/categories/features-and-fixes.svg" width="94%" alt="Features and fixes, 22 PRs"></picture></summary>
 
 - [Support loading unlisted backends via KERAS\_ALLOW\_UNOFFICIAL\_BACKEND](https://github.com/keras-team/keras/pull/24232) · keras#24232
 - [Make Gemma4 vision pooling and interleave graph-safe for zero images](https://github.com/keras-team/keras-hub/pull/3156) · keras-hub#3156
@@ -250,7 +257,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>Releases</b> · 21</summary>
+<summary><picture><img src="assets/categories/releases.svg" width="94%" alt="Releases, 21 PRs"></picture></summary>
 
 - [Sync Kaggle model presets to Hugging Face for 0.33.0](https://github.com/keras-team/keras-hub/pull/3223) · keras-hub#3223
 - [\[Aug\] Sync kaggle models to HF keras](https://github.com/keras-team/keras-hub/pull/2936) · keras-hub#2936
@@ -277,7 +284,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>Guides and examples</b> · 10</summary>
+<summary><picture><img src="assets/categories/guides-and-examples.svg" width="94%" alt="Guides and examples, 10 PRs"></picture></summary>
 
 - [Add FunctionGemma guide to keras](https://github.com/keras-team/keras-io/pull/2299) · keras-io#2299
 - [A guide on RAG Pipeline with kerasHub models](https://github.com/keras-team/keras-io/pull/2158) · keras-io#2158
@@ -293,7 +300,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>API docs</b> · 19</summary>
+<summary><picture><img src="assets/categories/api-docs.svg" width="94%" alt="API docs, 19 PRs"></picture></summary>
 
 - [Add Magistral API details](https://github.com/keras-team/keras-io/pull/2399) · keras-io#2399
 - [Add BLIP2 model API details and TextEmbedder base class API details to hub master](https://github.com/keras-team/keras-io/pull/2397) · keras-io#2397
@@ -318,7 +325,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>TensorFlow.js</b> · 18</summary>
+<summary><picture><img src="assets/categories/tensorflow-js.svg" width="94%" alt="TensorFlow.js, 18 PRs"></picture></summary>
 
 - [Update TFJS version speech-commands,tasks,toxicity and universal-sentence-encoder](https://github.com/tensorflow/tfjs-models/pull/1281) · tfjs-models#1281
 - [Update TFJS version for models posenet and qna](https://github.com/tensorflow/tfjs-models/pull/1280) · tfjs-models#1280
@@ -342,7 +349,7 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 </details>
 
 <details>
-<summary><b>TensorFlow Model Garden</b> · 25</summary>
+<summary><picture><img src="assets/categories/tensorflow-model-garden.svg" width="94%" alt="TensorFlow Model Garden, 25 PRs"></picture></summary>
 
 - [add Bharat and Lakshmikala to bot\_config.yml to assign github issues](https://github.com/tensorflow/models/pull/11236) · models#11236
 - [Update setup.py](https://github.com/tensorflow/models/pull/11233) · models#11233
@@ -375,8 +382,14 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 
 ## 🧰 Toolbox
 
-Python · Keras · KerasHub · TensorFlow · PyTorch · Docker · GCP · FastAPI · Flask
+<p align="center">
+  <picture><img src="assets/toolbox.svg" width="100%" alt="Python, Keras, KerasHub, TensorFlow, PyTorch, Docker, GCP, FastAPI, Flask"></picture>
+</p>
 
 ## 👋 Find me
 
-[Hugging Face](https://huggingface.co/laxmareddyp) · [Kaggle](https://www.kaggle.com/laxmareddypatlolla) · [LinkedIn](https://www.linkedin.com/in/laxma-patlolla/)
+<p align="center">
+  <a href="https://huggingface.co/laxmareddyp"><img src="assets/tiles/link-hugging-face.svg" width="32%" alt="Hugging Face: laxmareddyp"></a>
+  <a href="https://www.kaggle.com/laxmareddypatlolla"><img src="assets/tiles/link-kaggle.svg" width="32%" alt="Kaggle: laxmareddypatlolla"></a>
+  <a href="https://www.linkedin.com/in/laxma-patlolla/"><img src="assets/tiles/link-linkedin.svg" width="32%" alt="LinkedIn: laxma-patlolla"></a>
+</p>
