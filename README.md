@@ -40,237 +40,14 @@ More checkpoints and converters: [Qwen-AgentWorld](https://github.com/keras-team
 
 <sub>Gemma 3n builds on earlier work by <a href="https://github.com/harshaljanjani">@harshaljanjani</a> in <a href="https://github.com/keras-team/keras-hub/pull/2404">keras-hub#2404</a>.</sub>
 
-## ⚙️ Automation
+## ⚙️ Automation and reviews
 
 <p align="center">
   <a href="https://github.com/keras-team/keras-hub/pull/2497"><img src="assets/tiles/model-porter.svg" width="32%" alt="Model Porter, a script that ports text-only decoder LLMs from Hugging Face to KerasHub, 2025"></a>
+  <a href="https://github.com/search?q=is%3Apr+reviewed-by%3Alaxmareddyp+-author%3Alaxmareddyp+org%3Akeras-team+org%3Atensorflow&type=pullrequests"><img src="assets/tiles/code-reviews.svg" width="32%" alt="Code reviews on pull requests by other contributors in keras-team and TensorFlow"></a>
 </p>
 
-A script that generates KerasHub model files for text-only decoder LLMs from their Hugging Face implementation. The GPT-OSS model files above were generated with it.
-
-## 🔍 Code reviews
-
-<!-- reviews:start -->
-Reviews on 212 pull requests by 40 other authors across 7 repositories.
-
-<details>
-<summary><picture><img src="assets/categories/code-reviews.svg" width="94%" alt="Code reviews, 212 PRs"></picture></summary>
-
-- [Remove Jules integration.](https://github.com/keras-team/keras/pull/24217) · keras#24217
-- [Add Qwen2 VL model API documentation](https://github.com/keras-team/keras-io/pull/2463) · keras-io#2463
-- [Add GPT-NeoX presets and Hugging Face converter, fix generation and tokenization](https://github.com/keras-team/keras-hub/pull/3259) · keras-hub#3259
-- [Fix typo in sam3\_pc\_backbone\_test.py filename](https://github.com/keras-team/keras-hub/pull/3258) · keras-hub#3258
-- [Update version of \`ruff\` in pre-commit hook.](https://github.com/keras-team/keras-hub/pull/3250) · keras-hub#3250
-- [Fix top\_k on bfloat16 inputs](https://github.com/keras-team/keras-openvino/pull/66) · keras-openvino#66
-- [Bump astral-sh/setup-uv from 10.3.2 to 10.3.3 in the github-actions group](https://github.com/keras-team/keras-hub/pull/3238) · keras-hub#3238
-- [Fix Kaiser test on TPU.](https://github.com/keras-team/keras/pull/24157) · keras#24157
-- [Fix ModernBertMaskedLM decoder bias not being tracked on the torch backend](https://github.com/keras-team/keras-hub/pull/3220) · keras-hub#3220
-- [Add MPNet model API documentation](https://github.com/keras-team/keras-io/pull/2453) · keras-io#2453
-- [Version bump to 0.34.0.dev0](https://github.com/keras-team/keras-hub/pull/3219) · keras-hub#3219
-- [Version bump to 0.33.0](https://github.com/keras-team/keras-hub/pull/3218) · keras-hub#3218
-- [Build(deps): Bump the github-actions group with 4 updates](https://github.com/keras-team/keras/pull/24135) · keras#24135
-- [Use /triage as the sole manual comment trigger for issue triage workflow](https://github.com/keras-team/keras-hub/pull/3217) · keras-hub#3217
-- [Use /triage as the sole manual comment trigger for issue triage workflow](https://github.com/keras-team/keras/pull/24133) · keras#24133
-- [Bump the github-actions group with 5 updates](https://github.com/keras-team/keras-hub/pull/3215) · keras-hub#3215
-- [Run preprocessing layers on the CPU inside Grain pipelines](https://github.com/keras-team/keras-hub/pull/3202) · keras-hub#3202
-- [Add SmolVLM2 model API documentation](https://github.com/keras-team/keras-io/pull/2442) · keras-io#2442
-- [Add SmolVLM2 Kaggle presets](https://github.com/keras-team/keras-hub/pull/3197) · keras-hub#3197
-- [Add EmbeddingGemma 2 model API documentation](https://github.com/keras-team/keras-io/pull/2438) · keras-io#2438
-- [Add Mistral3 model API documentation](https://github.com/keras-team/keras-io/pull/2436) · keras-io#2436
-- [Add Muse Glimmer model API documentation](https://github.com/keras-team/keras-io/pull/2434) · keras-io#2434
-- [Bump github/codeql-action/upload-sarif from 4.38.3 to 4.39.0 in the github-actions group](https://github.com/keras-team/keras-hub/pull/3190) · keras-hub#3190
-- [Add Qwen3-VL (dense) backbone, causal LM and HF converter](https://github.com/keras-team/keras-hub/pull/3186) · keras-hub#3186
-- [Add a stochastic-mode ragged-prompt test for SpeculativeSampler](https://github.com/keras-team/keras-hub/pull/3183) · keras-hub#3183
-- [Add Mpnet backbone, tokenizer and text embedder](https://github.com/keras-team/keras-hub/pull/3181) · keras-hub#3181
-- [Bump the github-actions group with 4 updates](https://github.com/keras-team/keras-hub/pull/3178) · keras-hub#3178
-- [Fix Gemma4CausalLM applying the final logit soft-cap twice](https://github.com/keras-team/keras-hub/pull/3177) · keras-hub#3177
-- [Add DiffusionGemma model API documentation](https://github.com/keras-team/keras-io/pull/2427) · keras-io#2427
-- [Speed up JAX GPU tests using XLA flags.](https://github.com/keras-team/keras/pull/23985) · keras#23985
-- [Bump GPU tests timeout to 4 hours.](https://github.com/keras-team/keras/pull/23982) · keras#23982
-- [Validate \`config\_file\` in Tokenizer and Preprocessor](https://github.com/keras-team/keras-hub/pull/3167) · keras-hub#3167
-- [Suppress new zizmor \`issue\_comment\` findings.](https://github.com/keras-team/keras/pull/23968) · keras#23968
-- [Suppress new zizmor issue\_comment findings](https://github.com/keras-team/keras-hub/pull/3162) · keras-hub#3162
-- [Serialize data\_format in ImageConverter](https://github.com/keras-team/keras-hub/pull/3160) · keras-hub#3160
-- [Add ModernBERT model API documentation](https://github.com/keras-team/keras-io/pull/2425) · keras-io#2425
-- [Register diffusion gemma model presets to Hub](https://github.com/keras-team/keras-hub/pull/3155) · keras-hub#3155
-- [Add Gemma 4 12B unified encoder-free multimodal model](https://github.com/keras-team/keras-hub/pull/3153) · keras-hub#3153
-- [Add ModernBERT text embedder](https://github.com/keras-team/keras-hub/pull/3150) · keras-hub#3150
-- [Add mmbert](https://github.com/keras-team/keras-hub/pull/3149) · keras-hub#3149
-- [Fix zizmor ref-version-mismatch for upload-artifact in scorecard.yml](https://github.com/keras-team/keras/pull/23881) · keras#23881
-- [Build(deps): Bump the github-actions group with 5 updates](https://github.com/keras-team/keras/pull/23851) · keras#23851
-- [Revert "Fix division by zero NaN in categorical\_crossentropy"](https://github.com/keras-team/keras/pull/23843) · keras#23843
-- [Fix invalid use of \`ops.size\` in \`sparse\_categorical\_focal\_crossentropy\`.](https://github.com/keras-team/keras/pull/23842) · keras#23842
-- [Bump the github-actions group with 3 updates](https://github.com/keras-team/keras-hub/pull/3134) · keras-hub#3134
-- [Add OpenAI Privacy Filter model to Hub](https://github.com/keras-team/keras-hub/pull/3133) · keras-hub#3133
-- [Build(deps): Bump the github-actions group with 3 updates](https://github.com/keras-team/keras/pull/23784) · keras#23784
-- [Rename pr-approved-issue.yml to pull-request-validation.yml](https://github.com/keras-team/keras-hub/pull/3129) · keras-hub#3129
-- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/3128) · keras-hub#3128
-- [Fix dead links in CONTRIBUTING\_MODELS.md and STYLE\_GUIDE.md](https://github.com/keras-team/keras-hub/pull/3125) · keras-hub#3125
-- [Fix support for JAX \`numpy.cross\` with 2D inputs.](https://github.com/keras-team/keras/pull/23769) · keras#23769
-- [Add pull-request-validation.yml workflow](https://github.com/keras-team/keras/pull/23768) · keras#23768
-- [Use shared workflow for PR approved issue check](https://github.com/keras-team/keras-hub/pull/3122) · keras-hub#3122
-- [Add reusable PR approved issue check workflow](https://github.com/keras-team/shared-workflows/pull/13) · shared-workflows#13
-- [Serialize data\_format in ViT, DeiT, ResNet, Xception and EfficientNet](https://github.com/keras-team/keras-hub/pull/3121) · keras-hub#3121
-- [Update models on the front page](https://github.com/keras-team/keras-io/pull/2419) · keras-io#2419
-- [Build(deps): Bump the github-actions group with 3 updates](https://github.com/keras-team/keras/pull/23715) · keras#23715
-- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/3116) · keras-hub#3116
-- [Version bump to 0.33.0.dev0](https://github.com/keras-team/keras-hub/pull/3103) · keras-hub#3103
-- [Version bump 0.32.0](https://github.com/keras-team/keras-hub/pull/3102) · keras-hub#3102
-- [Add Muse Glimmer and Muse Glimmer Assistant to Hub](https://github.com/keras-team/keras-hub/pull/3100) · keras-hub#3100
-- [Add SmolVLM2 model to Hub](https://github.com/keras-team/keras-hub/pull/3096) · keras-hub#3096
-- [Resolve tied weights from safetensors metadata in SafetensorLoader](https://github.com/keras-team/keras-hub/pull/3076) · keras-hub#3076
-- [Skip the has is\_stable test when sys.executable is None](https://github.com/keras-team/keras-hub/pull/3074) · keras-hub#3074
-- [Add missing converter for vaultgemma](https://github.com/keras-team/keras-hub/pull/3071) · keras-hub#3071
-- [\[PyGrain Migration\] Default preprocessing layers to the Python workflow and test](https://github.com/keras-team/keras-hub/pull/3069) · keras-hub#3069
-- [Fixed the broken link in PR Template](https://github.com/keras-team/keras/pull/23618) · keras#23618
-- [\[PyGrain Migration\] Unpack (x, y, sample\_weight) tuples in the preprocessing \_\_call\_\_ path](https://github.com/keras-team/keras-hub/pull/3062) · keras-hub#3062
-- [\[PyGrain Migration\] Add Grain coverage to TestCase harness](https://github.com/keras-team/keras-hub/pull/3061) · keras-hub#3061
-- [\[PyGrain Migration\] Return NumPy instead of backend tensors from preprocessing](https://github.com/keras-team/keras-hub/pull/3060) · keras-hub#3060
-- [Fix \`quantizers/strategy\_registry\_test\` test on TPU.](https://github.com/keras-team/keras/pull/23611) · keras#23611
-- [update stale and close time windows to 7 days](https://github.com/keras-team/keras-hub/pull/3057) · keras-hub#3057
-- [Update stale and close time windows to 7 days](https://github.com/keras-team/keras/pull/23604) · keras#23604
-- [update PR template to point to new PR policy](https://github.com/keras-team/keras-hub/pull/3055) · keras-hub#3055
-- [Reproduce gpu failure](https://github.com/keras-team/keras-hub/pull/3050) · keras-hub#3050
-- [Raise an informative error when calling a task model directly on string inputs](https://github.com/keras-team/keras-hub/pull/3049) · keras-hub#3049
-- [Build(deps): Bump github/codeql-action/upload-sarif from 4.37.8 to 4.37.9 in the github-actions group](https://github.com/keras-team/keras/pull/23586) · keras#23586
-- [Bump github/codeql-action/upload-sarif from 4.37.8 to 4.37.9 in the github-actions group](https://github.com/keras-team/keras-hub/pull/3042) · keras-hub#3042
-- [Implement build on Task to prevent unbuilt state warning](https://github.com/keras-team/keras-hub/pull/3038) · keras-hub#3038
-- [\[OpenVINO\] Fix compiled-model cache invalidation and expand test whitelist](https://github.com/keras-team/keras-hub/pull/3029) · keras-hub#3029
-- [Make all \`actions/cache\` actions in workflow consistent.](https://github.com/keras-team/keras-rs/pull/202) · keras-rs#202
-- [Fixing autogen deps versioning](https://github.com/keras-team/keras-io/pull/2416) · keras-io#2416
-- [Migrate to OIDC Publishing (Trusted Publishing)](https://github.com/keras-team/keras-rs/pull/201) · keras-rs#201
-- [Add qwen3.8 model to hub](https://github.com/keras-team/keras-hub/pull/3026) · keras-hub#3026
-- [Build(deps): Bump github/codeql-action/upload-sarif from 4.37.7 to 4.37.8 in the github-actions group across 1 directory](https://github.com/keras-team/keras/pull/23540) · keras#23540
-- [Bump the github-actions group with 4 updates](https://github.com/keras-team/keras-hub/pull/3021) · keras-hub#3021
-- [Add Mistral3 model to Hub](https://github.com/keras-team/keras-hub/pull/3020) · keras-hub#3020
-- [Match the reference YaRN implementation in RotaryEmbedding](https://github.com/keras-team/keras-hub/pull/2981) · keras-hub#2981
-- [Build(deps): Bump the github-actions group with 4 updates](https://github.com/keras-team/keras/pull/23483) · keras#23483
-- [Set Dependabot GitHub Actions updates to weekly](https://github.com/keras-team/keras-hub/pull/2972) · keras-hub#2972
-- [Use shared workflow for auto-assignment](https://github.com/keras-team/keras-hub/pull/2971) · keras-hub#2971
-- [Fix 'image\_size' argument typo in PaliGemmaBackbone example code](https://github.com/keras-team/keras-hub/pull/2969) · keras-hub#2969
-- [Fix 'vit\_pooling' value mismatch in PaliGemma documentation and error handling.](https://github.com/keras-team/keras-hub/pull/2968) · keras-hub#2968
-- [Fix 'polling' typos in Keras Hub docstrings and error messages](https://github.com/keras-team/keras-hub/pull/2967) · keras-hub#2967
-- [Relax OpenVINO test tolerance in STFTSpectrogram error test](https://github.com/keras-team/keras/pull/23457) · keras#23457
-- [Add HGNetV2 timm checkpoint converter](https://github.com/keras-team/keras-hub/pull/2961) · keras-hub#2961
-- [Add missing RoBERTa converter](https://github.com/keras-team/keras-hub/pull/2960) · keras-hub#2960
-- [Fix Perplexity metric accumulation across batches](https://github.com/keras-team/keras-hub/pull/2958) · keras-hub#2958
-- [Add FLUX model to Hub](https://github.com/keras-team/keras-hub/pull/2944) · keras-hub#2944
-- [Bump pymdown-extensions from 11.0 to 11.0.1](https://github.com/keras-team/keras-io/pull/2406) · keras-io#2406
-- [Add Qwen3 ASR to Keras-Hub](https://github.com/keras-team/keras-hub/pull/2942) · keras-hub#2942
-- [Port model tests to common test routines](https://github.com/keras-team/keras-hub/pull/2940) · keras-hub#2940
-- [Fix NameError in Bleu rank validation](https://github.com/keras-team/keras-hub/pull/2937) · keras-hub#2937
-- [Rename SegFormer test files so pytest actually collects them](https://github.com/keras-team/keras-hub/pull/2933) · keras-hub#2933
-- [Add KV caching and a Seq2SeqLM task to T5](https://github.com/keras-team/keras-hub/pull/2932) · keras-hub#2932
-- [Wire up Swin Transformer conversion and add missing converter tests](https://github.com/keras-team/keras-hub/pull/2929) · keras-hub#2929
-- [Part of #2101: Name the missing package in the TensorFlow only metrics](https://github.com/keras-team/keras-hub/pull/2927) · keras-hub#2927
-- [Add regularization to TransformerEncoder](https://github.com/keras-team/keras-hub/pull/2926) · keras-hub#2926
-- [Add SmolVLM2 multimodal vision-language model- #2717](https://github.com/keras-team/keras-hub/pull/2905) · keras-hub#2905
-- [Build(deps): Bump the github-actions group with 6 updates](https://github.com/keras-team/keras/pull/23372) · keras#23372
-- [Bump the github-actions group with 6 updates](https://github.com/keras-team/keras-hub/pull/2904) · keras-hub#2904
-- [Fix incorrect hardcoding of \`training\` argument in Qwen model creation.](https://github.com/keras-team/keras-hub/pull/2903) · keras-hub#2903
-- [Port tokenizer and preprocessing tests to run\_preprocessing\_layer\_test](https://github.com/keras-team/keras-hub/pull/2902) · keras-hub#2902
-- [Part of #2101: Make TensorFlow optional at import time](https://github.com/keras-team/keras-hub/pull/2891) · keras-hub#2891
-- [Part of #2874: Migrate PipelineModel data loading from tf.data to PyGrain](https://github.com/keras-team/keras-hub/pull/2879) · keras-hub#2879
-- [fix kaggle import CI error](https://github.com/keras-team/keras-hub/pull/2877) · keras-hub#2877
-- [Fix workflow core warn error](https://github.com/keras-team/keras/pull/23344) · keras#23344
-- [Fix gemini triage](https://github.com/keras-team/keras/pull/23343) · keras#23343
-- [fix issue triage workflow](https://github.com/keras-team/keras/pull/23341) · keras#23341
-- [Bump pymdown-extensions from 10.20 to 11.0](https://github.com/keras-team/keras-io/pull/2404) · keras-io#2404
-- [Add GLUE fine-tuning guide for KerasHub](https://github.com/keras-team/keras-io/pull/2402) · keras-io#2402
-- [Fix zizmor unpinned-uses warnings](https://github.com/keras-team/keras-io/pull/2400) · keras-io#2400
-- [Fix Zizmor Warnings](https://github.com/keras-team/keras-hub/pull/2857) · keras-hub#2857
-- [Fix Zizmor warnings.](https://github.com/keras-team/keras/pull/23314) · keras#23314
-- [Test transformer loss decreases during training](https://github.com/keras-team/keras-hub/pull/2855) · keras-hub#2855
-- [Remove TensorFlow take\_along\_axis workarounds](https://github.com/keras-team/keras-hub/pull/2854) · keras-hub#2854
-- [Gemma4 kerashub to safetensors checkpoint conversion](https://github.com/keras-team/keras-hub/pull/2853) · keras-hub#2853
-- [Fix \`pandas\` and \`tensorflow\` interaction that caused deadlocks on MacOS.](https://github.com/keras-team/keras/pull/23306) · keras#23306
-- [Use fused attention for SmolLM3](https://github.com/keras-team/keras-hub/pull/2849) · keras-hub#2849
-- [build(deps): unpin torch and remove torchvision from CPU requirements](https://github.com/keras-team/keras-hub/pull/2848) · keras-hub#2848
-- [Fix sentencepiece \>= 0.2.2 version compatibility](https://github.com/keras-team/keras-hub/pull/2847) · keras-hub#2847
-- [\`get\_file\` also checks \`os.altsep\` on Windows.](https://github.com/keras-team/keras/pull/23287) · keras#23287
-- [Use \`get\_keras\_mask\` in \`Pipeline\`.](https://github.com/keras-team/keras/pull/23268) · keras#23268
-- [Build(deps): Bump the github-actions group with 2 updates](https://github.com/keras-team/keras/pull/23266) · keras#23266
-- [Add Diffusion Gemma model to Hub](https://github.com/keras-team/keras-hub/pull/2804) · keras-hub#2804
-- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/2803) · keras-hub#2803
-- [Migrate EfficientNet fine-tuning tutorial to Keras 3](https://github.com/keras-team/keras-io/pull/2393) · keras-io#2393
-- [Fix attention score returns in CachedMultiHeadAttention](https://github.com/keras-team/keras-hub/pull/2799) · keras-hub#2799
-- [Fix for copybara sync failure](https://github.com/keras-team/keras-hub/pull/2796) · keras-hub#2796
-- [Prevent division by zero in anchor normalizer calculation](https://github.com/keras-team/keras-hub/pull/2791) · keras-hub#2791
-- [Fix rolling context window in miniature GPT example](https://github.com/keras-team/keras-io/pull/2390) · keras-io#2390
-- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/2786) · keras-hub#2786
-- [Update vivit example with HIDDEN\_DIM for embed\_dim](https://github.com/keras-team/keras-io/pull/2387) · keras-io#2387
-- [Bump GPU tests timeout to 3 hours.](https://github.com/keras-team/keras/pull/23156) · keras#23156
-- [Fix LoRA save/load to use stable layer paths (#2701)](https://github.com/keras-team/keras-hub/pull/2774) · keras-hub#2774
-- [Fix Sam Image Converter docs incorrectly listed under Stable Diffusion 3](https://github.com/keras-team/keras-io/pull/2383) · keras-io#2383
-- [Fix Gemma3/3n/4 preprocessor crashes with Python-only tokenizer](https://github.com/keras-team/keras-hub/pull/2773) · keras-hub#2773
-- [Fixed data loading pipeline and projection dimension bug](https://github.com/keras-team/keras-io/pull/2380) · keras-io#2380
-- [Enable python workflows for \`ImageConverter\`, \`MaskedLMMaskGenerator\`, \`MultiSegmentPacker\`, \`CausalLMPreprocessor\`, \`MaskedLMPreprocessor\`, \`TextClassifierPreprocessor\`](https://github.com/keras-team/keras-hub/pull/2769) · keras-hub#2769
-- [Use \`filter="data"\` in \`TarFile.extractall\` on supported versions of …](https://github.com/keras-team/keras/pull/23108) · keras#23108
-- [test: add FileNotFoundError test for get\_file preset utility](https://github.com/keras-team/keras-hub/pull/2768) · keras-hub#2768
-- [Fix for GQA while using fused attention path.](https://github.com/keras-team/keras-hub/pull/2766) · keras-hub#2766
-- [Raise ValueError for max\_length when preprocessor=None in CausalLM.generate()](https://github.com/keras-team/keras-hub/pull/2765) · keras-hub#2765
-- [Add Microsoft Harrier Model to Hub](https://github.com/keras-team/keras-hub/pull/2764) · keras-hub#2764
-- [Fix T5 symbolic build crash under JAX ModelParallel by adding compute\_output\_spec](https://github.com/keras-team/keras-hub/pull/2763) · keras-hub#2763
-- [Remove progress bar double averaging of metrics.](https://github.com/keras-team/keras/pull/23030) · keras#23030
-- [Add BGE Embedding Model to Hub](https://github.com/keras-team/keras-hub/pull/2755) · keras-hub#2755
-- [Add validation in the MLPerf shell script.](https://github.com/keras-team/keras-rs/pull/195) · keras-rs#195
-- [Updates to nightly github workflow.](https://github.com/keras-team/keras/pull/23008) · keras#23008
-- [Fix shape passed to inner EinsumDense in XLNET attention.](https://github.com/keras-team/keras-hub/pull/2751) · keras-hub#2751
-- [Fix int8 quantization test with MultiHeadAttention on JAX on GPU.](https://github.com/keras-team/keras/pull/22992) · keras#22992
-- [Fix pytree related JaxLayer tests.](https://github.com/keras-team/keras/pull/22991) · keras#22991
-- [Fix for tokenizers\>=0.23](https://github.com/keras-team/keras-hub/pull/2746) · keras-hub#2746
-- [Fix missing parameter counts in T5 preset metadata](https://github.com/keras-team/keras-hub/pull/2745) · keras-hub#2745
-- [Relax validation threshold for int8 quantization tests.](https://github.com/keras-team/keras/pull/22970) · keras#22970
-- [Standardize rope\_theta extraction for transformers \>= 5.0 compatibility](https://github.com/keras-team/keras-hub/pull/2733) · keras-hub#2733
-- [Fix CLIPTokenizer inconsistency between Python and TF paths](https://github.com/keras-team/keras-hub/pull/2732) · keras-hub#2732
-- [Update release version](https://github.com/keras-team/keras-hub/pull/2723) · keras-hub#2723
-- [Allow plain callables as Regularizers.](https://github.com/keras-team/keras/pull/22795) · keras#22795
-- [Fixes in \`image.py\` and \`image\_test.py\`.](https://github.com/keras-team/keras/pull/22794) · keras#22794
-- [Handle ImportError for tokenizers library](https://github.com/keras-team/keras-hub/pull/2702) · keras-hub#2702
-- [Add blip2](https://github.com/keras-team/keras-hub/pull/2699) · keras-hub#2699
-- [Support explicit head\_dim on MistralBackbone (enables Magistral)](https://github.com/keras-team/keras-hub/pull/2692) · keras-hub#2692
-- [Fix TPU tests in master.](https://github.com/keras-team/keras/pull/22735) · keras#22735
-- [Make test workflows consistent and add coverage.](https://github.com/keras-team/keras/pull/22734) · keras#22734
-- [Update dev version](https://github.com/keras-team/keras-hub/pull/2682) · keras-hub#2682
-- [Llama3 kerashub to HF exporter](https://github.com/keras-team/keras-hub/pull/2681) · keras-hub#2681
-- [Update release version](https://github.com/keras-team/keras-hub/pull/2680) · keras-hub#2680
-- [Fix broken tests in master.](https://github.com/keras-team/keras/pull/22677) · keras#22677
-- [version update](https://github.com/keras-team/keras-hub/pull/2675) · keras-hub#2675
-- [patch version 0.27.1](https://github.com/keras-team/keras-hub/pull/2651) · keras-hub#2651
-- [quick fix](https://github.com/keras-team/keras-hub/pull/2648) · keras-hub#2648
-- [Fix workflow concurrency for tests.](https://github.com/keras-team/keras/pull/22597) · keras#22597
-- [Migration of Finetuning Stable diffusion via textual inversion from Keras 2 to Keras 3](https://github.com/keras-team/keras-io/pull/2320) · keras-io#2320
-- [Migrated AdaIN tutorial to keras 3](https://github.com/keras-team/keras-io/pull/2319) · keras-io#2319
-- [Fix \`JaxLayer\` tests on TPU.](https://github.com/keras-team/keras/pull/22556) · keras#22556
-- [Use \`pull\_request\_target\` event for GPU and TPU tests.](https://github.com/keras-team/keras/pull/22551) · keras#22551
-- [Fix incorrect call to \`removeLabel\`.](https://github.com/keras-team/keras/pull/22508) · keras#22508
-- [Make \`setUp\` and \`tearDown\` call \`super\` in unit tests.](https://github.com/keras-team/keras/pull/22506) · keras#22506
-- [Replace Kokoro app unlabeling behavior with github workflow.](https://github.com/keras-team/keras/pull/22504) · keras#22504
-- [Mark multi-device tests and run them separately on CPU.](https://github.com/keras-team/keras/pull/22484) · keras#22484
-- [Move TensorFlow CUDA tests to GPU runners.](https://github.com/keras-team/keras/pull/22461) · keras#22461
-- [Fix \`\_parameterize\_data\` in OpenVino \`Trainer\` class.](https://github.com/keras-team/keras/pull/22453) · keras#22453
-- [Skip tests not for sparsecore in \`setUp\` instead of the decorator.](https://github.com/keras-team/keras-rs/pull/184) · keras-rs#184
-- [Add Qwen2 VL](https://github.com/keras-team/keras-hub/pull/2604) · keras-hub#2604
-- [Register Qwen2.5-Coder presets](https://github.com/keras-team/keras-hub/pull/2547) · keras-hub#2547
-- [Gemma3 vision models keras to hf checkpoint conversion](https://github.com/keras-team/keras-hub/pull/2526) · keras-hub#2526
-- [ModernBERT Implementation](https://github.com/keras-team/keras-hub/pull/2518) · keras-hub#2518
-- [Move Torch CUDA tests to GPU runners.](https://github.com/keras-team/keras/pull/21957) · keras#21957
-- [Version bump 0.25.0](https://github.com/keras-team/keras-hub/pull/2481) · keras-hub#2481
-- [Update latest synced models](https://github.com/keras-team/keras-hub/pull/2475) · keras-hub#2475
-- [mark preset test to extra large to skip GPU testing](https://github.com/keras-team/keras-hub/pull/2458) · keras-hub#2458
-- [register mobilenet presets](https://github.com/keras-team/keras-hub/pull/2443) · keras-hub#2443
-- [register parseq preset](https://github.com/keras-team/keras-hub/pull/2438) · keras-hub#2438
-- [add DINOv2 preset details](https://github.com/keras-team/keras-hub/pull/2336) · keras-hub#2336
-- [Update gemma\_attention.py](https://github.com/keras-team/keras-hub/pull/2109) · keras-hub#2109
-- [fix mobilenet tests](https://github.com/keras-team/keras-hub/pull/2096) · keras-hub#2096
-- [Differential Binarization model](https://github.com/keras-team/keras-hub/pull/2095) · keras-hub#2095
-- [Updating the typos in TF document](https://github.com/tensorflow/models/pull/10883) · models#10883
-- [Remove opencv-python-headless strict version requirement](https://github.com/tensorflow/models/pull/10855) · models#10855
-- [Update Broken link](https://github.com/tensorflow/models/pull/10790) · models#10790
-- [Add a dedicated padding token to beam search to avoid padding with the start sentence token](https://github.com/tensorflow/models/pull/10386) · models#10386
-
-</details>
-<!-- reviews:end -->
+Model Porter generates KerasHub model files for text-only decoder LLMs from their Hugging Face implementation. The GPT-OSS model files above were generated with it. I also review pull requests across keras-team and TensorFlow repositories.
 
 ## 📘 Guides on keras.io
 
@@ -282,7 +59,7 @@ Reviews on 212 pull requests by 40 other authors across 7 repositories.
   <a href="https://keras.io/keras_hub/guides/hugging_face_keras_integration/"><img src="assets/tiles/guide-hf-checkpoints.svg" width="32%" alt="Guide: Loading Hugging Face Transformers Checkpoints"></a>
 </p>
 
-## 📦 All merged pull requests
+## 📦 All merged pull requests and reviews
 
 <!-- contributions:start -->
 262 merged pull requests across 12 repositories in keras-team and TensorFlow. Open a category to see every one.
@@ -603,6 +380,228 @@ Reviews on 212 pull requests by 40 other authors across 7 repositories.
 
 </details>
 <!-- contributions:end -->
+
+<!-- reviews:start -->
+Reviews on 212 pull requests by 40 other authors across 7 repositories.
+
+<details>
+<summary><picture><img src="assets/categories/code-reviews.svg" width="94%" alt="Code reviews, 212 PRs"></picture></summary>
+
+- [Remove Jules integration.](https://github.com/keras-team/keras/pull/24217) · keras#24217
+- [Add Qwen2 VL model API documentation](https://github.com/keras-team/keras-io/pull/2463) · keras-io#2463
+- [Add GPT-NeoX presets and Hugging Face converter, fix generation and tokenization](https://github.com/keras-team/keras-hub/pull/3259) · keras-hub#3259
+- [Fix typo in sam3\_pc\_backbone\_test.py filename](https://github.com/keras-team/keras-hub/pull/3258) · keras-hub#3258
+- [Update version of \`ruff\` in pre-commit hook.](https://github.com/keras-team/keras-hub/pull/3250) · keras-hub#3250
+- [Fix top\_k on bfloat16 inputs](https://github.com/keras-team/keras-openvino/pull/66) · keras-openvino#66
+- [Bump astral-sh/setup-uv from 10.3.2 to 10.3.3 in the github-actions group](https://github.com/keras-team/keras-hub/pull/3238) · keras-hub#3238
+- [Fix Kaiser test on TPU.](https://github.com/keras-team/keras/pull/24157) · keras#24157
+- [Fix ModernBertMaskedLM decoder bias not being tracked on the torch backend](https://github.com/keras-team/keras-hub/pull/3220) · keras-hub#3220
+- [Add MPNet model API documentation](https://github.com/keras-team/keras-io/pull/2453) · keras-io#2453
+- [Version bump to 0.34.0.dev0](https://github.com/keras-team/keras-hub/pull/3219) · keras-hub#3219
+- [Version bump to 0.33.0](https://github.com/keras-team/keras-hub/pull/3218) · keras-hub#3218
+- [Build(deps): Bump the github-actions group with 4 updates](https://github.com/keras-team/keras/pull/24135) · keras#24135
+- [Use /triage as the sole manual comment trigger for issue triage workflow](https://github.com/keras-team/keras-hub/pull/3217) · keras-hub#3217
+- [Use /triage as the sole manual comment trigger for issue triage workflow](https://github.com/keras-team/keras/pull/24133) · keras#24133
+- [Bump the github-actions group with 5 updates](https://github.com/keras-team/keras-hub/pull/3215) · keras-hub#3215
+- [Run preprocessing layers on the CPU inside Grain pipelines](https://github.com/keras-team/keras-hub/pull/3202) · keras-hub#3202
+- [Add SmolVLM2 model API documentation](https://github.com/keras-team/keras-io/pull/2442) · keras-io#2442
+- [Add SmolVLM2 Kaggle presets](https://github.com/keras-team/keras-hub/pull/3197) · keras-hub#3197
+- [Add EmbeddingGemma 2 model API documentation](https://github.com/keras-team/keras-io/pull/2438) · keras-io#2438
+- [Add Mistral3 model API documentation](https://github.com/keras-team/keras-io/pull/2436) · keras-io#2436
+- [Add Muse Glimmer model API documentation](https://github.com/keras-team/keras-io/pull/2434) · keras-io#2434
+- [Bump github/codeql-action/upload-sarif from 4.38.3 to 4.39.0 in the github-actions group](https://github.com/keras-team/keras-hub/pull/3190) · keras-hub#3190
+- [Add Qwen3-VL (dense) backbone, causal LM and HF converter](https://github.com/keras-team/keras-hub/pull/3186) · keras-hub#3186
+- [Add a stochastic-mode ragged-prompt test for SpeculativeSampler](https://github.com/keras-team/keras-hub/pull/3183) · keras-hub#3183
+- [Add Mpnet backbone, tokenizer and text embedder](https://github.com/keras-team/keras-hub/pull/3181) · keras-hub#3181
+- [Bump the github-actions group with 4 updates](https://github.com/keras-team/keras-hub/pull/3178) · keras-hub#3178
+- [Fix Gemma4CausalLM applying the final logit soft-cap twice](https://github.com/keras-team/keras-hub/pull/3177) · keras-hub#3177
+- [Add DiffusionGemma model API documentation](https://github.com/keras-team/keras-io/pull/2427) · keras-io#2427
+- [Speed up JAX GPU tests using XLA flags.](https://github.com/keras-team/keras/pull/23985) · keras#23985
+- [Bump GPU tests timeout to 4 hours.](https://github.com/keras-team/keras/pull/23982) · keras#23982
+- [Validate \`config\_file\` in Tokenizer and Preprocessor](https://github.com/keras-team/keras-hub/pull/3167) · keras-hub#3167
+- [Suppress new zizmor \`issue\_comment\` findings.](https://github.com/keras-team/keras/pull/23968) · keras#23968
+- [Suppress new zizmor issue\_comment findings](https://github.com/keras-team/keras-hub/pull/3162) · keras-hub#3162
+- [Serialize data\_format in ImageConverter](https://github.com/keras-team/keras-hub/pull/3160) · keras-hub#3160
+- [Add ModernBERT model API documentation](https://github.com/keras-team/keras-io/pull/2425) · keras-io#2425
+- [Register diffusion gemma model presets to Hub](https://github.com/keras-team/keras-hub/pull/3155) · keras-hub#3155
+- [Add Gemma 4 12B unified encoder-free multimodal model](https://github.com/keras-team/keras-hub/pull/3153) · keras-hub#3153
+- [Add ModernBERT text embedder](https://github.com/keras-team/keras-hub/pull/3150) · keras-hub#3150
+- [Add mmbert](https://github.com/keras-team/keras-hub/pull/3149) · keras-hub#3149
+- [Fix zizmor ref-version-mismatch for upload-artifact in scorecard.yml](https://github.com/keras-team/keras/pull/23881) · keras#23881
+- [Build(deps): Bump the github-actions group with 5 updates](https://github.com/keras-team/keras/pull/23851) · keras#23851
+- [Revert "Fix division by zero NaN in categorical\_crossentropy"](https://github.com/keras-team/keras/pull/23843) · keras#23843
+- [Fix invalid use of \`ops.size\` in \`sparse\_categorical\_focal\_crossentropy\`.](https://github.com/keras-team/keras/pull/23842) · keras#23842
+- [Bump the github-actions group with 3 updates](https://github.com/keras-team/keras-hub/pull/3134) · keras-hub#3134
+- [Add OpenAI Privacy Filter model to Hub](https://github.com/keras-team/keras-hub/pull/3133) · keras-hub#3133
+- [Build(deps): Bump the github-actions group with 3 updates](https://github.com/keras-team/keras/pull/23784) · keras#23784
+- [Rename pr-approved-issue.yml to pull-request-validation.yml](https://github.com/keras-team/keras-hub/pull/3129) · keras-hub#3129
+- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/3128) · keras-hub#3128
+- [Fix dead links in CONTRIBUTING\_MODELS.md and STYLE\_GUIDE.md](https://github.com/keras-team/keras-hub/pull/3125) · keras-hub#3125
+- [Fix support for JAX \`numpy.cross\` with 2D inputs.](https://github.com/keras-team/keras/pull/23769) · keras#23769
+- [Add pull-request-validation.yml workflow](https://github.com/keras-team/keras/pull/23768) · keras#23768
+- [Use shared workflow for PR approved issue check](https://github.com/keras-team/keras-hub/pull/3122) · keras-hub#3122
+- [Add reusable PR approved issue check workflow](https://github.com/keras-team/shared-workflows/pull/13) · shared-workflows#13
+- [Serialize data\_format in ViT, DeiT, ResNet, Xception and EfficientNet](https://github.com/keras-team/keras-hub/pull/3121) · keras-hub#3121
+- [Update models on the front page](https://github.com/keras-team/keras-io/pull/2419) · keras-io#2419
+- [Build(deps): Bump the github-actions group with 3 updates](https://github.com/keras-team/keras/pull/23715) · keras#23715
+- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/3116) · keras-hub#3116
+- [Version bump to 0.33.0.dev0](https://github.com/keras-team/keras-hub/pull/3103) · keras-hub#3103
+- [Version bump 0.32.0](https://github.com/keras-team/keras-hub/pull/3102) · keras-hub#3102
+- [Add Muse Glimmer and Muse Glimmer Assistant to Hub](https://github.com/keras-team/keras-hub/pull/3100) · keras-hub#3100
+- [Add SmolVLM2 model to Hub](https://github.com/keras-team/keras-hub/pull/3096) · keras-hub#3096
+- [Resolve tied weights from safetensors metadata in SafetensorLoader](https://github.com/keras-team/keras-hub/pull/3076) · keras-hub#3076
+- [Skip the has is\_stable test when sys.executable is None](https://github.com/keras-team/keras-hub/pull/3074) · keras-hub#3074
+- [Add missing converter for vaultgemma](https://github.com/keras-team/keras-hub/pull/3071) · keras-hub#3071
+- [\[PyGrain Migration\] Default preprocessing layers to the Python workflow and test](https://github.com/keras-team/keras-hub/pull/3069) · keras-hub#3069
+- [Fixed the broken link in PR Template](https://github.com/keras-team/keras/pull/23618) · keras#23618
+- [\[PyGrain Migration\] Unpack (x, y, sample\_weight) tuples in the preprocessing \_\_call\_\_ path](https://github.com/keras-team/keras-hub/pull/3062) · keras-hub#3062
+- [\[PyGrain Migration\] Add Grain coverage to TestCase harness](https://github.com/keras-team/keras-hub/pull/3061) · keras-hub#3061
+- [\[PyGrain Migration\] Return NumPy instead of backend tensors from preprocessing](https://github.com/keras-team/keras-hub/pull/3060) · keras-hub#3060
+- [Fix \`quantizers/strategy\_registry\_test\` test on TPU.](https://github.com/keras-team/keras/pull/23611) · keras#23611
+- [update stale and close time windows to 7 days](https://github.com/keras-team/keras-hub/pull/3057) · keras-hub#3057
+- [Update stale and close time windows to 7 days](https://github.com/keras-team/keras/pull/23604) · keras#23604
+- [update PR template to point to new PR policy](https://github.com/keras-team/keras-hub/pull/3055) · keras-hub#3055
+- [Reproduce gpu failure](https://github.com/keras-team/keras-hub/pull/3050) · keras-hub#3050
+- [Raise an informative error when calling a task model directly on string inputs](https://github.com/keras-team/keras-hub/pull/3049) · keras-hub#3049
+- [Build(deps): Bump github/codeql-action/upload-sarif from 4.37.8 to 4.37.9 in the github-actions group](https://github.com/keras-team/keras/pull/23586) · keras#23586
+- [Bump github/codeql-action/upload-sarif from 4.37.8 to 4.37.9 in the github-actions group](https://github.com/keras-team/keras-hub/pull/3042) · keras-hub#3042
+- [Implement build on Task to prevent unbuilt state warning](https://github.com/keras-team/keras-hub/pull/3038) · keras-hub#3038
+- [\[OpenVINO\] Fix compiled-model cache invalidation and expand test whitelist](https://github.com/keras-team/keras-hub/pull/3029) · keras-hub#3029
+- [Make all \`actions/cache\` actions in workflow consistent.](https://github.com/keras-team/keras-rs/pull/202) · keras-rs#202
+- [Fixing autogen deps versioning](https://github.com/keras-team/keras-io/pull/2416) · keras-io#2416
+- [Migrate to OIDC Publishing (Trusted Publishing)](https://github.com/keras-team/keras-rs/pull/201) · keras-rs#201
+- [Add qwen3.8 model to hub](https://github.com/keras-team/keras-hub/pull/3026) · keras-hub#3026
+- [Build(deps): Bump github/codeql-action/upload-sarif from 4.37.7 to 4.37.8 in the github-actions group across 1 directory](https://github.com/keras-team/keras/pull/23540) · keras#23540
+- [Bump the github-actions group with 4 updates](https://github.com/keras-team/keras-hub/pull/3021) · keras-hub#3021
+- [Add Mistral3 model to Hub](https://github.com/keras-team/keras-hub/pull/3020) · keras-hub#3020
+- [Match the reference YaRN implementation in RotaryEmbedding](https://github.com/keras-team/keras-hub/pull/2981) · keras-hub#2981
+- [Build(deps): Bump the github-actions group with 4 updates](https://github.com/keras-team/keras/pull/23483) · keras#23483
+- [Set Dependabot GitHub Actions updates to weekly](https://github.com/keras-team/keras-hub/pull/2972) · keras-hub#2972
+- [Use shared workflow for auto-assignment](https://github.com/keras-team/keras-hub/pull/2971) · keras-hub#2971
+- [Fix 'image\_size' argument typo in PaliGemmaBackbone example code](https://github.com/keras-team/keras-hub/pull/2969) · keras-hub#2969
+- [Fix 'vit\_pooling' value mismatch in PaliGemma documentation and error handling.](https://github.com/keras-team/keras-hub/pull/2968) · keras-hub#2968
+- [Fix 'polling' typos in Keras Hub docstrings and error messages](https://github.com/keras-team/keras-hub/pull/2967) · keras-hub#2967
+- [Relax OpenVINO test tolerance in STFTSpectrogram error test](https://github.com/keras-team/keras/pull/23457) · keras#23457
+- [Add HGNetV2 timm checkpoint converter](https://github.com/keras-team/keras-hub/pull/2961) · keras-hub#2961
+- [Add missing RoBERTa converter](https://github.com/keras-team/keras-hub/pull/2960) · keras-hub#2960
+- [Fix Perplexity metric accumulation across batches](https://github.com/keras-team/keras-hub/pull/2958) · keras-hub#2958
+- [Add FLUX model to Hub](https://github.com/keras-team/keras-hub/pull/2944) · keras-hub#2944
+- [Bump pymdown-extensions from 11.0 to 11.0.1](https://github.com/keras-team/keras-io/pull/2406) · keras-io#2406
+- [Add Qwen3 ASR to Keras-Hub](https://github.com/keras-team/keras-hub/pull/2942) · keras-hub#2942
+- [Port model tests to common test routines](https://github.com/keras-team/keras-hub/pull/2940) · keras-hub#2940
+- [Fix NameError in Bleu rank validation](https://github.com/keras-team/keras-hub/pull/2937) · keras-hub#2937
+- [Rename SegFormer test files so pytest actually collects them](https://github.com/keras-team/keras-hub/pull/2933) · keras-hub#2933
+- [Add KV caching and a Seq2SeqLM task to T5](https://github.com/keras-team/keras-hub/pull/2932) · keras-hub#2932
+- [Wire up Swin Transformer conversion and add missing converter tests](https://github.com/keras-team/keras-hub/pull/2929) · keras-hub#2929
+- [Part of #2101: Name the missing package in the TensorFlow only metrics](https://github.com/keras-team/keras-hub/pull/2927) · keras-hub#2927
+- [Add regularization to TransformerEncoder](https://github.com/keras-team/keras-hub/pull/2926) · keras-hub#2926
+- [Add SmolVLM2 multimodal vision-language model- #2717](https://github.com/keras-team/keras-hub/pull/2905) · keras-hub#2905
+- [Build(deps): Bump the github-actions group with 6 updates](https://github.com/keras-team/keras/pull/23372) · keras#23372
+- [Bump the github-actions group with 6 updates](https://github.com/keras-team/keras-hub/pull/2904) · keras-hub#2904
+- [Fix incorrect hardcoding of \`training\` argument in Qwen model creation.](https://github.com/keras-team/keras-hub/pull/2903) · keras-hub#2903
+- [Port tokenizer and preprocessing tests to run\_preprocessing\_layer\_test](https://github.com/keras-team/keras-hub/pull/2902) · keras-hub#2902
+- [Part of #2101: Make TensorFlow optional at import time](https://github.com/keras-team/keras-hub/pull/2891) · keras-hub#2891
+- [Part of #2874: Migrate PipelineModel data loading from tf.data to PyGrain](https://github.com/keras-team/keras-hub/pull/2879) · keras-hub#2879
+- [fix kaggle import CI error](https://github.com/keras-team/keras-hub/pull/2877) · keras-hub#2877
+- [Fix workflow core warn error](https://github.com/keras-team/keras/pull/23344) · keras#23344
+- [Fix gemini triage](https://github.com/keras-team/keras/pull/23343) · keras#23343
+- [fix issue triage workflow](https://github.com/keras-team/keras/pull/23341) · keras#23341
+- [Bump pymdown-extensions from 10.20 to 11.0](https://github.com/keras-team/keras-io/pull/2404) · keras-io#2404
+- [Add GLUE fine-tuning guide for KerasHub](https://github.com/keras-team/keras-io/pull/2402) · keras-io#2402
+- [Fix zizmor unpinned-uses warnings](https://github.com/keras-team/keras-io/pull/2400) · keras-io#2400
+- [Fix Zizmor Warnings](https://github.com/keras-team/keras-hub/pull/2857) · keras-hub#2857
+- [Fix Zizmor warnings.](https://github.com/keras-team/keras/pull/23314) · keras#23314
+- [Test transformer loss decreases during training](https://github.com/keras-team/keras-hub/pull/2855) · keras-hub#2855
+- [Remove TensorFlow take\_along\_axis workarounds](https://github.com/keras-team/keras-hub/pull/2854) · keras-hub#2854
+- [Gemma4 kerashub to safetensors checkpoint conversion](https://github.com/keras-team/keras-hub/pull/2853) · keras-hub#2853
+- [Fix \`pandas\` and \`tensorflow\` interaction that caused deadlocks on MacOS.](https://github.com/keras-team/keras/pull/23306) · keras#23306
+- [Use fused attention for SmolLM3](https://github.com/keras-team/keras-hub/pull/2849) · keras-hub#2849
+- [build(deps): unpin torch and remove torchvision from CPU requirements](https://github.com/keras-team/keras-hub/pull/2848) · keras-hub#2848
+- [Fix sentencepiece \>= 0.2.2 version compatibility](https://github.com/keras-team/keras-hub/pull/2847) · keras-hub#2847
+- [\`get\_file\` also checks \`os.altsep\` on Windows.](https://github.com/keras-team/keras/pull/23287) · keras#23287
+- [Use \`get\_keras\_mask\` in \`Pipeline\`.](https://github.com/keras-team/keras/pull/23268) · keras#23268
+- [Build(deps): Bump the github-actions group with 2 updates](https://github.com/keras-team/keras/pull/23266) · keras#23266
+- [Add Diffusion Gemma model to Hub](https://github.com/keras-team/keras-hub/pull/2804) · keras-hub#2804
+- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/2803) · keras-hub#2803
+- [Migrate EfficientNet fine-tuning tutorial to Keras 3](https://github.com/keras-team/keras-io/pull/2393) · keras-io#2393
+- [Fix attention score returns in CachedMultiHeadAttention](https://github.com/keras-team/keras-hub/pull/2799) · keras-hub#2799
+- [Fix for copybara sync failure](https://github.com/keras-team/keras-hub/pull/2796) · keras-hub#2796
+- [Prevent division by zero in anchor normalizer calculation](https://github.com/keras-team/keras-hub/pull/2791) · keras-hub#2791
+- [Fix rolling context window in miniature GPT example](https://github.com/keras-team/keras-io/pull/2390) · keras-io#2390
+- [Bump the github-actions group with 2 updates](https://github.com/keras-team/keras-hub/pull/2786) · keras-hub#2786
+- [Update vivit example with HIDDEN\_DIM for embed\_dim](https://github.com/keras-team/keras-io/pull/2387) · keras-io#2387
+- [Bump GPU tests timeout to 3 hours.](https://github.com/keras-team/keras/pull/23156) · keras#23156
+- [Fix LoRA save/load to use stable layer paths (#2701)](https://github.com/keras-team/keras-hub/pull/2774) · keras-hub#2774
+- [Fix Sam Image Converter docs incorrectly listed under Stable Diffusion 3](https://github.com/keras-team/keras-io/pull/2383) · keras-io#2383
+- [Fix Gemma3/3n/4 preprocessor crashes with Python-only tokenizer](https://github.com/keras-team/keras-hub/pull/2773) · keras-hub#2773
+- [Fixed data loading pipeline and projection dimension bug](https://github.com/keras-team/keras-io/pull/2380) · keras-io#2380
+- [Enable python workflows for \`ImageConverter\`, \`MaskedLMMaskGenerator\`, \`MultiSegmentPacker\`, \`CausalLMPreprocessor\`, \`MaskedLMPreprocessor\`, \`TextClassifierPreprocessor\`](https://github.com/keras-team/keras-hub/pull/2769) · keras-hub#2769
+- [Use \`filter="data"\` in \`TarFile.extractall\` on supported versions of …](https://github.com/keras-team/keras/pull/23108) · keras#23108
+- [test: add FileNotFoundError test for get\_file preset utility](https://github.com/keras-team/keras-hub/pull/2768) · keras-hub#2768
+- [Fix for GQA while using fused attention path.](https://github.com/keras-team/keras-hub/pull/2766) · keras-hub#2766
+- [Raise ValueError for max\_length when preprocessor=None in CausalLM.generate()](https://github.com/keras-team/keras-hub/pull/2765) · keras-hub#2765
+- [Add Microsoft Harrier Model to Hub](https://github.com/keras-team/keras-hub/pull/2764) · keras-hub#2764
+- [Fix T5 symbolic build crash under JAX ModelParallel by adding compute\_output\_spec](https://github.com/keras-team/keras-hub/pull/2763) · keras-hub#2763
+- [Remove progress bar double averaging of metrics.](https://github.com/keras-team/keras/pull/23030) · keras#23030
+- [Add BGE Embedding Model to Hub](https://github.com/keras-team/keras-hub/pull/2755) · keras-hub#2755
+- [Add validation in the MLPerf shell script.](https://github.com/keras-team/keras-rs/pull/195) · keras-rs#195
+- [Updates to nightly github workflow.](https://github.com/keras-team/keras/pull/23008) · keras#23008
+- [Fix shape passed to inner EinsumDense in XLNET attention.](https://github.com/keras-team/keras-hub/pull/2751) · keras-hub#2751
+- [Fix int8 quantization test with MultiHeadAttention on JAX on GPU.](https://github.com/keras-team/keras/pull/22992) · keras#22992
+- [Fix pytree related JaxLayer tests.](https://github.com/keras-team/keras/pull/22991) · keras#22991
+- [Fix for tokenizers\>=0.23](https://github.com/keras-team/keras-hub/pull/2746) · keras-hub#2746
+- [Fix missing parameter counts in T5 preset metadata](https://github.com/keras-team/keras-hub/pull/2745) · keras-hub#2745
+- [Relax validation threshold for int8 quantization tests.](https://github.com/keras-team/keras/pull/22970) · keras#22970
+- [Standardize rope\_theta extraction for transformers \>= 5.0 compatibility](https://github.com/keras-team/keras-hub/pull/2733) · keras-hub#2733
+- [Fix CLIPTokenizer inconsistency between Python and TF paths](https://github.com/keras-team/keras-hub/pull/2732) · keras-hub#2732
+- [Update release version](https://github.com/keras-team/keras-hub/pull/2723) · keras-hub#2723
+- [Allow plain callables as Regularizers.](https://github.com/keras-team/keras/pull/22795) · keras#22795
+- [Fixes in \`image.py\` and \`image\_test.py\`.](https://github.com/keras-team/keras/pull/22794) · keras#22794
+- [Handle ImportError for tokenizers library](https://github.com/keras-team/keras-hub/pull/2702) · keras-hub#2702
+- [Add blip2](https://github.com/keras-team/keras-hub/pull/2699) · keras-hub#2699
+- [Support explicit head\_dim on MistralBackbone (enables Magistral)](https://github.com/keras-team/keras-hub/pull/2692) · keras-hub#2692
+- [Fix TPU tests in master.](https://github.com/keras-team/keras/pull/22735) · keras#22735
+- [Make test workflows consistent and add coverage.](https://github.com/keras-team/keras/pull/22734) · keras#22734
+- [Update dev version](https://github.com/keras-team/keras-hub/pull/2682) · keras-hub#2682
+- [Llama3 kerashub to HF exporter](https://github.com/keras-team/keras-hub/pull/2681) · keras-hub#2681
+- [Update release version](https://github.com/keras-team/keras-hub/pull/2680) · keras-hub#2680
+- [Fix broken tests in master.](https://github.com/keras-team/keras/pull/22677) · keras#22677
+- [version update](https://github.com/keras-team/keras-hub/pull/2675) · keras-hub#2675
+- [patch version 0.27.1](https://github.com/keras-team/keras-hub/pull/2651) · keras-hub#2651
+- [quick fix](https://github.com/keras-team/keras-hub/pull/2648) · keras-hub#2648
+- [Fix workflow concurrency for tests.](https://github.com/keras-team/keras/pull/22597) · keras#22597
+- [Migration of Finetuning Stable diffusion via textual inversion from Keras 2 to Keras 3](https://github.com/keras-team/keras-io/pull/2320) · keras-io#2320
+- [Migrated AdaIN tutorial to keras 3](https://github.com/keras-team/keras-io/pull/2319) · keras-io#2319
+- [Fix \`JaxLayer\` tests on TPU.](https://github.com/keras-team/keras/pull/22556) · keras#22556
+- [Use \`pull\_request\_target\` event for GPU and TPU tests.](https://github.com/keras-team/keras/pull/22551) · keras#22551
+- [Fix incorrect call to \`removeLabel\`.](https://github.com/keras-team/keras/pull/22508) · keras#22508
+- [Make \`setUp\` and \`tearDown\` call \`super\` in unit tests.](https://github.com/keras-team/keras/pull/22506) · keras#22506
+- [Replace Kokoro app unlabeling behavior with github workflow.](https://github.com/keras-team/keras/pull/22504) · keras#22504
+- [Mark multi-device tests and run them separately on CPU.](https://github.com/keras-team/keras/pull/22484) · keras#22484
+- [Move TensorFlow CUDA tests to GPU runners.](https://github.com/keras-team/keras/pull/22461) · keras#22461
+- [Fix \`\_parameterize\_data\` in OpenVino \`Trainer\` class.](https://github.com/keras-team/keras/pull/22453) · keras#22453
+- [Skip tests not for sparsecore in \`setUp\` instead of the decorator.](https://github.com/keras-team/keras-rs/pull/184) · keras-rs#184
+- [Add Qwen2 VL](https://github.com/keras-team/keras-hub/pull/2604) · keras-hub#2604
+- [Register Qwen2.5-Coder presets](https://github.com/keras-team/keras-hub/pull/2547) · keras-hub#2547
+- [Gemma3 vision models keras to hf checkpoint conversion](https://github.com/keras-team/keras-hub/pull/2526) · keras-hub#2526
+- [ModernBERT Implementation](https://github.com/keras-team/keras-hub/pull/2518) · keras-hub#2518
+- [Move Torch CUDA tests to GPU runners.](https://github.com/keras-team/keras/pull/21957) · keras#21957
+- [Version bump 0.25.0](https://github.com/keras-team/keras-hub/pull/2481) · keras-hub#2481
+- [Update latest synced models](https://github.com/keras-team/keras-hub/pull/2475) · keras-hub#2475
+- [mark preset test to extra large to skip GPU testing](https://github.com/keras-team/keras-hub/pull/2458) · keras-hub#2458
+- [register mobilenet presets](https://github.com/keras-team/keras-hub/pull/2443) · keras-hub#2443
+- [register parseq preset](https://github.com/keras-team/keras-hub/pull/2438) · keras-hub#2438
+- [add DINOv2 preset details](https://github.com/keras-team/keras-hub/pull/2336) · keras-hub#2336
+- [Update gemma\_attention.py](https://github.com/keras-team/keras-hub/pull/2109) · keras-hub#2109
+- [fix mobilenet tests](https://github.com/keras-team/keras-hub/pull/2096) · keras-hub#2096
+- [Differential Binarization model](https://github.com/keras-team/keras-hub/pull/2095) · keras-hub#2095
+- [Updating the typos in TF document](https://github.com/tensorflow/models/pull/10883) · models#10883
+- [Remove opencv-python-headless strict version requirement](https://github.com/tensorflow/models/pull/10855) · models#10855
+- [Update Broken link](https://github.com/tensorflow/models/pull/10790) · models#10790
+- [Add a dedicated padding token to beam search to avoid padding with the start sentence token](https://github.com/tensorflow/models/pull/10386) · models#10386
+
+</details>
+<!-- reviews:end -->
 
 ## 🧰 Toolbox
 

@@ -18,7 +18,7 @@ import re
 import subprocess
 from pathlib import Path
 
-from build_assets import ASSETS, bar, write
+from build_assets import ASSETS, KIND_COLOURS, bar, tile, write
 
 README = Path(__file__).resolve().parent.parent / "README.md"
 
@@ -27,7 +27,7 @@ OWNERS = ["keras-team", "tensorflow"]
 SEARCH_CAP = 1000
 
 REVIEWS = "Code reviews"
-REVIEWS_COLOUR = "#9BE3E0"
+REVIEWS_COLOUR = KIND_COLOURS["review"]
 
 MODELS = "Models, weights and converters"
 INFRA = "CI, tests and infrastructure"
@@ -250,6 +250,9 @@ def main():
     bars_dir.mkdir(parents=True, exist_ok=True)
     for slug, svg in bars.items():
         write(bars_dir / f"{slug}.svg", svg)
+    count = f"{len(reviewed)} PRs reviewed"
+    review_tile = tile(REVIEWS, count, "review", "keras-team · TensorFlow")
+    write(ASSETS / "tiles" / "code-reviews.svg", review_tile)
     write(README, text)
     print(
         f"Wrote {len(merged)} merged and {len(reviewed)} reviewed pull "

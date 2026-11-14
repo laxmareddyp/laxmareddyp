@@ -5,8 +5,9 @@ Run from anywhere:
     python scripts/build_assets.py
 
 This file produces the banners, the tiles and the toolbox bar in `assets/`.
-The PR category bars in `assets/categories/` come from
-`build_contributions.py`. To add a tile, add one entry to `TILES` and re-run.
+The PR category bars in `assets/categories/` and the Code reviews tile come
+from `build_contributions.py`, because they carry live counts. To add a tile,
+add one entry to `TILES` and re-run.
 """
 
 from pathlib import Path
@@ -36,6 +37,7 @@ KIND_COLOURS = {
     "tooling": "#FF8F70",
     "guide": "#FF9EC4",
     "link": "#C9D1E0",
+    "review": "#9BE3E0",
 }
 
 # (slug, name, tag, kind, footer). Models newest first, then the tiles for
@@ -211,6 +213,10 @@ def glyph(kind):
         )
     if kind == "link":
         return '<path d="M22 54 L60 16 M32 16 H60 V44"/>'
+    if kind == "review":
+        return (
+            '<circle cx="40" cy="32" r="28"/><path d="M27 33 L37 43 L54 24"/>'
+        )
     raise ValueError(f"Unknown kind: {kind}")
 
 
