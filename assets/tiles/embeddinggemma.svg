@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170" width="300" height="170" role="img" aria-label="EmbeddingGemma, Text embeddings, KerasHub · 2026">
+  <rect width="300" height="170" rx="22" fill="#7CC8FF"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#14182B">
+    <text x="24" y="48" font-size="23" font-weight="800">EmbeddingGemma</text>
+    <rect x="24" y="62" width="127" height="26" rx="13" fill="none" stroke="#14182B" stroke-width="1.5"/>
+    <text x="87.5" y="80" font-size="13" font-weight="600" text-anchor="middle">Text embeddings</text>
+    <text x="24" y="148" font-size="12" font-weight="600" opacity="0.65">KerasHub · 2026</text>
+  </g>
+  <g transform="translate(196 98)" fill="none" stroke="#14182B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="16" width="80" height="32" rx="10"/><circle cx="14" cy="32" r="4" fill="#14182B"/><circle cx="27" cy="32" r="4" fill="none"/><circle cx="40" cy="32" r="4" fill="#14182B"/><circle cx="53" cy="32" r="4" fill="#14182B"/><circle cx="66" cy="32" r="4" fill="none"/>
+  </g>
+</svg>
