@@ -1,12 +1,16 @@
-"""Regenerate the "All merged pull requests" section of README.md.
+"""Regenerate the generated sections of README.md.
 
 Needs the GitHub CLI (`gh`), logged in. Run from anywhere:
 
     python scripts/build_contributions.py
 
-Every merged pull request by AUTHOR in OWNERS is fetched and placed in exactly
-one category. A pull request that matches no rule stops the script, so nothing
-is dropped silently: add a rule or an OVERRIDES entry and re-run.
+All merged pull requests: every merged pull request by AUTHOR in OWNERS is
+fetched and placed in exactly one category. A pull request that matches no
+rule stops the script, so nothing is dropped silently: add a rule or an
+OVERRIDES entry and re-run.
+
+Code reviews: every pull request in OWNERS that AUTHOR reviewed and someone
+else wrote, in any state.
 """
 
 import json
@@ -17,12 +21,13 @@ from pathlib import Path
 from build_assets import ASSETS, bar, write
 
 README = Path(__file__).resolve().parent.parent / "README.md"
-START = "<!-- contributions:start -->"
-END = "<!-- contributions:end -->"
 
 AUTHOR = "laxmareddyp"
 OWNERS = ["keras-team", "tensorflow"]
 SEARCH_CAP = 1000
+
+REVIEWS = "Code reviews"
+REVIEWS_COLOUR = "#9BE3E0"
 
 MODELS = "Models, weights and converters"
 INFRA = "CI, tests and infrastructure"
@@ -98,26 +103,25 @@ OVERRIDES = {
 }
 
 
-def fetch(owner):
+def search(owner, *filters):
     proc = subprocess.run(
         [
             "gh",
             "search",
             "prs",
-            "--author",
-            AUTHOR,
             "--owner",
             owner,
-            "--merged",
             "--limit",
             str(SEARCH_CAP),
             "--json",
-            "number,title,repository,closedAt,url",
+            "number,title,repository,closedAt,createdAt,url,author",
+            *filters,
         ],
         capture_output=True,
         text=True,
-        check=True,
     )
+    if proc.returncode != 0:
+        raise SystemExit(proc.stderr)
     prs = json.loads(proc.stdout)
     if len(prs) >= SEARCH_CAP:
         raise SystemExit(
@@ -155,7 +159,30 @@ def clean(title):
     return title
 
 
-def render(prs):
+def block(name, colour, prs, date_field, bars):
+    """One collapsed list under a clickable bar, newest first."""
+    items = sorted(
+        prs, key=lambda pr: (pr[date_field], pr["url"]), reverse=True
+    )
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    count = f"{len(items)} PRs"
+    bars[slug] = bar(name, count, colour)
+    return [
+        "<details>",
+        f'<summary><picture><img src="assets/categories/{slug}.svg" '
+        f'width="94%" alt="{name}, {count}"></picture></summary>',
+        "",
+        *(
+            f"- [{clean(pr['title'])}]({pr['url']}) · {label(pr)}"
+            for pr in items
+        ),
+        "",
+        "</details>",
+        "",
+    ]
+
+
+def render(prs, bars):
     groups = {category: [] for category in CATEGORIES}
     unplaced = []
     for pr in prs:
@@ -176,46 +203,58 @@ def render(prs):
         "in keras-team and TensorFlow. Open a category to see every one.",
         "",
     ]
-    bars = {}
     for category in CATEGORIES:
-        items = sorted(
-            groups[category],
-            key=lambda pr: (pr["closedAt"], pr["url"]),
-            reverse=True,
-        )
-        if not items:
-            continue
-        slug = re.sub(r"[^a-z0-9]+", "-", category.lower()).strip("-")
-        count = f"{len(items)} PRs"
-        bars[slug] = bar(category, count, CATEGORY_COLOURS[category])
-        lines += [
-            "<details>",
-            f'<summary><picture><img src="assets/categories/{slug}.svg" '
-            f'width="94%" alt="{category}, {count}"></picture></summary>',
-            "",
-        ]
-        lines += [
-            f"- [{clean(pr['title'])}]({pr['url']}) · {label(pr)}"
-            for pr in items
-        ]
-        lines += ["", "</details>", ""]
-    return "\n".join(lines), bars
+        if groups[category]:
+            colour = CATEGORY_COLOURS[category]
+            lines += block(category, colour, groups[category], "closedAt", bars)
+    return "\n".join(lines)
+
+
+def render_reviews(prs, bars):
+    repos = {pr["repository"]["nameWithOwner"] for pr in prs}
+    authors = {(pr["author"] or {}).get("login", "ghost") for pr in prs}
+    lines = [
+        f"Reviews on {len(prs)} pull requests by {len(authors)} other "
+        f"authors across {len(repos)} repositories.",
+        "",
+    ]
+    lines += block(REVIEWS, REVIEWS_COLOUR, prs, "createdAt", bars)
+    return "\n".join(lines)
+
+
+def replace_block(text, name, body):
+    start, end = f"<!-- {name}:start -->", f"<!-- {name}:end -->"
+    if start not in text or end not in text:
+        raise SystemExit(f"README.md needs the {start} and {end} markers.")
+    head = text[: text.index(start) + len(start)]
+    return f"{head}\n{body}{text[text.index(end) :]}"
 
 
 def main():
-    prs = [pr for owner in OWNERS for pr in fetch(owner)]
-    section, bars = render(prs)
+    merged = [
+        pr
+        for owner in OWNERS
+        for pr in search(owner, "--author", AUTHOR, "--merged")
+    ]
+    others = f"-author:{AUTHOR}"
+    reviewed = [
+        pr
+        for owner in OWNERS
+        for pr in search(owner, "--reviewed-by", AUTHOR, "--", others)
+    ]
+    bars = {}
     text = README.read_text(encoding="utf-8")
-    if START not in text or END not in text:
-        raise SystemExit(f"README.md needs the {START} and {END} markers.")
-    before = text[: text.index(START) + len(START)]
-    after = text[text.index(END) :]
+    text = replace_block(text, "contributions", render(merged, bars))
+    text = replace_block(text, "reviews", render_reviews(reviewed, bars))
     bars_dir = ASSETS / "categories"
     bars_dir.mkdir(parents=True, exist_ok=True)
     for slug, svg in bars.items():
         write(bars_dir / f"{slug}.svg", svg)
-    write(README, f"{before}\n{section}{after}")
-    print(f"Wrote {len(prs)} pull requests to {README}")
+    write(README, text)
+    print(
+        f"Wrote {len(merged)} merged and {len(reviewed)} reviewed pull "
+        f"requests to {README}"
+    )
 
 
 if __name__ == "__main__":
