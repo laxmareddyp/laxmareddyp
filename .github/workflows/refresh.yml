@@ -1,0 +1,47 @@
+name: Refresh profile
+
+# Re-runs the generators so the PR counts, lists and tiles stay current.
+# If a new pull request fits no category, build_contributions.py stops and
+# this run fails: add a rule or an OVERRIDES entry to the script and re-run.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write # commit the regenerated README and assets
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # The last step pushes, so the token has to stay available.
+          persist-credentials: true # zizmor: ignore[artipacked]
+
+      - name: Regenerate README sections, assets and site data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/build_assets.py
+          python3 scripts/build_contributions.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git add README.md assets data
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh profile counts and lists"
+          git push

@@ -161,6 +161,34 @@ TOOLBOX = [
     "Flask",
 ]
 
+HUB_PR = "https://github.com/keras-team/keras-hub/pull"
+GUIDE = "https://keras.io/keras_hub/guides"
+
+# Where each tile links to. The README links are hand-written, so
+# build_contributions.py checks that they agree with this table.
+TILE_URLS = {
+    "embeddinggemma-2": f"{HUB_PR}/3144",
+    "qwen-3-5-moe": f"{HUB_PR}/2665",
+    "qwen-3-5": f"{HUB_PR}/2631",
+    "gemma-3n": f"{HUB_PR}/2606",
+    "t5gemma-2": f"{HUB_PR}/2619",
+    "text-embedder": f"{HUB_PR}/2740",
+    "embeddinggemma": f"{HUB_PR}/2536",
+    "gpt-oss": f"{HUB_PR}/2384",
+    "functiongemma": f"{HUB_PR}/2480",
+    "gemma-3-converter": f"{HUB_PR}/2445",
+    "basnet": f"{HUB_PR}/1984",
+    "mask-rcnn": "https://github.com/keras-team/keras-cv/pull/2483",
+    "model-porter": f"{HUB_PR}/2497",
+    "guide-functiongemma": f"{GUIDE}/function_gemma_with_keras/",
+    "guide-function-calling": f"{GUIDE}/function_calling_with_keras_hub/",
+    "guide-rag": f"{GUIDE}/rag_pipeline_with_keras_hub/",
+    "guide-hf-checkpoints": f"{GUIDE}/hugging_face_keras_integration/",
+    "link-hugging-face": "https://huggingface.co/laxmareddyp",
+    "link-kaggle": "https://www.kaggle.com/laxmareddypatlolla",
+    "link-linkedin": "https://www.linkedin.com/in/laxma-patlolla/",
+}
+
 
 def glyph(kind):
     """Small line doodle for the bottom-right corner of a tile (80x64)."""

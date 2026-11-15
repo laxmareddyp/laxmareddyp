@@ -11,6 +11,8 @@ OVERRIDES entry and re-run.
 
 Code reviews: every pull request in OWNERS that AUTHOR reviewed and someone
 else wrote, in any state.
+
+The same data is written to data/profile.json, which the website loads.
 """
 
 import json
@@ -18,9 +20,19 @@ import re
 import subprocess
 from pathlib import Path
 
-from build_assets import ASSETS, KIND_COLOURS, bar, tile, write
+from build_assets import (
+    ASSETS,
+    KIND_COLOURS,
+    TILE_URLS,
+    TILES,
+    TOOLBOX,
+    bar,
+    tile,
+    write,
+)
 
 README = Path(__file__).resolve().parent.parent / "README.md"
+DATA = README.parent / "data" / "profile.json"
 
 AUTHOR = "laxmareddyp"
 OWNERS = ["keras-team", "tensorflow"]
@@ -28,6 +40,13 @@ SEARCH_CAP = 1000
 
 REVIEWS = "Code reviews"
 REVIEWS_COLOUR = KIND_COLOURS["review"]
+# The live GitHub search behind the Code reviews tile.
+REVIEWS_URL = (
+    f"https://github.com/search?q=is%3Apr+reviewed-by%3A{AUTHOR}"
+    f"+-author%3A{AUTHOR}"
+    + "".join(f"+org%3A{owner}" for owner in OWNERS)
+    + "&type=pullrequests"
+)
 
 MODELS = "Models, weights and converters"
 INFRA = "CI, tests and infrastructure"
@@ -159,13 +178,22 @@ def clean(title):
     return title
 
 
+def newest_first(prs, date_field):
+    return sorted(prs, key=lambda pr: (pr[date_field], pr["url"]), reverse=True)
+
+
+def repositories(prs):
+    return {pr["repository"]["nameWithOwner"] for pr in prs}
+
+
+def authors(prs):
+    return {(pr["author"] or {}).get("login", "ghost") for pr in prs}
+
+
 def block(name, colour, prs, date_field, bars):
     """One collapsed list under a clickable bar, newest first."""
-    items = sorted(
-        prs, key=lambda pr: (pr[date_field], pr["url"]), reverse=True
-    )
     slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-    count = f"{len(items)} PRs"
+    count = f"{len(prs)} PRs"
     bars[slug] = bar(name, count, colour)
     return [
         "<details>",
@@ -174,7 +202,7 @@ def block(name, colour, prs, date_field, bars):
         "",
         *(
             f"- [{clean(pr['title'])}]({pr['url']}) · {label(pr)}"
-            for pr in items
+            for pr in newest_first(prs, date_field)
         ),
         "",
         "</details>",
@@ -182,7 +210,8 @@ def block(name, colour, prs, date_field, bars):
     ]
 
 
-def render(prs, bars):
+def group(prs):
+    """Place every pull request in exactly one category, or stop."""
     groups = {category: [] for category in CATEGORIES}
     unplaced = []
     for pr in prs:
@@ -196,11 +225,14 @@ def render(prs, bars):
             f"  {label(pr)}  {pr['title'].strip()}" for pr in unplaced
         )
         raise SystemExit(f"No category for:\n{listing}")
+    return groups
 
-    repos = {pr["repository"]["nameWithOwner"] for pr in prs}
+
+def render(prs, groups, bars):
     lines = [
-        f"{len(prs)} merged pull requests across {len(repos)} repositories "
-        "in keras-team and TensorFlow. Open a category to see every one.",
+        f"{len(prs)} merged pull requests across {len(repositories(prs))} "
+        "repositories in keras-team and TensorFlow. Open a category to see "
+        "every one.",
         "",
     ]
     for category in CATEGORIES:
@@ -211,15 +243,85 @@ def render(prs, bars):
 
 
 def render_reviews(prs, bars):
-    repos = {pr["repository"]["nameWithOwner"] for pr in prs}
-    authors = {(pr["author"] or {}).get("login", "ghost") for pr in prs}
     lines = [
-        f"Reviews on {len(prs)} pull requests by {len(authors)} other "
-        f"authors across {len(repos)} repositories.",
+        f"Reviews on {len(prs)} pull requests by {len(authors(prs))} other "
+        f"authors across {len(repositories(prs))} repositories.",
         "",
     ]
     lines += block(REVIEWS, REVIEWS_COLOUR, prs, "createdAt", bars)
     return "\n".join(lines)
+
+
+def entries(prs, date_field):
+    return [
+        {
+            "title": " ".join(pr["title"].split()),
+            "url": pr["url"],
+            "label": label(pr),
+            "date": pr[date_field][:10],
+        }
+        for pr in newest_first(prs, date_field)
+    ]
+
+
+def section(slug, kind):
+    """Which part of the website a tile belongs to."""
+    if slug == "model-porter":
+        return "automation"
+    return {"guide": "guides", "link": "links"}.get(kind, "models")
+
+
+def site_data(merged, groups, reviewed):
+    """Everything the website shows, as one JSON document."""
+    return {
+        "tiles": [
+            {
+                "slug": slug,
+                "name": name,
+                "tag": tag,
+                "kind": kind,
+                "footer": footer,
+                "section": section(slug, kind),
+                "url": TILE_URLS[slug],
+            }
+            for slug, name, tag, kind, footer in TILES
+        ],
+        "kind_colours": KIND_COLOURS,
+        "toolbox": TOOLBOX,
+        "merged": {
+            "total": len(merged),
+            "repositories": len(repositories(merged)),
+            "categories": [
+                {
+                    "name": category,
+                    "colour": CATEGORY_COLOURS[category],
+                    "prs": entries(groups[category], "closedAt"),
+                }
+                for category in CATEGORIES
+                if groups[category]
+            ],
+        },
+        "reviews": {
+            "total": len(reviewed),
+            "authors": len(authors(reviewed)),
+            "repositories": len(repositories(reviewed)),
+            "colour": REVIEWS_COLOUR,
+            "url": REVIEWS_URL,
+            "prs": entries(reviewed, "createdAt"),
+        },
+    }
+
+
+def check_tile_links(text):
+    """The README tile links are hand-written; keep them equal to the code."""
+    links = {**TILE_URLS, "code-reviews": REVIEWS_URL}
+    wrong = [
+        slug
+        for slug, url in links.items()
+        if f'href="{url}"><img src="assets/tiles/{slug}.svg"' not in text
+    ]
+    if wrong:
+        raise SystemExit(f"README.md tile link differs from the code: {wrong}")
 
 
 def replace_block(text, name, body):
@@ -242,9 +344,11 @@ def main():
         for owner in OWNERS
         for pr in search(owner, "--reviewed-by", AUTHOR, "--", others)
     ]
+    groups = group(merged)
     bars = {}
     text = README.read_text(encoding="utf-8")
-    text = replace_block(text, "contributions", render(merged, bars))
+    check_tile_links(text)
+    text = replace_block(text, "contributions", render(merged, groups, bars))
     text = replace_block(text, "reviews", render_reviews(reviewed, bars))
     bars_dir = ASSETS / "categories"
     bars_dir.mkdir(parents=True, exist_ok=True)
@@ -254,9 +358,12 @@ def main():
     review_tile = tile(REVIEWS, count, "review", "keras-team · TensorFlow")
     write(ASSETS / "tiles" / "code-reviews.svg", review_tile)
     write(README, text)
+    data = site_data(merged, groups, reviewed)
+    DATA.parent.mkdir(parents=True, exist_ok=True)
+    write(DATA, json.dumps(data, indent=1, ensure_ascii=False) + "\n")
     print(
         f"Wrote {len(merged)} merged and {len(reviewed)} reviewed pull "
-        f"requests to {README}"
+        f"requests to {README} and {DATA}"
     )
 
 

@@ -1,0 +1,3118 @@
+{
+ "tiles": [
+  {
+   "slug": "embeddinggemma-2",
+   "name": "EmbeddingGemma 2",
+   "tag": "Multimodal embeddings",
+   "kind": "embedding",
+   "footer": "KerasHub · 2026",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/3144"
+  },
+  {
+   "slug": "qwen-3-5-moe",
+   "name": "Qwen 3.5 MoE",
+   "tag": "Vision + Text",
+   "kind": "multimodal",
+   "footer": "KerasHub · 2026",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2665"
+  },
+  {
+   "slug": "qwen-3-5",
+   "name": "Qwen 3.5",
+   "tag": "Vision + Text",
+   "kind": "multimodal",
+   "footer": "KerasHub · 2026",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2631"
+  },
+  {
+   "slug": "gemma-3n",
+   "name": "Gemma 3n",
+   "tag": "Text + Vision + Audio",
+   "kind": "multimodal",
+   "footer": "KerasHub · 2026",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2606"
+  },
+  {
+   "slug": "t5gemma-2",
+   "name": "T5Gemma 2",
+   "tag": "Vision + Text",
+   "kind": "multimodal",
+   "footer": "KerasHub · 2026",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2619"
+  },
+  {
+   "slug": "text-embedder",
+   "name": "TextEmbedder",
+   "tag": "Sentence embeddings",
+   "kind": "embedding",
+   "footer": "KerasHub · 2026",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2740"
+  },
+  {
+   "slug": "embeddinggemma",
+   "name": "EmbeddingGemma",
+   "tag": "Text embeddings",
+   "kind": "embedding",
+   "footer": "KerasHub · 2026",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2536"
+  },
+  {
+   "slug": "gpt-oss",
+   "name": "GPT-OSS",
+   "tag": "Text",
+   "kind": "text",
+   "footer": "KerasHub · 2025",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2384"
+  },
+  {
+   "slug": "functiongemma",
+   "name": "FunctionGemma",
+   "tag": "Function calling",
+   "kind": "text",
+   "footer": "KerasHub · 2025",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2480"
+  },
+  {
+   "slug": "gemma-3-converter",
+   "name": "Gemma 3",
+   "tag": "HF weight converter",
+   "kind": "tooling",
+   "footer": "KerasHub · 2025",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/2445"
+  },
+  {
+   "slug": "basnet",
+   "name": "BASNet",
+   "tag": "Segmentation",
+   "kind": "vision",
+   "footer": "KerasHub · 2024",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-hub/pull/1984"
+  },
+  {
+   "slug": "mask-rcnn",
+   "name": "Mask R-CNN",
+   "tag": "Segmentation",
+   "kind": "vision",
+   "footer": "KerasCV · 2024",
+   "section": "models",
+   "url": "https://github.com/keras-team/keras-cv/pull/2483"
+  },
+  {
+   "slug": "model-porter",
+   "name": "Model Porter",
+   "tag": "HF to KerasHub script",
+   "kind": "tooling",
+   "footer": "KerasHub · 2025",
+   "section": "automation",
+   "url": "https://github.com/keras-team/keras-hub/pull/2497"
+  },
+  {
+   "slug": "guide-functiongemma",
+   "name": "FunctionGemma",
+   "tag": "Native function calling",
+   "kind": "guide",
+   "footer": "keras.io guide · 2026",
+   "section": "guides",
+   "url": "https://keras.io/keras_hub/guides/function_gemma_with_keras/"
+  },
+  {
+   "slug": "guide-function-calling",
+   "name": "Function Calling",
+   "tag": "With KerasHub models",
+   "kind": "guide",
+   "footer": "keras.io guide · 2025",
+   "section": "guides",
+   "url": "https://keras.io/keras_hub/guides/function_calling_with_keras_hub/"
+  },
+  {
+   "slug": "guide-rag",
+   "name": "RAG Pipeline",
+   "tag": "With KerasHub",
+   "kind": "guide",
+   "footer": "keras.io guide · 2025",
+   "section": "guides",
+   "url": "https://keras.io/keras_hub/guides/rag_pipeline_with_keras_hub/"
+  },
+  {
+   "slug": "guide-hf-checkpoints",
+   "name": "HF Checkpoints",
+   "tag": "Loading into KerasHub",
+   "kind": "guide",
+   "footer": "keras.io guide · 2025",
+   "section": "guides",
+   "url": "https://keras.io/keras_hub/guides/hugging_face_keras_integration/"
+  },
+  {
+   "slug": "link-hugging-face",
+   "name": "Hugging Face",
+   "tag": "laxmareddyp",
+   "kind": "link",
+   "footer": "huggingface.co",
+   "section": "links",
+   "url": "https://huggingface.co/laxmareddyp"
+  },
+  {
+   "slug": "link-kaggle",
+   "name": "Kaggle",
+   "tag": "laxmareddypatlolla",
+   "kind": "link",
+   "footer": "kaggle.com",
+   "section": "links",
+   "url": "https://www.kaggle.com/laxmareddypatlolla"
+  },
+  {
+   "slug": "link-linkedin",
+   "name": "LinkedIn",
+   "tag": "laxma-patlolla",
+   "kind": "link",
+   "footer": "linkedin.com",
+   "section": "links",
+   "url": "https://www.linkedin.com/in/laxma-patlolla/"
+  }
+ ],
+ "kind_colours": {
+  "multimodal": "#FFB454",
+  "text": "#B8A4FF",
+  "embedding": "#7CC8FF",
+  "vision": "#7EDFA4",
+  "tooling": "#FF8F70",
+  "guide": "#FF9EC4",
+  "link": "#C9D1E0",
+  "review": "#9BE3E0"
+ },
+ "toolbox": [
+  "Python",
+  "Keras",
+  "KerasHub",
+  "TensorFlow",
+  "PyTorch",
+  "Docker",
+  "GCP",
+  "FastAPI",
+  "Flask"
+ ],
+ "merged": {
+  "total": 262,
+  "repositories": 12,
+  "categories": [
+   {
+    "name": "Models, weights and converters",
+    "colour": "#FFB454",
+    "prs": [
+     {
+      "title": "Add EmbeddingGemma2 model to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/3144",
+      "label": "keras-hub#3144",
+      "date": "2026-10-20"
+     },
+     {
+      "title": "Register Qwen Agent World and Maxbai-ai presets to hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2878",
+      "label": "keras-hub#2878",
+      "date": "2026-08-04"
+     },
+     {
+      "title": "Add Mxbai(mixbread-ai) Embedding Model to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2850",
+      "label": "keras-hub#2850",
+      "date": "2026-08-04"
+     },
+     {
+      "title": "Add Qwen Agent World Model to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2860",
+      "label": "keras-hub#2860",
+      "date": "2026-08-04"
+     },
+     {
+      "title": "Register Magistral Presets to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2845",
+      "label": "keras-hub#2845",
+      "date": "2026-07-23"
+     },
+     {
+      "title": "Register BLIP2 model presets to hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2805",
+      "label": "keras-hub#2805",
+      "date": "2026-07-17"
+     },
+     {
+      "title": "Register Qwen 3.5 MoE Model Presets to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2798",
+      "label": "keras-hub#2798",
+      "date": "2026-07-14"
+     },
+     {
+      "title": "Add Qwen3.5 MoE Model to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2665",
+      "label": "keras-hub#2665",
+      "date": "2026-07-08"
+     },
+     {
+      "title": "Add Sentence-Transformers Embedding Model and add support with TextEmbedder Task API",
+      "url": "https://github.com/keras-team/keras-hub/pull/2740",
+      "label": "keras-hub#2740",
+      "date": "2026-06-17"
+     },
+     {
+      "title": "Add Export Safetensors format Support for Qwen3_5 Model",
+      "url": "https://github.com/keras-team/keras-hub/pull/2707",
+      "label": "keras-hub#2707",
+      "date": "2026-06-13"
+     },
+     {
+      "title": "Update VIT presets versions and Map correct preset names in conversion script with kaggle preset names",
+      "url": "https://github.com/keras-team/keras-hub/pull/2736",
+      "label": "keras-hub#2736",
+      "date": "2026-05-14"
+     },
+     {
+      "title": "Register Qwen3.6 Model Presets to Keras-Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2720",
+      "label": "keras-hub#2720",
+      "date": "2026-05-04"
+     },
+     {
+      "title": "Update T5Gemma2 presets version",
+      "url": "https://github.com/keras-team/keras-hub/pull/2713",
+      "label": "keras-hub#2713",
+      "date": "2026-04-29"
+     },
+     {
+      "title": "Add Qwen3.5 Model Presets to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2678",
+      "label": "keras-hub#2678",
+      "date": "2026-04-15"
+     },
+     {
+      "title": "Add Qwen 3.5 model to hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2631",
+      "label": "keras-hub#2631",
+      "date": "2026-04-14"
+     },
+     {
+      "title": "Register Gemma3N Presets to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2676",
+      "label": "keras-hub#2676",
+      "date": "2026-04-13"
+     },
+     {
+      "title": "Add Gemma 3n model to KerasHub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2606",
+      "label": "keras-hub#2606",
+      "date": "2026-04-13"
+     },
+     {
+      "title": "Register T5Gemma2 Model Presets to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2646",
+      "label": "keras-hub#2646",
+      "date": "2026-04-02"
+     },
+     {
+      "title": "Add T5Gemma2 model to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2619",
+      "label": "keras-hub#2619",
+      "date": "2026-04-01"
+     },
+     {
+      "title": "Update model porting guidelines in CONTRIBUTING.md",
+      "url": "https://github.com/keras-team/keras-hub/pull/2596",
+      "label": "keras-hub#2596",
+      "date": "2026-02-13"
+     },
+     {
+      "title": "Register Embedding Gemma3 presets",
+      "url": "https://github.com/keras-team/keras-hub/pull/2598",
+      "label": "keras-hub#2598",
+      "date": "2026-02-13"
+     },
+     {
+      "title": "[Gemma3 ] Embedding Gemma conversion script to load weights from HuggingFace to Kerashub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2589",
+      "label": "keras-hub#2589",
+      "date": "2026-02-13"
+     },
+     {
+      "title": "Revert \"Add Gemma3 Embedding Model Presets to Hub\"",
+      "url": "https://github.com/keras-team/keras-hub/pull/2577",
+      "label": "keras-hub#2577",
+      "date": "2026-02-05"
+     },
+     {
+      "title": "Add Gemma3 Embedding Model Presets to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2558",
+      "label": "keras-hub#2558",
+      "date": "2026-02-05"
+     },
+     {
+      "title": "Changes to the Gemma3 backbone for Embedding Gemma model",
+      "url": "https://github.com/keras-team/keras-hub/pull/2536",
+      "label": "keras-hub#2536",
+      "date": "2026-02-05"
+     },
+     {
+      "title": "Add Qwen3 Coder preset and improve tokenizer robustness.",
+      "url": "https://github.com/keras-team/keras-hub/pull/2567",
+      "label": "keras-hub#2567",
+      "date": "2026-02-03"
+     },
+     {
+      "title": "Add Qwen 2.5 Math model presets and checkpoint conversion support",
+      "url": "https://github.com/keras-team/keras-hub/pull/2566",
+      "label": "keras-hub#2566",
+      "date": "2026-02-03"
+     },
+     {
+      "title": "Map new HF MedGemma model presets to conversion script",
+      "url": "https://github.com/keras-team/keras-hub/pull/2541",
+      "label": "keras-hub#2541",
+      "date": "2026-01-27"
+     },
+     {
+      "title": "Enable newly released Med Gemma 1.5 4B variant version to hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2524",
+      "label": "keras-hub#2524",
+      "date": "2026-01-15"
+     },
+     {
+      "title": "An automated script to port any Text-only decoder LLM model from Hugging Face to Keras Hub repo",
+      "url": "https://github.com/keras-team/keras-hub/pull/2497",
+      "label": "keras-hub#2497",
+      "date": "2025-12-26"
+     },
+     {
+      "title": "Add FunctionGemma checkpoints to kerasHub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2480",
+      "label": "keras-hub#2480",
+      "date": "2025-12-18"
+     },
+     {
+      "title": "Register OpenAI GPT-OSS and GPT-OSS-SAFEGUARD Presets to kerashub.",
+      "url": "https://github.com/keras-team/keras-hub/pull/2473",
+      "label": "keras-hub#2473",
+      "date": "2025-12-18"
+     },
+     {
+      "title": "Generated GPT_OSS model files through porter script.",
+      "url": "https://github.com/keras-team/keras-hub/pull/2384",
+      "label": "keras-hub#2384",
+      "date": "2025-12-17"
+     },
+     {
+      "title": "Add Gemma3 Conversion script to port weights from HF directly",
+      "url": "https://github.com/keras-team/keras-hub/pull/2445",
+      "label": "keras-hub#2445",
+      "date": "2025-12-06"
+     },
+     {
+      "title": "Add Presets,Checkpoint conversion for SmolLM3 model",
+      "url": "https://github.com/keras-team/keras-hub/pull/2461",
+      "label": "keras-hub#2461",
+      "date": "2025-12-04"
+     },
+     {
+      "title": "Register Qwen3 Embedding Presets to Kerashub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2455",
+      "label": "keras-hub#2455",
+      "date": "2025-11-24"
+     },
+     {
+      "title": "Register MedGemma, MedSigLIP Presets to kerashub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2450",
+      "label": "keras-hub#2450",
+      "date": "2025-10-28"
+     },
+     {
+      "title": "Register Cell2Sentence Presets",
+      "url": "https://github.com/keras-team/keras-hub/pull/2442",
+      "label": "keras-hub#2442",
+      "date": "2025-10-17"
+     },
+     {
+      "title": "Add and Register the Qwen3_MoE Presets to Hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/2429",
+      "label": "keras-hub#2429",
+      "date": "2025-10-09"
+     },
+     {
+      "title": "Register HGNetV2 presets",
+      "url": "https://github.com/keras-team/keras-hub/pull/2326",
+      "label": "keras-hub#2326",
+      "date": "2025-07-15"
+     },
+     {
+      "title": "Qwen3 presets register",
+      "url": "https://github.com/keras-team/keras-hub/pull/2325",
+      "label": "keras-hub#2325",
+      "date": "2025-07-11"
+     },
+     {
+      "title": "Fix Mistral conversion script",
+      "url": "https://github.com/keras-team/keras-hub/pull/2306",
+      "label": "keras-hub#2306",
+      "date": "2025-06-23"
+     },
+     {
+      "title": "Update preset versions for Mixtral,Qwen-MoE and Mistral models",
+      "url": "https://github.com/keras-team/keras-hub/pull/2307",
+      "label": "keras-hub#2307",
+      "date": "2025-06-23"
+     },
+     {
+      "title": "Update the sharded version number for Llama3 variants",
+      "url": "https://github.com/keras-team/keras-hub/pull/2294",
+      "label": "keras-hub#2294",
+      "date": "2025-06-09"
+     },
+     {
+      "title": "Update preset versions for sharded models",
+      "url": "https://github.com/keras-team/keras-hub/pull/2264",
+      "label": "keras-hub#2264",
+      "date": "2025-05-22"
+     },
+     {
+      "title": "Add Mixtral,Qwen-MoE presets and Update conversion script.",
+      "url": "https://github.com/keras-team/keras-hub/pull/2248",
+      "label": "keras-hub#2248",
+      "date": "2025-05-20"
+     },
+     {
+      "title": "Add Kaggle handle for moonshine presets",
+      "url": "https://github.com/keras-team/keras-hub/pull/2253",
+      "label": "keras-hub#2253",
+      "date": "2025-05-16"
+     },
+     {
+      "title": "Add qwen presets",
+      "url": "https://github.com/keras-team/keras-hub/pull/2241",
+      "label": "keras-hub#2241",
+      "date": "2025-05-05"
+     },
+     {
+      "title": "Update Qwen conversion script",
+      "url": "https://github.com/keras-team/keras-hub/pull/2207",
+      "label": "keras-hub#2207",
+      "date": "2025-04-08"
+     },
+     {
+      "title": "Update kaggle preset paths for SigLip model",
+      "url": "https://github.com/keras-team/keras-hub/pull/2164",
+      "label": "keras-hub#2164",
+      "date": "2025-03-24"
+     },
+     {
+      "title": "Fixing imports in init file and preset name update",
+      "url": "https://github.com/keras-team/keras-hub/pull/2108",
+      "label": "keras-hub#2108",
+      "date": "2025-02-24"
+     },
+     {
+      "title": "Basnet preset rename in kaggle",
+      "url": "https://github.com/keras-team/keras-hub/pull/2097",
+      "label": "keras-hub#2097",
+      "date": "2025-02-12"
+     },
+     {
+      "title": "BASNet Kaggle presets path update",
+      "url": "https://github.com/keras-team/keras-hub/pull/2052",
+      "label": "keras-hub#2052",
+      "date": "2025-01-21"
+     },
+     {
+      "title": "Add BASNet to keras hub",
+      "url": "https://github.com/keras-team/keras-hub/pull/1984",
+      "label": "keras-hub#1984",
+      "date": "2024-12-19"
+     },
+     {
+      "title": "Port Mask R-CNN to Keras3",
+      "url": "https://github.com/keras-team/keras-cv/pull/2483",
+      "label": "keras-cv#2483",
+      "date": "2024-09-26"
+     }
+    ]
+   },
+   {
+    "name": "CI, tests and infrastructure",
+    "colour": "#7CC8FF",
+    "prs": [
+     {
+      "title": "Split GPU and TPU tests into four shards",
+      "url": "https://github.com/keras-team/keras/pull/24144",
+      "label": "keras#24144",
+      "date": "2026-11-13"
+     },
+     {
+      "title": "Remove Jules integration",
+      "url": "https://github.com/keras-team/keras-hub/pull/3262",
+      "label": "keras-hub#3262",
+      "date": "2026-11-12"
+     },
+     {
+      "title": "Remove Jules integration",
+      "url": "https://github.com/keras-team/shared-workflows/pull/24",
+      "label": "shared-workflows#24",
+      "date": "2026-11-12"
+     },
+     {
+      "title": "Update linux test runner to linux-x86-n4-16",
+      "url": "https://github.com/keras-team/keras-mlx/pull/141",
+      "label": "keras-mlx#141",
+      "date": "2026-11-10"
+     },
+     {
+      "title": "Pin keras-openvino in CI until the chained top_k regression is fixed",
+      "url": "https://github.com/keras-team/keras-hub/pull/3251",
+      "label": "keras-hub#3251",
+      "date": "2026-11-10"
+     },
+     {
+      "title": "Refresh GPU test durations from the latest master run",
+      "url": "https://github.com/keras-team/keras-hub/pull/3221",
+      "label": "keras-hub#3221",
+      "date": "2026-11-04"
+     },
+     {
+      "title": "Serialize site deploys and re-upload pages missing from the bucket",
+      "url": "https://github.com/keras-team/keras-io/pull/2455",
+      "label": "keras-io#2455",
+      "date": "2026-11-04"
+     },
+     {
+      "title": "Seed Gemma cache test and widen GPU tolerance for TF32 drift",
+      "url": "https://github.com/keras-team/keras-hub/pull/3216",
+      "label": "keras-hub#3216",
+      "date": "2026-11-02"
+     },
+     {
+      "title": "Retry the CUDA pip install in GPU CI on transient download failures",
+      "url": "https://github.com/keras-team/keras-hub/pull/3206",
+      "label": "keras-hub#3206",
+      "date": "2026-11-02"
+     },
+     {
+      "title": "Balance GPU test shards by measured test duration",
+      "url": "https://github.com/keras-team/keras-hub/pull/3208",
+      "label": "keras-hub#3208",
+      "date": "2026-11-01"
+     },
+     {
+      "title": "Pin torch to 2.14.* in the CUDA requirements",
+      "url": "https://github.com/keras-team/keras/pull/24091",
+      "label": "keras#24091",
+      "date": "2026-10-29"
+     },
+     {
+      "title": "Speed up JAX GPU tests by unpinning jax",
+      "url": "https://github.com/keras-team/keras-hub/pull/3199",
+      "label": "keras-hub#3199",
+      "date": "2026-10-29"
+     },
+     {
+      "title": "Shard nightly CPU tests to match PR CI and avoid OOM",
+      "url": "https://github.com/keras-team/keras-hub/pull/3198",
+      "label": "keras-hub#3198",
+      "date": "2026-10-28"
+     },
+     {
+      "title": "Replace the PR template checklist with the contributor agreement",
+      "url": "https://github.com/keras-team/keras-hub/pull/3171",
+      "label": "keras-hub#3171",
+      "date": "2026-10-27"
+     },
+     {
+      "title": "Bump pull-request-validation pin to bypass check for all collaborators",
+      "url": "https://github.com/keras-team/keras-hub/pull/3196",
+      "label": "keras-hub#3196",
+      "date": "2026-10-26"
+     },
+     {
+      "title": "Bump pull-request-validation pin to bypass check for all collaborators",
+      "url": "https://github.com/keras-team/keras/pull/24072",
+      "label": "keras#24072",
+      "date": "2026-10-26"
+     },
+     {
+      "title": "Bypass the approved-issue check for all repository collaborators",
+      "url": "https://github.com/keras-team/shared-workflows/pull/17",
+      "label": "shared-workflows#17",
+      "date": "2026-10-26"
+     },
+     {
+      "title": "Pin pytest-xdist workers to 12 on CPU runner",
+      "url": "https://github.com/keras-team/keras-hub/pull/3193",
+      "label": "keras-hub#3193",
+      "date": "2026-10-26"
+     },
+     {
+      "title": "Update CPU test runner to linux-x86-n4-16",
+      "url": "https://github.com/keras-team/keras/pull/24062",
+      "label": "keras#24062",
+      "date": "2026-10-26"
+     },
+     {
+      "title": "Update CPU test runner to linux-x86-n4-16",
+      "url": "https://github.com/keras-team/keras-hub/pull/3187",
+      "label": "keras-hub#3187",
+      "date": "2026-10-25"
+     },
+     {
+      "title": "Update CPU test runner to linux-x86-n4-16",
+      "url": "https://github.com/keras-team/keras-rs/pull/216",
+      "label": "keras-rs#216",
+      "date": "2026-10-24"
+     },
+     {
+      "title": "Bump GPU tests timeout to 4 hours",
+      "url": "https://github.com/keras-team/keras/pull/23983",
+      "label": "keras#23983",
+      "date": "2026-10-16"
+     },
+     {
+      "title": "Relax Gemma4 vision retrace test tolerance on GPU",
+      "url": "https://github.com/keras-team/keras-hub/pull/3165",
+      "label": "keras-hub#3165",
+      "date": "2026-10-16"
+     },
+     {
+      "title": "Bump GPU CI torch pin to 2.14.1 for transformers 5.20",
+      "url": "https://github.com/keras-team/keras-hub/pull/3168",
+      "label": "keras-hub#3168",
+      "date": "2026-10-16"
+     },
+     {
+      "title": "Install keras-openvino plugin for OpenVINO CI jobs",
+      "url": "https://github.com/keras-team/keras-hub/pull/3148",
+      "label": "keras-hub#3148",
+      "date": "2026-10-10"
+     },
+     {
+      "title": "Make run-gpu-tpu-tests a one-shot label for the GPU and TPU test workflows",
+      "url": "https://github.com/keras-team/keras/pull/23857",
+      "label": "keras#23857",
+      "date": "2026-10-07"
+     },
+     {
+      "title": "Make run-gpu-tests a one-shot label for the GPU test workflow",
+      "url": "https://github.com/keras-team/keras-hub/pull/3139",
+      "label": "keras-hub#3139",
+      "date": "2026-10-06"
+     },
+     {
+      "title": "Add top-level permissions to stale workflow and fix zizmor ignores",
+      "url": "https://github.com/keras-team/keras/pull/23844",
+      "label": "keras#23844",
+      "date": "2026-10-06"
+     },
+     {
+      "title": "Tighten workflow triggers, token grants and secret scope",
+      "url": "https://github.com/keras-team/keras-hub/pull/3136",
+      "label": "keras-hub#3136",
+      "date": "2026-10-06"
+     },
+     {
+      "title": "[Do not merge ] Remove .kokoro/ directory (migrated to GitHub Actions in #2939)",
+      "url": "https://github.com/keras-team/keras-hub/pull/3025",
+      "label": "keras-hub#3025",
+      "date": "2026-10-05"
+     },
+     {
+      "title": "Add GPU test workflow (migrate from Kokoro to GitHub Actions)",
+      "url": "https://github.com/keras-team/keras-hub/pull/2939",
+      "label": "keras-hub#2939",
+      "date": "2026-10-05"
+     },
+     {
+      "title": "Add TensorFlow-backend tests for backend_utils.in_tf_graph",
+      "url": "https://github.com/keras-team/keras/pull/23810",
+      "label": "keras#23810",
+      "date": "2026-10-02"
+     },
+     {
+      "title": "Fix torch GPU failures in image classifier and PaliGemma tests",
+      "url": "https://github.com/keras-team/keras-hub/pull/3119",
+      "label": "keras-hub#3119",
+      "date": "2026-09-24"
+     },
+     {
+      "title": "flash attention mocks exercise the fused path",
+      "url": "https://github.com/keras-team/keras-hub/pull/3115",
+      "label": "keras-hub#3115",
+      "date": "2026-09-24"
+     },
+     {
+      "title": "Fix flaky test_cholesky with fixed seed and float32 rtol",
+      "url": "https://github.com/keras-team/keras/pull/23705",
+      "label": "keras#23705",
+      "date": "2026-09-22"
+     },
+     {
+      "title": "Patch the public dot_product_attention op in flash attention tests",
+      "url": "https://github.com/keras-team/keras-hub/pull/3114",
+      "label": "keras-hub#3114",
+      "date": "2026-09-21"
+     },
+     {
+      "title": "Migrate PyPI publishing to OIDC Trusted Publishing",
+      "url": "https://github.com/keras-team/kinetic/pull/318",
+      "label": "kinetic#318",
+      "date": "2026-09-18"
+     },
+     {
+      "title": "Unpin Tensorflow-Text version cap (revert <2.21.0 restriction)",
+      "url": "https://github.com/keras-team/keras-hub/pull/3058",
+      "label": "keras-hub#3058",
+      "date": "2026-09-11"
+     },
+     {
+      "title": "Run the full test suite for every backend on PRs and master merges",
+      "url": "https://github.com/keras-team/keras-hub/pull/3059",
+      "label": "keras-hub#3059",
+      "date": "2026-09-11"
+     },
+     {
+      "title": "Replace keras-team-review-pending with gTech-team-review-pending in Gemini triage allow-list",
+      "url": "https://github.com/keras-team/keras/pull/23602",
+      "label": "keras#23602",
+      "date": "2026-09-10"
+     },
+     {
+      "title": "Update Gemini guidelines to use gTech Team review Pending labels for issues",
+      "url": "https://github.com/keras-team/shared-workflows/pull/5",
+      "label": "shared-workflows#5",
+      "date": "2026-09-10"
+     },
+     {
+      "title": "Upgrade GPU Runner for GPU Tests",
+      "url": "https://github.com/keras-team/keras/pull/23599",
+      "label": "keras#23599",
+      "date": "2026-09-10"
+     },
+     {
+      "title": "Upgrade GPU runner in GPU Tests",
+      "url": "https://github.com/keras-team/keras-rs/pull/204",
+      "label": "keras-rs#204",
+      "date": "2026-09-10"
+     },
+     {
+      "title": "fix: replace keras-team-review-pending with gTech-team-review-pending in Gemini triage allow-list",
+      "url": "https://github.com/keras-team/keras-hub/pull/3047",
+      "label": "keras-hub#3047",
+      "date": "2026-09-10"
+     },
+     {
+      "title": "Fix torch distributed test timeouts in nightly CI",
+      "url": "https://github.com/keras-team/keras/pull/23590",
+      "label": "keras#23590",
+      "date": "2026-09-09"
+     },
+     {
+      "title": "Add weekly GPU workflow for `@extra_large` tests",
+      "url": "https://github.com/keras-team/keras-hub/pull/3041",
+      "label": "keras-hub#3041",
+      "date": "2026-09-09"
+     },
+     {
+      "title": "CI : Extract CPU tests into reusable cpu_tests.yml workflow",
+      "url": "https://github.com/keras-team/keras-hub/pull/3037",
+      "label": "keras-hub#3037",
+      "date": "2026-09-08"
+     },
+     {
+      "title": "CI: Extract CPU tests into reusable cpu_tests.yml workflow",
+      "url": "https://github.com/keras-team/keras/pull/23572",
+      "label": "keras#23572",
+      "date": "2026-09-08"
+     },
+     {
+      "title": "Refactor CI: Extract CPU, GPU, and TPU tests into standalone reusable workflows",
+      "url": "https://github.com/keras-team/keras-rs/pull/203",
+      "label": "keras-rs#203",
+      "date": "2026-09-08"
+     },
+     {
+      "title": "Migrate to OIDC Trusted Publishing and add auto-publish workflow",
+      "url": "https://github.com/keras-team/keras/pull/23557",
+      "label": "keras#23557",
+      "date": "2026-09-03"
+     },
+     {
+      "title": "Migrate PyPI publishing to OIDC Trusted Publishing",
+      "url": "https://github.com/keras-team/keras-hub/pull/3017",
+      "label": "keras-hub#3017",
+      "date": "2026-09-03"
+     },
+     {
+      "title": "Fix all remaining zizmor audit failures",
+      "url": "https://github.com/keras-team/keras-hub/pull/3024",
+      "label": "keras-hub#3024",
+      "date": "2026-08-31"
+     },
+     {
+      "title": "Fix zizmor CI failure in nightly.yml",
+      "url": "https://github.com/keras-team/keras-hub/pull/3023",
+      "label": "keras-hub#3023",
+      "date": "2026-08-31"
+     },
+     {
+      "title": "Remove keras-team-review-pending from Gemini triage allowed_labels",
+      "url": "https://github.com/keras-team/keras-hub/pull/3016",
+      "label": "keras-hub#3016",
+      "date": "2026-08-26"
+     },
+     {
+      "title": "Dynamically derive PROJECT_URL versions from installed packages",
+      "url": "https://github.com/keras-team/keras-io/pull/2413",
+      "label": "keras-io#2413",
+      "date": "2026-08-26"
+     },
+     {
+      "title": "KerasHub version update to Enable vLLM Guide on keras-io",
+      "url": "https://github.com/keras-team/keras-io/pull/2410",
+      "label": "keras-io#2410",
+      "date": "2026-08-24"
+     },
+     {
+      "title": "Pin tensorflow-text<2.21.0 to fix CI and Keras hub PyPi usage breakage",
+      "url": "https://github.com/keras-team/keras-hub/pull/2979",
+      "label": "keras-hub#2979",
+      "date": "2026-08-21"
+     },
+     {
+      "title": "Shard CI tests across 4 parallel jobs per backend to reduce wall-clock time",
+      "url": "https://github.com/keras-team/keras-hub/pull/2864",
+      "label": "keras-hub#2864",
+      "date": "2026-08-04"
+     },
+     {
+      "title": "Switch CI to self-hosted runners and parallelize tests to fix TF CPU timeouts",
+      "url": "https://github.com/keras-team/keras-hub/pull/2856",
+      "label": "keras-hub#2856",
+      "date": "2026-07-23"
+     },
+     {
+      "title": "Update keras version to 3.15",
+      "url": "https://github.com/keras-team/keras-hub/pull/2852",
+      "label": "keras-hub#2852",
+      "date": "2026-07-22"
+     },
+     {
+      "title": "Fix Zizmor security findings in GitHub Actions workflows & OpenSSF Scorecard",
+      "url": "https://github.com/keras-team/keras-io/pull/2392",
+      "label": "keras-io#2392",
+      "date": "2026-07-16"
+     },
+     {
+      "title": "Fix GitHub Actions workflows with Zizmor security audit",
+      "url": "https://github.com/keras-team/keras-rs/pull/198",
+      "label": "keras-rs#198",
+      "date": "2026-07-16"
+     },
+     {
+      "title": "Fix Zizmor security findings in GitHub Actions workflows",
+      "url": "https://github.com/keras-team/keras/pull/23231",
+      "label": "keras#23231",
+      "date": "2026-07-16"
+     },
+     {
+      "title": "Fix Zizmor security findings in GitHub Actions workflows",
+      "url": "https://github.com/keras-team/keras-hub/pull/2792",
+      "label": "keras-hub#2792",
+      "date": "2026-07-16"
+     },
+     {
+      "title": "Increase Kokoro GPU timeout for JAX, TensorFlow and PyTorch",
+      "url": "https://github.com/keras-team/keras-hub/pull/2801",
+      "label": "keras-hub#2801",
+      "date": "2026-07-15"
+     },
+     {
+      "title": "FIX: Pin SentencePiece<0.2.2 to unblock CI test failures",
+      "url": "https://github.com/keras-team/keras-hub/pull/2800",
+      "label": "keras-hub#2800",
+      "date": "2026-07-13"
+     },
+     {
+      "title": "Fix GitHub Actions workflows with Zizmor security audit",
+      "url": "https://github.com/keras-team/kinetic/pull/277",
+      "label": "kinetic#277",
+      "date": "2026-07-10"
+     },
+     {
+      "title": "Update the kagglesdk version for gpu compatibility",
+      "url": "https://github.com/keras-team/keras-hub/pull/2788",
+      "label": "keras-hub#2788",
+      "date": "2026-07-02"
+     },
+     {
+      "title": "Pin kagglesdk==0.1.30 and surface kagglehub import errors",
+      "url": "https://github.com/keras-team/keras-hub/pull/2787",
+      "label": "keras-hub#2787",
+      "date": "2026-07-02"
+     },
+     {
+      "title": "Bump GitHub Actions versions to the latest",
+      "url": "https://github.com/keras-team/keras/pull/23104",
+      "label": "keras#23104",
+      "date": "2026-06-18"
+     },
+     {
+      "title": "Bump GitHub Actions versions to the latest",
+      "url": "https://github.com/keras-team/kinetic/pull/272",
+      "label": "kinetic#272",
+      "date": "2026-06-17"
+     },
+     {
+      "title": "Bump GitHub Actions versions to the latest",
+      "url": "https://github.com/keras-team/keras-io/pull/2378",
+      "label": "keras-io#2378",
+      "date": "2026-06-17"
+     },
+     {
+      "title": "Update keras version to 3.14",
+      "url": "https://github.com/keras-team/keras-hub/pull/2752",
+      "label": "keras-hub#2752",
+      "date": "2026-05-30"
+     },
+     {
+      "title": "Update assignee list",
+      "url": "https://github.com/keras-team/keras-io/pull/2368",
+      "label": "keras-io#2368",
+      "date": "2026-05-27"
+     },
+     {
+      "title": "Update assignee list",
+      "url": "https://github.com/keras-team/keras/pull/22995",
+      "label": "keras#22995",
+      "date": "2026-05-27"
+     },
+     {
+      "title": "Update Assignee list",
+      "url": "https://github.com/keras-team/keras-hub/pull/2748",
+      "label": "keras-hub#2748",
+      "date": "2026-05-27"
+     },
+     {
+      "title": "Exclude kagglehub 1.0.1 due to broken kagglesdk 0.1.24 compatibility",
+      "url": "https://github.com/keras-team/keras-hub/pull/2747",
+      "label": "keras-hub#2747",
+      "date": "2026-05-27"
+     },
+     {
+      "title": "Relax tolerance in OpenVINO export tests to fix nightly failures",
+      "url": "https://github.com/keras-team/keras/pull/22826",
+      "label": "keras#22826",
+      "date": "2026-05-04"
+     },
+     {
+      "title": "Fix nightly",
+      "url": "https://github.com/keras-team/keras-hub/pull/2708",
+      "label": "keras-hub#2708",
+      "date": "2026-04-27"
+     },
+     {
+      "title": "Add missing converter test file for smollm3",
+      "url": "https://github.com/keras-team/keras-hub/pull/2636",
+      "label": "keras-hub#2636",
+      "date": "2026-04-20"
+     },
+     {
+      "title": "Add SAM3 Converter Test File",
+      "url": "https://github.com/keras-team/keras-hub/pull/2660",
+      "label": "keras-hub#2660",
+      "date": "2026-04-20"
+     },
+     {
+      "title": "Add T5Gemma2 converter test file",
+      "url": "https://github.com/keras-team/keras-hub/pull/2659",
+      "label": "keras-hub#2659",
+      "date": "2026-04-20"
+     },
+     {
+      "title": "Add missing ViT converter test file",
+      "url": "https://github.com/keras-team/keras-hub/pull/2637",
+      "label": "keras-hub#2637",
+      "date": "2026-04-20"
+     },
+     {
+      "title": "Update transformers to latest version",
+      "url": "https://github.com/keras-team/keras-hub/pull/2635",
+      "label": "keras-hub#2635",
+      "date": "2026-03-19"
+     },
+     {
+      "title": "Add test file for convert_gpt_oss.py",
+      "url": "https://github.com/keras-team/keras-hub/pull/2499",
+      "label": "keras-hub#2499",
+      "date": "2025-12-29"
+     },
+     {
+      "title": "Fix keras-io integration test",
+      "url": "https://github.com/keras-team/keras-hub/pull/2280",
+      "label": "keras-hub#2280",
+      "date": "2025-05-29"
+     },
+     {
+      "title": "Add VGG preset test cases",
+      "url": "https://github.com/keras-team/keras-hub/pull/2090",
+      "label": "keras-hub#2090",
+      "date": "2025-02-11"
+     }
+    ]
+   },
+   {
+    "name": "Migrations",
+    "colour": "#7EDFA4",
+    "prs": [
+     {
+      "title": "[TF-Free Migration] Make mock Gemma tokenizers work without TensorFlow",
+      "url": "https://github.com/keras-team/keras-hub/pull/3097",
+      "label": "keras-hub#3097",
+      "date": "2026-11-11"
+     },
+     {
+      "title": "[PyGrain Migration] Run RandomDeletion and RandomSwap in Grain pipelines",
+      "url": "https://github.com/keras-team/keras-hub/pull/3065",
+      "label": "keras-hub#3065",
+      "date": "2026-09-16"
+     },
+     {
+      "title": "[PyGrain Migration] Grain tokenizers",
+      "url": "https://github.com/keras-team/keras-hub/pull/3066",
+      "label": "keras-hub#3066",
+      "date": "2026-09-16"
+     },
+     {
+      "title": "[PyGrain Migration] Add pure Python paths to audio converters for Grain pipelines",
+      "url": "https://github.com/keras-team/keras-hub/pull/3064",
+      "label": "keras-hub#3064",
+      "date": "2026-09-15"
+     },
+     {
+      "title": "Migrate `benchmarks/glue.py` from TF-Keras to Keras 3",
+      "url": "https://github.com/keras-team/keras-hub/pull/2976",
+      "label": "keras-hub#2976",
+      "date": "2026-08-25"
+     }
+    ]
+   },
+   {
+    "name": "Features and fixes",
+    "colour": "#B8A4FF",
+    "prs": [
+     {
+      "title": "Support loading unlisted backends via KERAS_ALLOW_UNOFFICIAL_BACKEND",
+      "url": "https://github.com/keras-team/keras/pull/24232",
+      "label": "keras#24232",
+      "date": "2026-11-13"
+     },
+     {
+      "title": "Make Gemma4 vision pooling and interleave graph-safe for zero images",
+      "url": "https://github.com/keras-team/keras-hub/pull/3156",
+      "label": "keras-hub#3156",
+      "date": "2026-10-14"
+     },
+     {
+      "title": "Untrack the assistant model after Gemma4 speculative generate",
+      "url": "https://github.com/keras-team/keras-hub/pull/3124",
+      "label": "keras-hub#3124",
+      "date": "2026-10-06"
+     },
+     {
+      "title": "Honor add_start_token in CausalLMPreprocessor.generate_preprocess",
+      "url": "https://github.com/keras-team/keras-hub/pull/3132",
+      "label": "keras-hub#3132",
+      "date": "2026-10-06"
+     },
+     {
+      "title": "Support Lanczos interpolation in torch backend resize",
+      "url": "https://github.com/keras-team/keras/pull/23792",
+      "label": "keras#23792",
+      "date": "2026-10-06"
+     },
+     {
+      "title": "Treat namespace packages as unavailable in LazyModule",
+      "url": "https://github.com/keras-team/keras/pull/23713",
+      "label": "keras#23713",
+      "date": "2026-10-01"
+     },
+     {
+      "title": "Openvino while loop capture and scalar repeat",
+      "url": "https://github.com/keras-team/keras/pull/23613",
+      "label": "keras#23613",
+      "date": "2026-09-26"
+     },
+     {
+      "title": "Resolve backend ops through the ops subpackage in DynamicBackend",
+      "url": "https://github.com/keras-team/keras/pull/23693",
+      "label": "keras#23693",
+      "date": "2026-09-21"
+     },
+     {
+      "title": "Fix OpenVINO compatibility in dynamic-shape ops and seq2seq generation loops",
+      "url": "https://github.com/keras-team/keras-hub/pull/3046",
+      "label": "keras-hub#3046",
+      "date": "2026-09-11"
+     },
+     {
+      "title": "Fix `MultiSegmentPacker` Python path to forward `sequence_length`, `add_start_value`, and `add_end_value` to trimming",
+      "url": "https://github.com/keras-team/keras-hub/pull/2907",
+      "label": "keras-hub#2907",
+      "date": "2026-08-03"
+     },
+     {
+      "title": "Remove nested container warnings",
+      "url": "https://github.com/keras-team/keras/pull/23172",
+      "label": "keras#23172",
+      "date": "2026-06-26"
+     },
+     {
+      "title": "Fix SentencePieceTokenizer graph tracing by caching vocabulary via native sentencepiece",
+      "url": "https://github.com/keras-team/keras-hub/pull/2706",
+      "label": "keras-hub#2706",
+      "date": "2026-04-30"
+     },
+     {
+      "title": "Track untracked EOI variables in T5Gemma2 backbone",
+      "url": "https://github.com/keras-team/keras-hub/pull/2709",
+      "label": "keras-hub#2709",
+      "date": "2026-04-28"
+     },
+     {
+      "title": "Add build()method to Qwen3.5 vision encoder and remove workarounds",
+      "url": "https://github.com/keras-team/keras-hub/pull/2710",
+      "label": "keras-hub#2710",
+      "date": "2026-04-28"
+     },
+     {
+      "title": "Fix SentencePieceTokenizer failing inside tf.function by caching vocabulary eagerly",
+      "url": "https://github.com/keras-team/keras-hub/pull/2691",
+      "label": "keras-hub#2691",
+      "date": "2026-04-22"
+     },
+     {
+      "title": "Update Kaggle Models link to Keras organization page",
+      "url": "https://github.com/keras-team/keras-hub/pull/2560",
+      "label": "keras-hub#2560",
+      "date": "2026-02-02"
+     },
+     {
+      "title": "Incorrect condition on sliding_window_size",
+      "url": "https://github.com/keras-team/keras-hub/pull/2289",
+      "label": "keras-hub#2289",
+      "date": "2025-06-18"
+     },
+     {
+      "title": "Sharded weights type error",
+      "url": "https://github.com/keras-team/keras-hub/pull/2296",
+      "label": "keras-hub#2296",
+      "date": "2025-06-16"
+     },
+     {
+      "title": "Support None for max_shard_size",
+      "url": "https://github.com/keras-team/keras-hub/pull/2261",
+      "label": "keras-hub#2261",
+      "date": "2025-06-12"
+     },
+     {
+      "title": "Add QwencausalLM docstrings, covearage tracking, keras-io integration fix",
+      "url": "https://github.com/keras-team/keras-hub/pull/2284",
+      "label": "keras-hub#2284",
+      "date": "2025-06-03"
+     },
+     {
+      "title": "Made label data optional for inference and adopted other required changes",
+      "url": "https://github.com/keras-team/keras-hub/pull/2183",
+      "label": "keras-hub#2183",
+      "date": "2025-05-06"
+     },
+     {
+      "title": "Made y optional when we use for inference",
+      "url": "https://github.com/keras-team/keras-hub/pull/2092",
+      "label": "keras-hub#2092",
+      "date": "2025-02-12"
+     }
+    ]
+   },
+   {
+    "name": "Releases",
+    "colour": "#FF8F70",
+    "prs": [
+     {
+      "title": "Sync Kaggle model presets to Hugging Face for 0.33.0",
+      "url": "https://github.com/keras-team/keras-hub/pull/3223",
+      "label": "keras-hub#3223",
+      "date": "2026-11-06"
+     },
+     {
+      "title": "[Aug] Sync kaggle models to HF keras",
+      "url": "https://github.com/keras-team/keras-hub/pull/2936",
+      "label": "keras-hub#2936",
+      "date": "2026-08-13"
+     },
+     {
+      "title": "Version bump to 0.32.0.dev0",
+      "url": "https://github.com/keras-team/keras-hub/pull/2935",
+      "label": "keras-hub#2935",
+      "date": "2026-08-08"
+     },
+     {
+      "title": "Version bump to 0.31.0",
+      "url": "https://github.com/keras-team/keras-hub/pull/2934",
+      "label": "keras-hub#2934",
+      "date": "2026-08-08"
+     },
+     {
+      "title": "Bump version to 3.12.4",
+      "url": "https://github.com/keras-team/keras/pull/23356",
+      "label": "keras#23356",
+      "date": "2026-07-29"
+     },
+     {
+      "title": "Bump version to 3.15.1",
+      "url": "https://github.com/keras-team/keras/pull/23350",
+      "label": "keras#23350",
+      "date": "2026-07-29"
+     },
+     {
+      "title": "Master Version bump to 0.31.0.dev0",
+      "url": "https://github.com/keras-team/keras-hub/pull/2859",
+      "label": "keras-hub#2859",
+      "date": "2026-07-24"
+     },
+     {
+      "title": "Version bump to 0.30.0",
+      "url": "https://github.com/keras-team/keras-hub/pull/2858",
+      "label": "keras-hub#2858",
+      "date": "2026-07-24"
+     },
+     {
+      "title": "[JUL] Sync kaggle models to HF",
+      "url": "https://github.com/keras-team/keras-hub/pull/2802",
+      "label": "keras-hub#2802",
+      "date": "2026-07-15"
+     },
+     {
+      "title": "Security Fixes 3.12.3",
+      "url": "https://github.com/keras-team/keras/pull/23165",
+      "label": "keras#23165",
+      "date": "2026-06-25"
+     },
+     {
+      "title": "Update keras dev version to 3.16.0",
+      "url": "https://github.com/keras-team/keras/pull/23158",
+      "label": "keras#23158",
+      "date": "2026-06-24"
+     },
+     {
+      "title": "Version bump to 0.29.1",
+      "url": "https://github.com/keras-team/keras-hub/pull/2754",
+      "label": "keras-hub#2754",
+      "date": "2026-06-02"
+     },
+     {
+      "title": "[Release] Version bump 0.29.1.dev0",
+      "url": "https://github.com/keras-team/keras-hub/pull/2753",
+      "label": "keras-hub#2753",
+      "date": "2026-06-01"
+     },
+     {
+      "title": "Version bump 3.11.2 and nnx fix #21565",
+      "url": "https://github.com/keras-team/keras/pull/21570",
+      "label": "keras#21570",
+      "date": "2025-08-11"
+     },
+     {
+      "title": "Version bump to 0.2.2.dev0",
+      "url": "https://github.com/keras-team/keras-rs/pull/117",
+      "label": "keras-rs#117",
+      "date": "2025-06-03"
+     },
+     {
+      "title": "Version bump to 0.2.1",
+      "url": "https://github.com/keras-team/keras-rs/pull/116",
+      "label": "keras-rs#116",
+      "date": "2025-06-03"
+     },
+     {
+      "title": "Version bump to 0.21.1",
+      "url": "https://github.com/keras-team/keras-hub/pull/2285",
+      "label": "keras-hub#2285",
+      "date": "2025-06-03"
+     },
+     {
+      "title": "Version bump 0.2.1.dev0",
+      "url": "https://github.com/keras-team/keras-rs/pull/115",
+      "label": "keras-rs#115",
+      "date": "2025-06-03"
+     },
+     {
+      "title": "Bump up master version to 0.22.0.dev0",
+      "url": "https://github.com/keras-team/keras-hub/pull/2277",
+      "label": "keras-hub#2277",
+      "date": "2025-05-28"
+     },
+     {
+      "title": "Version bump to 0.21.0",
+      "url": "https://github.com/keras-team/keras-hub/pull/2275",
+      "label": "keras-hub#2275",
+      "date": "2025-05-28"
+     },
+     {
+      "title": "Version bump 0.21.0.dev1",
+      "url": "https://github.com/keras-team/keras-hub/pull/2273",
+      "label": "keras-hub#2273",
+      "date": "2025-05-27"
+     }
+    ]
+   },
+   {
+    "name": "Guides and examples",
+    "colour": "#FF9EC4",
+    "prs": [
+     {
+      "title": "Add FunctionGemma guide to keras",
+      "url": "https://github.com/keras-team/keras-io/pull/2299",
+      "label": "keras-io#2299",
+      "date": "2026-03-10"
+     },
+     {
+      "title": "A guide on RAG Pipeline with kerasHub models",
+      "url": "https://github.com/keras-team/keras-io/pull/2158",
+      "label": "keras-io#2158",
+      "date": "2025-08-09"
+     },
+     {
+      "title": "Update title for HF Guide",
+      "url": "https://github.com/keras-team/keras-io/pull/2149",
+      "label": "keras-io#2149",
+      "date": "2025-07-22"
+     },
+     {
+      "title": "Fix Rendering issue for FC guide",
+      "url": "https://github.com/keras-team/keras-io/pull/2148",
+      "label": "keras-io#2148",
+      "date": "2025-07-21"
+     },
+     {
+      "title": "Add FC guide to hub",
+      "url": "https://github.com/keras-team/keras-io/pull/2143",
+      "label": "keras-io#2143",
+      "date": "2025-07-14"
+     },
+     {
+      "title": "A guide to using the Function Calling feature with Keras Hub models",
+      "url": "https://github.com/keras-team/keras-io/pull/2133",
+      "label": "keras-io#2133",
+      "date": "2025-07-13"
+     },
+     {
+      "title": "Add API mapping table to HF Guide",
+      "url": "https://github.com/keras-team/keras-io/pull/2130",
+      "label": "keras-io#2130",
+      "date": "2025-06-24"
+     },
+     {
+      "title": "Address rendering issues in huggingface guide #2124",
+      "url": "https://github.com/keras-team/keras-io/pull/2127",
+      "label": "keras-io#2127",
+      "date": "2025-06-19"
+     },
+     {
+      "title": "Guide on how to load and inference keras hub model weights hosted on HF",
+      "url": "https://github.com/keras-team/keras-io/pull/2124",
+      "label": "keras-io#2124",
+      "date": "2025-06-18"
+     },
+     {
+      "title": "Highly accurate boundaries segmentation using BASNet to keras 3.0",
+      "url": "https://github.com/keras-team/keras-io/pull/2038",
+      "label": "keras-io#2038",
+      "date": "2025-01-28"
+     }
+    ]
+   },
+   {
+    "name": "API docs",
+    "colour": "#FFE08A",
+    "prs": [
+     {
+      "title": "Add Magistral API details",
+      "url": "https://github.com/keras-team/keras-io/pull/2399",
+      "label": "keras-io#2399",
+      "date": "2026-07-24"
+     },
+     {
+      "title": "Add BLIP2 model API details and TextEmbedder base class API details to hub master",
+      "url": "https://github.com/keras-team/keras-io/pull/2397",
+      "label": "keras-io#2397",
+      "date": "2026-07-24"
+     },
+     {
+      "title": "Add Qwen3.5 MoE API Documentation to IO",
+      "url": "https://github.com/keras-team/keras-io/pull/2391",
+      "label": "keras-io#2391",
+      "date": "2026-07-24"
+     },
+     {
+      "title": "Add Keras 3.15.0 new APIs to docs",
+      "url": "https://github.com/keras-team/keras-io/pull/2388",
+      "label": "keras-io#2388",
+      "date": "2026-06-26"
+     },
+     {
+      "title": "Update KH Version and API details for Swin Transformer Model",
+      "url": "https://github.com/keras-team/keras-io/pull/2371",
+      "label": "keras-io#2371",
+      "date": "2026-06-02"
+     },
+     {
+      "title": "Add API docmentation for Gemma3n",
+      "url": "https://github.com/keras-team/keras-io/pull/2348",
+      "label": "keras-io#2348",
+      "date": "2026-04-17"
+     },
+     {
+      "title": "Add API docmentation for Qwen3.5",
+      "url": "https://github.com/keras-team/keras-io/pull/2349",
+      "label": "keras-io#2349",
+      "date": "2026-04-17"
+     },
+     {
+      "title": "API documentation Details for T5Gemma2",
+      "url": "https://github.com/keras-team/keras-io/pull/2328",
+      "label": "keras-io#2328",
+      "date": "2026-04-02"
+     },
+     {
+      "title": "Add usage API Doc For GPT-OSS",
+      "url": "https://github.com/keras-team/keras-io/pull/2267",
+      "label": "keras-io#2267",
+      "date": "2026-01-29"
+     },
+     {
+      "title": "Add Qwen3 API usage documentation to hub_master.py",
+      "url": "https://github.com/keras-team/keras-io/pull/2140",
+      "label": "keras-io#2140",
+      "date": "2025-08-15"
+     },
+     {
+      "title": "Add HGNetV2 API documentation to hub_master.py",
+      "url": "https://github.com/keras-team/keras-io/pull/2141",
+      "label": "keras-io#2141",
+      "date": "2025-08-15"
+     },
+     {
+      "title": "Add Mixtral,Qwen-Moe,Qwen,Xception API usage",
+      "url": "https://github.com/keras-team/keras-io/pull/2101",
+      "label": "keras-io#2101",
+      "date": "2025-05-20"
+     },
+     {
+      "title": "Add gpt neo X api doc to keras-io",
+      "url": "https://github.com/keras-team/keras-io/pull/2091",
+      "label": "keras-io#2091",
+      "date": "2025-05-01"
+     },
+     {
+      "title": "Add Flux,Xlnet,Gemma3 api docs to keras-io",
+      "url": "https://github.com/keras-team/keras-io/pull/2089",
+      "label": "keras-io#2089",
+      "date": "2025-04-15"
+     },
+     {
+      "title": "Add SigLip Api doc to keras-io",
+      "url": "https://github.com/keras-team/keras-io/pull/2068",
+      "label": "keras-io#2068",
+      "date": "2025-04-04"
+     },
+     {
+      "title": "Add CSPNet api doc to keras-io",
+      "url": "https://github.com/keras-team/keras-io/pull/2066",
+      "label": "keras-io#2066",
+      "date": "2025-04-04"
+     },
+     {
+      "title": "Add RematScope API to keras-io",
+      "url": "https://github.com/keras-team/keras-io/pull/2080",
+      "label": "keras-io#2080",
+      "date": "2025-04-04"
+     },
+     {
+      "title": "Add API doc for BasNet,Efficientnet,ViT,SegFormer,RetinaNet,MobileNet",
+      "url": "https://github.com/keras-team/keras-io/pull/2062",
+      "label": "keras-io#2062",
+      "date": "2025-03-25"
+     },
+     {
+      "title": "Add CLIP API doc in keras-io",
+      "url": "https://github.com/keras-team/keras-io/pull/2057",
+      "label": "keras-io#2057",
+      "date": "2025-03-12"
+     }
+    ]
+   },
+   {
+    "name": "TensorFlow.js",
+    "colour": "#F6C177",
+    "prs": [
+     {
+      "title": "Update TFJS version speech-commands,tasks,toxicity and universal-sentence-encoder",
+      "url": "https://github.com/tensorflow/tfjs-models/pull/1281",
+      "label": "tfjs-models#1281",
+      "date": "2023-12-06"
+     },
+     {
+      "title": "Update TFJS version for models posenet and qna",
+      "url": "https://github.com/tensorflow/tfjs-models/pull/1280",
+      "label": "tfjs-models#1280",
+      "date": "2023-12-05"
+     },
+     {
+      "title": "Update TFJS version for models hand-pose-detection,handpose,knn-classifier and mobilenet",
+      "url": "https://github.com/tensorflow/tfjs-models/pull/1279",
+      "label": "tfjs-models#1279",
+      "date": "2023-11-30"
+     },
+     {
+      "title": "Update TFJS version for coco-ssd, depth estimation, face-detetction and gpt2.",
+      "url": "https://github.com/tensorflow/tfjs-models/pull/1278",
+      "label": "tfjs-models#1278",
+      "date": "2023-11-30"
+     },
+     {
+      "title": "Update TFJS version in demo for blazeface, body-pix, and body-segmentation",
+      "url": "https://github.com/tensorflow/tfjs-models/pull/1282",
+      "label": "tfjs-models#1282",
+      "date": "2023-11-30"
+     },
+     {
+      "title": "Update TFJS version for face-landmarks-detection",
+      "url": "https://github.com/tensorflow/tfjs-models/pull/1283",
+      "label": "tfjs-models#1283",
+      "date": "2023-11-30"
+     },
+     {
+      "title": "Update monorepo to 4.14.0.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8085",
+      "label": "tfjs#8085",
+      "date": "2023-11-30"
+     },
+     {
+      "title": "Update monorepo to 4.14.0-rc.0.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8072",
+      "label": "tfjs#8072",
+      "date": "2023-11-16"
+     },
+     {
+      "title": "Update TFJS version for blazeface, body-pix, and body-segmentation",
+      "url": "https://github.com/tensorflow/tfjs-models/pull/1270",
+      "label": "tfjs-models#1270",
+      "date": "2023-11-09"
+     },
+     {
+      "title": "Update website to latest dependencies.",
+      "url": "https://github.com/tensorflow/tfjs-website/pull/512",
+      "label": "tfjs-website#512",
+      "date": "2023-11-09"
+     },
+     {
+      "title": "Update lockfiles branch tfjs_4.13.0_lockfiles lock files.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8061",
+      "label": "tfjs#8061",
+      "date": "2023-11-08"
+     },
+     {
+      "title": "Update monorepo to 4.13.0.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8054",
+      "label": "tfjs#8054",
+      "date": "2023-11-07"
+     },
+     {
+      "title": "Update lockfiles branch tfjs_4.13.0-rc.0_lockfiles lock files.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8046",
+      "label": "tfjs#8046",
+      "date": "2023-10-31"
+     },
+     {
+      "title": "Update monorepo to 4.13.0-rc.0.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8043",
+      "label": "tfjs#8043",
+      "date": "2023-10-30"
+     },
+     {
+      "title": "Update website to latest dependencies.",
+      "url": "https://github.com/tensorflow/tfjs-website/pull/510",
+      "label": "tfjs-website#510",
+      "date": "2023-10-20"
+     },
+     {
+      "title": "Update lockfiles branch tfjs_4.12.0_lockfiles lock files.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8017",
+      "label": "tfjs#8017",
+      "date": "2023-10-18"
+     },
+     {
+      "title": "Update verdaccio.yaml",
+      "url": "https://github.com/tensorflow/tfjs/pull/8018",
+      "label": "tfjs#8018",
+      "date": "2023-10-18"
+     },
+     {
+      "title": "Update monorepo to 4.12.0.",
+      "url": "https://github.com/tensorflow/tfjs/pull/8013",
+      "label": "tfjs#8013",
+      "date": "2023-10-17"
+     }
+    ]
+   },
+   {
+    "name": "TensorFlow Model Garden",
+    "colour": "#C9D1E0",
+    "prs": [
+     {
+      "title": "add Bharat and Lakshmikala to bot_config.yml to assign github issues",
+      "url": "https://github.com/tensorflow/models/pull/11236",
+      "label": "models#11236",
+      "date": "2024-08-01"
+     },
+     {
+      "title": "Update setup.py",
+      "url": "https://github.com/tensorflow/models/pull/11233",
+      "label": "models#11233",
+      "date": "2024-07-12"
+     },
+     {
+      "title": "removed tf_text requirement from setup.py for tf-models-no-deps pypi package",
+      "url": "https://github.com/tensorflow/models/pull/11225",
+      "label": "models#11225",
+      "date": "2024-06-18"
+     },
+     {
+      "title": "Update CODEOWNERS",
+      "url": "https://github.com/tensorflow/models/pull/11182",
+      "label": "models#11182",
+      "date": "2024-04-10"
+     },
+     {
+      "title": "Updated model building blocks API links in NLP Readme.md file to improve readability for users.",
+      "url": "https://github.com/tensorflow/models/pull/11174",
+      "label": "models#11174",
+      "date": "2024-03-01"
+     },
+     {
+      "title": "Adding Backbones,Decoders,Heads API links to Readme.md file in vision folder for more readability of the document",
+      "url": "https://github.com/tensorflow/models/pull/11171",
+      "label": "models#11171",
+      "date": "2024-02-28"
+     },
+     {
+      "title": "Update Readme.md file for examples and tutorials related to NLP and Vision using TensorFlow Model Garden",
+      "url": "https://github.com/tensorflow/models/pull/11170",
+      "label": "models#11170",
+      "date": "2024-02-27"
+     },
+     {
+      "title": "Typos corrected",
+      "url": "https://github.com/tensorflow/models/pull/10942",
+      "label": "models#10942",
+      "date": "2023-12-06"
+     },
+     {
+      "title": "typo correction in log message in train.py",
+      "url": "https://github.com/tensorflow/models/pull/11027",
+      "label": "models#11027",
+      "date": "2023-12-06"
+     },
+     {
+      "title": "Typo fix in TF doc",
+      "url": "https://github.com/tensorflow/models/pull/11029",
+      "label": "models#11029",
+      "date": "2023-12-06"
+     },
+     {
+      "title": "A list of assignees updated in bot_config.yml",
+      "url": "https://github.com/tensorflow/models/pull/11080",
+      "label": "models#11080",
+      "date": "2023-08-24"
+     },
+     {
+      "title": "Updated doc according to new folder structure",
+      "url": "https://github.com/tensorflow/models/pull/11036",
+      "label": "models#11036",
+      "date": "2023-07-20"
+     },
+     {
+      "title": "Fixing Typos",
+      "url": "https://github.com/tensorflow/models/pull/10922",
+      "label": "models#10922",
+      "date": "2023-07-18"
+     },
+     {
+      "title": "Typos updated",
+      "url": "https://github.com/tensorflow/models/pull/10907",
+      "label": "models#10907",
+      "date": "2023-02-22"
+     },
+     {
+      "title": "Fixing Typos",
+      "url": "https://github.com/tensorflow/models/pull/10919",
+      "label": "models#10919",
+      "date": "2023-02-21"
+     },
+     {
+      "title": "Typo's corrected",
+      "url": "https://github.com/tensorflow/models/pull/10912",
+      "label": "models#10912",
+      "date": "2023-01-30"
+     },
+     {
+      "title": "Typo corrected",
+      "url": "https://github.com/tensorflow/models/pull/10911",
+      "label": "models#10911",
+      "date": "2023-01-30"
+     },
+     {
+      "title": "Typos Correction",
+      "url": "https://github.com/tensorflow/models/pull/10898",
+      "label": "models#10898",
+      "date": "2023-01-23"
+     },
+     {
+      "title": "Typos correction",
+      "url": "https://github.com/tensorflow/models/pull/10897",
+      "label": "models#10897",
+      "date": "2023-01-21"
+     },
+     {
+      "title": "Typos correction",
+      "url": "https://github.com/tensorflow/models/pull/10896",
+      "label": "models#10896",
+      "date": "2023-01-21"
+     },
+     {
+      "title": "Typos correction",
+      "url": "https://github.com/tensorflow/models/pull/10894",
+      "label": "models#10894",
+      "date": "2023-01-20"
+     },
+     {
+      "title": "typos corrected",
+      "url": "https://github.com/tensorflow/models/pull/10902",
+      "label": "models#10902",
+      "date": "2023-01-20"
+     },
+     {
+      "title": "Updated typos",
+      "url": "https://github.com/tensorflow/models/pull/10901",
+      "label": "models#10901",
+      "date": "2023-01-20"
+     },
+     {
+      "title": "typos correction",
+      "url": "https://github.com/tensorflow/models/pull/10899",
+      "label": "models#10899",
+      "date": "2023-01-19"
+     },
+     {
+      "title": "Typos Correction",
+      "url": "https://github.com/tensorflow/models/pull/10900",
+      "label": "models#10900",
+      "date": "2023-01-19"
+     }
+    ]
+   }
+  ]
+ },
+ "reviews": {
+  "total": 212,
+  "authors": 40,
+  "repositories": 7,
+  "colour": "#9BE3E0",
+  "url": "https://github.com/search?q=is%3Apr+reviewed-by%3Alaxmareddyp+-author%3Alaxmareddyp+org%3Akeras-team+org%3Atensorflow&type=pullrequests",
+  "prs": [
+   {
+    "title": "Remove Jules integration.",
+    "url": "https://github.com/keras-team/keras/pull/24217",
+    "label": "keras#24217",
+    "date": "2026-11-11"
+   },
+   {
+    "title": "Add Qwen2 VL model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2463",
+    "label": "keras-io#2463",
+    "date": "2026-11-11"
+   },
+   {
+    "title": "Add GPT-NeoX presets and Hugging Face converter, fix generation and tokenization",
+    "url": "https://github.com/keras-team/keras-hub/pull/3259",
+    "label": "keras-hub#3259",
+    "date": "2026-11-11"
+   },
+   {
+    "title": "Fix typo in sam3_pc_backbone_test.py filename",
+    "url": "https://github.com/keras-team/keras-hub/pull/3258",
+    "label": "keras-hub#3258",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Update version of `ruff` in pre-commit hook.",
+    "url": "https://github.com/keras-team/keras-hub/pull/3250",
+    "label": "keras-hub#3250",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Fix top_k on bfloat16 inputs",
+    "url": "https://github.com/keras-team/keras-openvino/pull/66",
+    "label": "keras-openvino#66",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "Bump astral-sh/setup-uv from 10.3.2 to 10.3.3 in the github-actions group",
+    "url": "https://github.com/keras-team/keras-hub/pull/3238",
+    "label": "keras-hub#3238",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "Fix Kaiser test on TPU.",
+    "url": "https://github.com/keras-team/keras/pull/24157",
+    "label": "keras#24157",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Fix ModernBertMaskedLM decoder bias not being tracked on the torch backend",
+    "url": "https://github.com/keras-team/keras-hub/pull/3220",
+    "label": "keras-hub#3220",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Add MPNet model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2453",
+    "label": "keras-io#2453",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Version bump to 0.34.0.dev0",
+    "url": "https://github.com/keras-team/keras-hub/pull/3219",
+    "label": "keras-hub#3219",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Version bump to 0.33.0",
+    "url": "https://github.com/keras-team/keras-hub/pull/3218",
+    "label": "keras-hub#3218",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Build(deps): Bump the github-actions group with 4 updates",
+    "url": "https://github.com/keras-team/keras/pull/24135",
+    "label": "keras#24135",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Use /triage as the sole manual comment trigger for issue triage workflow",
+    "url": "https://github.com/keras-team/keras-hub/pull/3217",
+    "label": "keras-hub#3217",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Use /triage as the sole manual comment trigger for issue triage workflow",
+    "url": "https://github.com/keras-team/keras/pull/24133",
+    "label": "keras#24133",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Bump the github-actions group with 5 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/3215",
+    "label": "keras-hub#3215",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Run preprocessing layers on the CPU inside Grain pipelines",
+    "url": "https://github.com/keras-team/keras-hub/pull/3202",
+    "label": "keras-hub#3202",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Add SmolVLM2 model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2442",
+    "label": "keras-io#2442",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Add SmolVLM2 Kaggle presets",
+    "url": "https://github.com/keras-team/keras-hub/pull/3197",
+    "label": "keras-hub#3197",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Add EmbeddingGemma 2 model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2438",
+    "label": "keras-io#2438",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Add Mistral3 model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2436",
+    "label": "keras-io#2436",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Add Muse Glimmer model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2434",
+    "label": "keras-io#2434",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Bump github/codeql-action/upload-sarif from 4.38.3 to 4.39.0 in the github-actions group",
+    "url": "https://github.com/keras-team/keras-hub/pull/3190",
+    "label": "keras-hub#3190",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "Add Qwen3-VL (dense) backbone, causal LM and HF converter",
+    "url": "https://github.com/keras-team/keras-hub/pull/3186",
+    "label": "keras-hub#3186",
+    "date": "2026-10-24"
+   },
+   {
+    "title": "Add a stochastic-mode ragged-prompt test for SpeculativeSampler",
+    "url": "https://github.com/keras-team/keras-hub/pull/3183",
+    "label": "keras-hub#3183",
+    "date": "2026-10-22"
+   },
+   {
+    "title": "Add Mpnet backbone, tokenizer and text embedder",
+    "url": "https://github.com/keras-team/keras-hub/pull/3181",
+    "label": "keras-hub#3181",
+    "date": "2026-10-22"
+   },
+   {
+    "title": "Bump the github-actions group with 4 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/3178",
+    "label": "keras-hub#3178",
+    "date": "2026-10-19"
+   },
+   {
+    "title": "Fix Gemma4CausalLM applying the final logit soft-cap twice",
+    "url": "https://github.com/keras-team/keras-hub/pull/3177",
+    "label": "keras-hub#3177",
+    "date": "2026-10-18"
+   },
+   {
+    "title": "Add DiffusionGemma model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2427",
+    "label": "keras-io#2427",
+    "date": "2026-10-17"
+   },
+   {
+    "title": "Speed up JAX GPU tests using XLA flags.",
+    "url": "https://github.com/keras-team/keras/pull/23985",
+    "label": "keras#23985",
+    "date": "2026-10-16"
+   },
+   {
+    "title": "Bump GPU tests timeout to 4 hours.",
+    "url": "https://github.com/keras-team/keras/pull/23982",
+    "label": "keras#23982",
+    "date": "2026-10-16"
+   },
+   {
+    "title": "Validate `config_file` in Tokenizer and Preprocessor",
+    "url": "https://github.com/keras-team/keras-hub/pull/3167",
+    "label": "keras-hub#3167",
+    "date": "2026-10-15"
+   },
+   {
+    "title": "Suppress new zizmor `issue_comment` findings.",
+    "url": "https://github.com/keras-team/keras/pull/23968",
+    "label": "keras#23968",
+    "date": "2026-10-15"
+   },
+   {
+    "title": "Suppress new zizmor issue_comment findings",
+    "url": "https://github.com/keras-team/keras-hub/pull/3162",
+    "label": "keras-hub#3162",
+    "date": "2026-10-15"
+   },
+   {
+    "title": "Serialize data_format in ImageConverter",
+    "url": "https://github.com/keras-team/keras-hub/pull/3160",
+    "label": "keras-hub#3160",
+    "date": "2026-10-14"
+   },
+   {
+    "title": "Add ModernBERT model API documentation",
+    "url": "https://github.com/keras-team/keras-io/pull/2425",
+    "label": "keras-io#2425",
+    "date": "2026-10-14"
+   },
+   {
+    "title": "Register diffusion gemma model presets to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/3155",
+    "label": "keras-hub#3155",
+    "date": "2026-10-14"
+   },
+   {
+    "title": "Add Gemma 4 12B unified encoder-free multimodal model",
+    "url": "https://github.com/keras-team/keras-hub/pull/3153",
+    "label": "keras-hub#3153",
+    "date": "2026-10-13"
+   },
+   {
+    "title": "Add ModernBERT text embedder",
+    "url": "https://github.com/keras-team/keras-hub/pull/3150",
+    "label": "keras-hub#3150",
+    "date": "2026-10-12"
+   },
+   {
+    "title": "Add mmbert",
+    "url": "https://github.com/keras-team/keras-hub/pull/3149",
+    "label": "keras-hub#3149",
+    "date": "2026-10-10"
+   },
+   {
+    "title": "Fix zizmor ref-version-mismatch for upload-artifact in scorecard.yml",
+    "url": "https://github.com/keras-team/keras/pull/23881",
+    "label": "keras#23881",
+    "date": "2026-10-09"
+   },
+   {
+    "title": "Build(deps): Bump the github-actions group with 5 updates",
+    "url": "https://github.com/keras-team/keras/pull/23851",
+    "label": "keras#23851",
+    "date": "2026-10-06"
+   },
+   {
+    "title": "Revert \"Fix division by zero NaN in categorical_crossentropy\"",
+    "url": "https://github.com/keras-team/keras/pull/23843",
+    "label": "keras#23843",
+    "date": "2026-10-06"
+   },
+   {
+    "title": "Fix invalid use of `ops.size` in `sparse_categorical_focal_crossentropy`.",
+    "url": "https://github.com/keras-team/keras/pull/23842",
+    "label": "keras#23842",
+    "date": "2026-10-05"
+   },
+   {
+    "title": "Bump the github-actions group with 3 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/3134",
+    "label": "keras-hub#3134",
+    "date": "2026-10-05"
+   },
+   {
+    "title": "Add OpenAI Privacy Filter model to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/3133",
+    "label": "keras-hub#3133",
+    "date": "2026-10-02"
+   },
+   {
+    "title": "Build(deps): Bump the github-actions group with 3 updates",
+    "url": "https://github.com/keras-team/keras/pull/23784",
+    "label": "keras#23784",
+    "date": "2026-09-29"
+   },
+   {
+    "title": "Rename pr-approved-issue.yml to pull-request-validation.yml",
+    "url": "https://github.com/keras-team/keras-hub/pull/3129",
+    "label": "keras-hub#3129",
+    "date": "2026-09-28"
+   },
+   {
+    "title": "Bump the github-actions group with 2 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/3128",
+    "label": "keras-hub#3128",
+    "date": "2026-09-28"
+   },
+   {
+    "title": "Fix dead links in CONTRIBUTING_MODELS.md and STYLE_GUIDE.md",
+    "url": "https://github.com/keras-team/keras-hub/pull/3125",
+    "label": "keras-hub#3125",
+    "date": "2026-09-28"
+   },
+   {
+    "title": "Fix support for JAX `numpy.cross` with 2D inputs.",
+    "url": "https://github.com/keras-team/keras/pull/23769",
+    "label": "keras#23769",
+    "date": "2026-09-25"
+   },
+   {
+    "title": "Add pull-request-validation.yml workflow",
+    "url": "https://github.com/keras-team/keras/pull/23768",
+    "label": "keras#23768",
+    "date": "2026-09-25"
+   },
+   {
+    "title": "Use shared workflow for PR approved issue check",
+    "url": "https://github.com/keras-team/keras-hub/pull/3122",
+    "label": "keras-hub#3122",
+    "date": "2026-09-24"
+   },
+   {
+    "title": "Add reusable PR approved issue check workflow",
+    "url": "https://github.com/keras-team/shared-workflows/pull/13",
+    "label": "shared-workflows#13",
+    "date": "2026-09-24"
+   },
+   {
+    "title": "Serialize data_format in ViT, DeiT, ResNet, Xception and EfficientNet",
+    "url": "https://github.com/keras-team/keras-hub/pull/3121",
+    "label": "keras-hub#3121",
+    "date": "2026-09-24"
+   },
+   {
+    "title": "Update models on the front page",
+    "url": "https://github.com/keras-team/keras-io/pull/2419",
+    "label": "keras-io#2419",
+    "date": "2026-09-22"
+   },
+   {
+    "title": "Build(deps): Bump the github-actions group with 3 updates",
+    "url": "https://github.com/keras-team/keras/pull/23715",
+    "label": "keras#23715",
+    "date": "2026-09-22"
+   },
+   {
+    "title": "Bump the github-actions group with 2 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/3116",
+    "label": "keras-hub#3116",
+    "date": "2026-09-21"
+   },
+   {
+    "title": "Version bump to 0.33.0.dev0",
+    "url": "https://github.com/keras-team/keras-hub/pull/3103",
+    "label": "keras-hub#3103",
+    "date": "2026-09-18"
+   },
+   {
+    "title": "Version bump 0.32.0",
+    "url": "https://github.com/keras-team/keras-hub/pull/3102",
+    "label": "keras-hub#3102",
+    "date": "2026-09-18"
+   },
+   {
+    "title": "Add Muse Glimmer and Muse Glimmer Assistant to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/3100",
+    "label": "keras-hub#3100",
+    "date": "2026-09-18"
+   },
+   {
+    "title": "Add SmolVLM2 model to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/3096",
+    "label": "keras-hub#3096",
+    "date": "2026-09-17"
+   },
+   {
+    "title": "Resolve tied weights from safetensors metadata in SafetensorLoader",
+    "url": "https://github.com/keras-team/keras-hub/pull/3076",
+    "label": "keras-hub#3076",
+    "date": "2026-09-16"
+   },
+   {
+    "title": "Skip the has is_stable test when sys.executable is None",
+    "url": "https://github.com/keras-team/keras-hub/pull/3074",
+    "label": "keras-hub#3074",
+    "date": "2026-09-16"
+   },
+   {
+    "title": "Add missing converter for vaultgemma",
+    "url": "https://github.com/keras-team/keras-hub/pull/3071",
+    "label": "keras-hub#3071",
+    "date": "2026-09-16"
+   },
+   {
+    "title": "[PyGrain Migration] Default preprocessing layers to the Python workflow and test",
+    "url": "https://github.com/keras-team/keras-hub/pull/3069",
+    "label": "keras-hub#3069",
+    "date": "2026-09-15"
+   },
+   {
+    "title": "Fixed the broken link in PR Template",
+    "url": "https://github.com/keras-team/keras/pull/23618",
+    "label": "keras#23618",
+    "date": "2026-09-12"
+   },
+   {
+    "title": "[PyGrain Migration] Unpack (x, y, sample_weight) tuples in the preprocessing __call__ path",
+    "url": "https://github.com/keras-team/keras-hub/pull/3062",
+    "label": "keras-hub#3062",
+    "date": "2026-09-11"
+   },
+   {
+    "title": "[PyGrain Migration] Add Grain coverage to TestCase harness",
+    "url": "https://github.com/keras-team/keras-hub/pull/3061",
+    "label": "keras-hub#3061",
+    "date": "2026-09-11"
+   },
+   {
+    "title": "[PyGrain Migration] Return NumPy instead of backend tensors from preprocessing",
+    "url": "https://github.com/keras-team/keras-hub/pull/3060",
+    "label": "keras-hub#3060",
+    "date": "2026-09-11"
+   },
+   {
+    "title": "Fix `quantizers/strategy_registry_test` test on TPU.",
+    "url": "https://github.com/keras-team/keras/pull/23611",
+    "label": "keras#23611",
+    "date": "2026-09-11"
+   },
+   {
+    "title": "update stale and close time windows to 7 days",
+    "url": "https://github.com/keras-team/keras-hub/pull/3057",
+    "label": "keras-hub#3057",
+    "date": "2026-09-10"
+   },
+   {
+    "title": "Update stale and close time windows to 7 days",
+    "url": "https://github.com/keras-team/keras/pull/23604",
+    "label": "keras#23604",
+    "date": "2026-09-10"
+   },
+   {
+    "title": "update PR template to point to new PR policy",
+    "url": "https://github.com/keras-team/keras-hub/pull/3055",
+    "label": "keras-hub#3055",
+    "date": "2026-09-10"
+   },
+   {
+    "title": "Reproduce gpu failure",
+    "url": "https://github.com/keras-team/keras-hub/pull/3050",
+    "label": "keras-hub#3050",
+    "date": "2026-09-10"
+   },
+   {
+    "title": "Raise an informative error when calling a task model directly on string inputs",
+    "url": "https://github.com/keras-team/keras-hub/pull/3049",
+    "label": "keras-hub#3049",
+    "date": "2026-09-10"
+   },
+   {
+    "title": "Build(deps): Bump github/codeql-action/upload-sarif from 4.37.8 to 4.37.9 in the github-actions group",
+    "url": "https://github.com/keras-team/keras/pull/23586",
+    "label": "keras#23586",
+    "date": "2026-09-08"
+   },
+   {
+    "title": "Bump github/codeql-action/upload-sarif from 4.37.8 to 4.37.9 in the github-actions group",
+    "url": "https://github.com/keras-team/keras-hub/pull/3042",
+    "label": "keras-hub#3042",
+    "date": "2026-09-07"
+   },
+   {
+    "title": "Implement build on Task to prevent unbuilt state warning",
+    "url": "https://github.com/keras-team/keras-hub/pull/3038",
+    "label": "keras-hub#3038",
+    "date": "2026-09-05"
+   },
+   {
+    "title": "[OpenVINO] Fix compiled-model cache invalidation and expand test whitelist",
+    "url": "https://github.com/keras-team/keras-hub/pull/3029",
+    "label": "keras-hub#3029",
+    "date": "2026-09-04"
+   },
+   {
+    "title": "Make all `actions/cache` actions in workflow consistent.",
+    "url": "https://github.com/keras-team/keras-rs/pull/202",
+    "label": "keras-rs#202",
+    "date": "2026-09-03"
+   },
+   {
+    "title": "Fixing autogen deps versioning",
+    "url": "https://github.com/keras-team/keras-io/pull/2416",
+    "label": "keras-io#2416",
+    "date": "2026-09-03"
+   },
+   {
+    "title": "Migrate to OIDC Publishing (Trusted Publishing)",
+    "url": "https://github.com/keras-team/keras-rs/pull/201",
+    "label": "keras-rs#201",
+    "date": "2026-09-02"
+   },
+   {
+    "title": "Add qwen3.8 model to hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/3026",
+    "label": "keras-hub#3026",
+    "date": "2026-09-01"
+   },
+   {
+    "title": "Build(deps): Bump github/codeql-action/upload-sarif from 4.37.7 to 4.37.8 in the github-actions group across 1 directory",
+    "url": "https://github.com/keras-team/keras/pull/23540",
+    "label": "keras#23540",
+    "date": "2026-08-31"
+   },
+   {
+    "title": "Bump the github-actions group with 4 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/3021",
+    "label": "keras-hub#3021",
+    "date": "2026-08-28"
+   },
+   {
+    "title": "Add Mistral3 model to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/3020",
+    "label": "keras-hub#3020",
+    "date": "2026-08-27"
+   },
+   {
+    "title": "Match the reference YaRN implementation in RotaryEmbedding",
+    "url": "https://github.com/keras-team/keras-hub/pull/2981",
+    "label": "keras-hub#2981",
+    "date": "2026-08-24"
+   },
+   {
+    "title": "Build(deps): Bump the github-actions group with 4 updates",
+    "url": "https://github.com/keras-team/keras/pull/23483",
+    "label": "keras#23483",
+    "date": "2026-08-21"
+   },
+   {
+    "title": "Set Dependabot GitHub Actions updates to weekly",
+    "url": "https://github.com/keras-team/keras-hub/pull/2972",
+    "label": "keras-hub#2972",
+    "date": "2026-08-19"
+   },
+   {
+    "title": "Use shared workflow for auto-assignment",
+    "url": "https://github.com/keras-team/keras-hub/pull/2971",
+    "label": "keras-hub#2971",
+    "date": "2026-08-19"
+   },
+   {
+    "title": "Fix 'image_size' argument typo in PaliGemmaBackbone example code",
+    "url": "https://github.com/keras-team/keras-hub/pull/2969",
+    "label": "keras-hub#2969",
+    "date": "2026-08-19"
+   },
+   {
+    "title": "Fix 'vit_pooling' value mismatch in PaliGemma documentation and error handling.",
+    "url": "https://github.com/keras-team/keras-hub/pull/2968",
+    "label": "keras-hub#2968",
+    "date": "2026-08-19"
+   },
+   {
+    "title": "Fix 'polling' typos in Keras Hub docstrings and error messages",
+    "url": "https://github.com/keras-team/keras-hub/pull/2967",
+    "label": "keras-hub#2967",
+    "date": "2026-08-19"
+   },
+   {
+    "title": "Relax OpenVINO test tolerance in STFTSpectrogram error test",
+    "url": "https://github.com/keras-team/keras/pull/23457",
+    "label": "keras#23457",
+    "date": "2026-08-18"
+   },
+   {
+    "title": "Add HGNetV2 timm checkpoint converter",
+    "url": "https://github.com/keras-team/keras-hub/pull/2961",
+    "label": "keras-hub#2961",
+    "date": "2026-08-15"
+   },
+   {
+    "title": "Add missing RoBERTa converter",
+    "url": "https://github.com/keras-team/keras-hub/pull/2960",
+    "label": "keras-hub#2960",
+    "date": "2026-08-15"
+   },
+   {
+    "title": "Fix Perplexity metric accumulation across batches",
+    "url": "https://github.com/keras-team/keras-hub/pull/2958",
+    "label": "keras-hub#2958",
+    "date": "2026-08-14"
+   },
+   {
+    "title": "Add FLUX model to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/2944",
+    "label": "keras-hub#2944",
+    "date": "2026-08-12"
+   },
+   {
+    "title": "Bump pymdown-extensions from 11.0 to 11.0.1",
+    "url": "https://github.com/keras-team/keras-io/pull/2406",
+    "label": "keras-io#2406",
+    "date": "2026-08-09"
+   },
+   {
+    "title": "Add Qwen3 ASR to Keras-Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/2942",
+    "label": "keras-hub#2942",
+    "date": "2026-08-08"
+   },
+   {
+    "title": "Port model tests to common test routines",
+    "url": "https://github.com/keras-team/keras-hub/pull/2940",
+    "label": "keras-hub#2940",
+    "date": "2026-08-08"
+   },
+   {
+    "title": "Fix NameError in Bleu rank validation",
+    "url": "https://github.com/keras-team/keras-hub/pull/2937",
+    "label": "keras-hub#2937",
+    "date": "2026-08-08"
+   },
+   {
+    "title": "Rename SegFormer test files so pytest actually collects them",
+    "url": "https://github.com/keras-team/keras-hub/pull/2933",
+    "label": "keras-hub#2933",
+    "date": "2026-08-07"
+   },
+   {
+    "title": "Add KV caching and a Seq2SeqLM task to T5",
+    "url": "https://github.com/keras-team/keras-hub/pull/2932",
+    "label": "keras-hub#2932",
+    "date": "2026-08-06"
+   },
+   {
+    "title": "Wire up Swin Transformer conversion and add missing converter tests",
+    "url": "https://github.com/keras-team/keras-hub/pull/2929",
+    "label": "keras-hub#2929",
+    "date": "2026-08-05"
+   },
+   {
+    "title": "Part of #2101: Name the missing package in the TensorFlow only metrics",
+    "url": "https://github.com/keras-team/keras-hub/pull/2927",
+    "label": "keras-hub#2927",
+    "date": "2026-08-04"
+   },
+   {
+    "title": "Add regularization to TransformerEncoder",
+    "url": "https://github.com/keras-team/keras-hub/pull/2926",
+    "label": "keras-hub#2926",
+    "date": "2026-08-03"
+   },
+   {
+    "title": "Add SmolVLM2 multimodal vision-language model- #2717",
+    "url": "https://github.com/keras-team/keras-hub/pull/2905",
+    "label": "keras-hub#2905",
+    "date": "2026-08-01"
+   },
+   {
+    "title": "Build(deps): Bump the github-actions group with 6 updates",
+    "url": "https://github.com/keras-team/keras/pull/23372",
+    "label": "keras#23372",
+    "date": "2026-08-01"
+   },
+   {
+    "title": "Bump the github-actions group with 6 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/2904",
+    "label": "keras-hub#2904",
+    "date": "2026-08-01"
+   },
+   {
+    "title": "Fix incorrect hardcoding of `training` argument in Qwen model creation.",
+    "url": "https://github.com/keras-team/keras-hub/pull/2903",
+    "label": "keras-hub#2903",
+    "date": "2026-07-31"
+   },
+   {
+    "title": "Port tokenizer and preprocessing tests to run_preprocessing_layer_test",
+    "url": "https://github.com/keras-team/keras-hub/pull/2902",
+    "label": "keras-hub#2902",
+    "date": "2026-07-30"
+   },
+   {
+    "title": "Part of #2101: Make TensorFlow optional at import time",
+    "url": "https://github.com/keras-team/keras-hub/pull/2891",
+    "label": "keras-hub#2891",
+    "date": "2026-07-30"
+   },
+   {
+    "title": "Part of #2874: Migrate PipelineModel data loading from tf.data to PyGrain",
+    "url": "https://github.com/keras-team/keras-hub/pull/2879",
+    "label": "keras-hub#2879",
+    "date": "2026-07-30"
+   },
+   {
+    "title": "fix kaggle import CI error",
+    "url": "https://github.com/keras-team/keras-hub/pull/2877",
+    "label": "keras-hub#2877",
+    "date": "2026-07-29"
+   },
+   {
+    "title": "Fix workflow core warn error",
+    "url": "https://github.com/keras-team/keras/pull/23344",
+    "label": "keras#23344",
+    "date": "2026-07-27"
+   },
+   {
+    "title": "Fix gemini triage",
+    "url": "https://github.com/keras-team/keras/pull/23343",
+    "label": "keras#23343",
+    "date": "2026-07-27"
+   },
+   {
+    "title": "fix issue triage workflow",
+    "url": "https://github.com/keras-team/keras/pull/23341",
+    "label": "keras#23341",
+    "date": "2026-07-27"
+   },
+   {
+    "title": "Bump pymdown-extensions from 10.20 to 11.0",
+    "url": "https://github.com/keras-team/keras-io/pull/2404",
+    "label": "keras-io#2404",
+    "date": "2026-07-24"
+   },
+   {
+    "title": "Add GLUE fine-tuning guide for KerasHub",
+    "url": "https://github.com/keras-team/keras-io/pull/2402",
+    "label": "keras-io#2402",
+    "date": "2026-07-24"
+   },
+   {
+    "title": "Fix zizmor unpinned-uses warnings",
+    "url": "https://github.com/keras-team/keras-io/pull/2400",
+    "label": "keras-io#2400",
+    "date": "2026-07-23"
+   },
+   {
+    "title": "Fix Zizmor Warnings",
+    "url": "https://github.com/keras-team/keras-hub/pull/2857",
+    "label": "keras-hub#2857",
+    "date": "2026-07-23"
+   },
+   {
+    "title": "Fix Zizmor warnings.",
+    "url": "https://github.com/keras-team/keras/pull/23314",
+    "label": "keras#23314",
+    "date": "2026-07-22"
+   },
+   {
+    "title": "Test transformer loss decreases during training",
+    "url": "https://github.com/keras-team/keras-hub/pull/2855",
+    "label": "keras-hub#2855",
+    "date": "2026-07-22"
+   },
+   {
+    "title": "Remove TensorFlow take_along_axis workarounds",
+    "url": "https://github.com/keras-team/keras-hub/pull/2854",
+    "label": "keras-hub#2854",
+    "date": "2026-07-22"
+   },
+   {
+    "title": "Gemma4 kerashub to safetensors checkpoint conversion",
+    "url": "https://github.com/keras-team/keras-hub/pull/2853",
+    "label": "keras-hub#2853",
+    "date": "2026-07-22"
+   },
+   {
+    "title": "Fix `pandas` and `tensorflow` interaction that caused deadlocks on MacOS.",
+    "url": "https://github.com/keras-team/keras/pull/23306",
+    "label": "keras#23306",
+    "date": "2026-07-21"
+   },
+   {
+    "title": "Use fused attention for SmolLM3",
+    "url": "https://github.com/keras-team/keras-hub/pull/2849",
+    "label": "keras-hub#2849",
+    "date": "2026-07-19"
+   },
+   {
+    "title": "build(deps): unpin torch and remove torchvision from CPU requirements",
+    "url": "https://github.com/keras-team/keras-hub/pull/2848",
+    "label": "keras-hub#2848",
+    "date": "2026-07-19"
+   },
+   {
+    "title": "Fix sentencepiece >= 0.2.2 version compatibility",
+    "url": "https://github.com/keras-team/keras-hub/pull/2847",
+    "label": "keras-hub#2847",
+    "date": "2026-07-19"
+   },
+   {
+    "title": "`get_file` also checks `os.altsep` on Windows.",
+    "url": "https://github.com/keras-team/keras/pull/23287",
+    "label": "keras#23287",
+    "date": "2026-07-17"
+   },
+   {
+    "title": "Use `get_keras_mask` in `Pipeline`.",
+    "url": "https://github.com/keras-team/keras/pull/23268",
+    "label": "keras#23268",
+    "date": "2026-07-16"
+   },
+   {
+    "title": "Build(deps): Bump the github-actions group with 2 updates",
+    "url": "https://github.com/keras-team/keras/pull/23266",
+    "label": "keras#23266",
+    "date": "2026-07-16"
+   },
+   {
+    "title": "Add Diffusion Gemma model to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/2804",
+    "label": "keras-hub#2804",
+    "date": "2026-07-16"
+   },
+   {
+    "title": "Bump the github-actions group with 2 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/2803",
+    "label": "keras-hub#2803",
+    "date": "2026-07-16"
+   },
+   {
+    "title": "Migrate EfficientNet fine-tuning tutorial to Keras 3",
+    "url": "https://github.com/keras-team/keras-io/pull/2393",
+    "label": "keras-io#2393",
+    "date": "2026-07-13"
+   },
+   {
+    "title": "Fix attention score returns in CachedMultiHeadAttention",
+    "url": "https://github.com/keras-team/keras-hub/pull/2799",
+    "label": "keras-hub#2799",
+    "date": "2026-07-09"
+   },
+   {
+    "title": "Fix for copybara sync failure",
+    "url": "https://github.com/keras-team/keras-hub/pull/2796",
+    "label": "keras-hub#2796",
+    "date": "2026-07-08"
+   },
+   {
+    "title": "Prevent division by zero in anchor normalizer calculation",
+    "url": "https://github.com/keras-team/keras-hub/pull/2791",
+    "label": "keras-hub#2791",
+    "date": "2026-07-06"
+   },
+   {
+    "title": "Fix rolling context window in miniature GPT example",
+    "url": "https://github.com/keras-team/keras-io/pull/2390",
+    "label": "keras-io#2390",
+    "date": "2026-07-03"
+   },
+   {
+    "title": "Bump the github-actions group with 2 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/2786",
+    "label": "keras-hub#2786",
+    "date": "2026-07-01"
+   },
+   {
+    "title": "Update vivit example with HIDDEN_DIM for embed_dim",
+    "url": "https://github.com/keras-team/keras-io/pull/2387",
+    "label": "keras-io#2387",
+    "date": "2026-06-25"
+   },
+   {
+    "title": "Bump GPU tests timeout to 3 hours.",
+    "url": "https://github.com/keras-team/keras/pull/23156",
+    "label": "keras#23156",
+    "date": "2026-06-24"
+   },
+   {
+    "title": "Fix LoRA save/load to use stable layer paths (#2701)",
+    "url": "https://github.com/keras-team/keras-hub/pull/2774",
+    "label": "keras-hub#2774",
+    "date": "2026-06-23"
+   },
+   {
+    "title": "Fix Sam Image Converter docs incorrectly listed under Stable Diffusion 3",
+    "url": "https://github.com/keras-team/keras-io/pull/2383",
+    "label": "keras-io#2383",
+    "date": "2026-06-23"
+   },
+   {
+    "title": "Fix Gemma3/3n/4 preprocessor crashes with Python-only tokenizer",
+    "url": "https://github.com/keras-team/keras-hub/pull/2773",
+    "label": "keras-hub#2773",
+    "date": "2026-06-23"
+   },
+   {
+    "title": "Fixed data loading pipeline and projection dimension bug",
+    "url": "https://github.com/keras-team/keras-io/pull/2380",
+    "label": "keras-io#2380",
+    "date": "2026-06-22"
+   },
+   {
+    "title": "Enable python workflows for `ImageConverter`, `MaskedLMMaskGenerator`, `MultiSegmentPacker`, `CausalLMPreprocessor`, `MaskedLMPreprocessor`, `TextClassifierPreprocessor`",
+    "url": "https://github.com/keras-team/keras-hub/pull/2769",
+    "label": "keras-hub#2769",
+    "date": "2026-06-18"
+   },
+   {
+    "title": "Use `filter=\"data\"` in `TarFile.extractall` on supported versions of …",
+    "url": "https://github.com/keras-team/keras/pull/23108",
+    "label": "keras#23108",
+    "date": "2026-06-17"
+   },
+   {
+    "title": "test: add FileNotFoundError test for get_file preset utility",
+    "url": "https://github.com/keras-team/keras-hub/pull/2768",
+    "label": "keras-hub#2768",
+    "date": "2026-06-15"
+   },
+   {
+    "title": "Fix for GQA while using fused attention path.",
+    "url": "https://github.com/keras-team/keras-hub/pull/2766",
+    "label": "keras-hub#2766",
+    "date": "2026-06-12"
+   },
+   {
+    "title": "Raise ValueError for max_length when preprocessor=None in CausalLM.generate()",
+    "url": "https://github.com/keras-team/keras-hub/pull/2765",
+    "label": "keras-hub#2765",
+    "date": "2026-06-12"
+   },
+   {
+    "title": "Add Microsoft Harrier Model to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/2764",
+    "label": "keras-hub#2764",
+    "date": "2026-06-12"
+   },
+   {
+    "title": "Fix T5 symbolic build crash under JAX ModelParallel by adding compute_output_spec",
+    "url": "https://github.com/keras-team/keras-hub/pull/2763",
+    "label": "keras-hub#2763",
+    "date": "2026-06-11"
+   },
+   {
+    "title": "Remove progress bar double averaging of metrics.",
+    "url": "https://github.com/keras-team/keras/pull/23030",
+    "label": "keras#23030",
+    "date": "2026-06-03"
+   },
+   {
+    "title": "Add BGE Embedding Model to Hub",
+    "url": "https://github.com/keras-team/keras-hub/pull/2755",
+    "label": "keras-hub#2755",
+    "date": "2026-06-03"
+   },
+   {
+    "title": "Add validation in the MLPerf shell script.",
+    "url": "https://github.com/keras-team/keras-rs/pull/195",
+    "label": "keras-rs#195",
+    "date": "2026-06-01"
+   },
+   {
+    "title": "Updates to nightly github workflow.",
+    "url": "https://github.com/keras-team/keras/pull/23008",
+    "label": "keras#23008",
+    "date": "2026-05-29"
+   },
+   {
+    "title": "Fix shape passed to inner EinsumDense in XLNET attention.",
+    "url": "https://github.com/keras-team/keras-hub/pull/2751",
+    "label": "keras-hub#2751",
+    "date": "2026-05-29"
+   },
+   {
+    "title": "Fix int8 quantization test with MultiHeadAttention on JAX on GPU.",
+    "url": "https://github.com/keras-team/keras/pull/22992",
+    "label": "keras#22992",
+    "date": "2026-05-27"
+   },
+   {
+    "title": "Fix pytree related JaxLayer tests.",
+    "url": "https://github.com/keras-team/keras/pull/22991",
+    "label": "keras#22991",
+    "date": "2026-05-27"
+   },
+   {
+    "title": "Fix for tokenizers>=0.23",
+    "url": "https://github.com/keras-team/keras-hub/pull/2746",
+    "label": "keras-hub#2746",
+    "date": "2026-05-26"
+   },
+   {
+    "title": "Fix missing parameter counts in T5 preset metadata",
+    "url": "https://github.com/keras-team/keras-hub/pull/2745",
+    "label": "keras-hub#2745",
+    "date": "2026-05-25"
+   },
+   {
+    "title": "Relax validation threshold for int8 quantization tests.",
+    "url": "https://github.com/keras-team/keras/pull/22970",
+    "label": "keras#22970",
+    "date": "2026-05-22"
+   },
+   {
+    "title": "Standardize rope_theta extraction for transformers >= 5.0 compatibility",
+    "url": "https://github.com/keras-team/keras-hub/pull/2733",
+    "label": "keras-hub#2733",
+    "date": "2026-05-12"
+   },
+   {
+    "title": "Fix CLIPTokenizer inconsistency between Python and TF paths",
+    "url": "https://github.com/keras-team/keras-hub/pull/2732",
+    "label": "keras-hub#2732",
+    "date": "2026-05-12"
+   },
+   {
+    "title": "Update release version",
+    "url": "https://github.com/keras-team/keras-hub/pull/2723",
+    "label": "keras-hub#2723",
+    "date": "2026-05-05"
+   },
+   {
+    "title": "Allow plain callables as Regularizers.",
+    "url": "https://github.com/keras-team/keras/pull/22795",
+    "label": "keras#22795",
+    "date": "2026-04-29"
+   },
+   {
+    "title": "Fixes in `image.py` and `image_test.py`.",
+    "url": "https://github.com/keras-team/keras/pull/22794",
+    "label": "keras#22794",
+    "date": "2026-04-28"
+   },
+   {
+    "title": "Handle ImportError for tokenizers library",
+    "url": "https://github.com/keras-team/keras-hub/pull/2702",
+    "label": "keras-hub#2702",
+    "date": "2026-04-24"
+   },
+   {
+    "title": "Add blip2",
+    "url": "https://github.com/keras-team/keras-hub/pull/2699",
+    "label": "keras-hub#2699",
+    "date": "2026-04-24"
+   },
+   {
+    "title": "Support explicit head_dim on MistralBackbone (enables Magistral)",
+    "url": "https://github.com/keras-team/keras-hub/pull/2692",
+    "label": "keras-hub#2692",
+    "date": "2026-04-21"
+   },
+   {
+    "title": "Fix TPU tests in master.",
+    "url": "https://github.com/keras-team/keras/pull/22735",
+    "label": "keras#22735",
+    "date": "2026-04-20"
+   },
+   {
+    "title": "Make test workflows consistent and add coverage.",
+    "url": "https://github.com/keras-team/keras/pull/22734",
+    "label": "keras#22734",
+    "date": "2026-04-20"
+   },
+   {
+    "title": "Update dev version",
+    "url": "https://github.com/keras-team/keras-hub/pull/2682",
+    "label": "keras-hub#2682",
+    "date": "2026-04-16"
+   },
+   {
+    "title": "Llama3 kerashub to HF exporter",
+    "url": "https://github.com/keras-team/keras-hub/pull/2681",
+    "label": "keras-hub#2681",
+    "date": "2026-04-16"
+   },
+   {
+    "title": "Update release version",
+    "url": "https://github.com/keras-team/keras-hub/pull/2680",
+    "label": "keras-hub#2680",
+    "date": "2026-04-16"
+   },
+   {
+    "title": "Fix broken tests in master.",
+    "url": "https://github.com/keras-team/keras/pull/22677",
+    "label": "keras#22677",
+    "date": "2026-04-14"
+   },
+   {
+    "title": "version update",
+    "url": "https://github.com/keras-team/keras-hub/pull/2675",
+    "label": "keras-hub#2675",
+    "date": "2026-04-13"
+   },
+   {
+    "title": "patch version 0.27.1",
+    "url": "https://github.com/keras-team/keras-hub/pull/2651",
+    "label": "keras-hub#2651",
+    "date": "2026-04-03"
+   },
+   {
+    "title": "quick fix",
+    "url": "https://github.com/keras-team/keras-hub/pull/2648",
+    "label": "keras-hub#2648",
+    "date": "2026-04-02"
+   },
+   {
+    "title": "Fix workflow concurrency for tests.",
+    "url": "https://github.com/keras-team/keras/pull/22597",
+    "label": "keras#22597",
+    "date": "2026-04-01"
+   },
+   {
+    "title": "Migration of Finetuning Stable diffusion via textual inversion from Keras 2 to Keras 3",
+    "url": "https://github.com/keras-team/keras-io/pull/2320",
+    "label": "keras-io#2320",
+    "date": "2026-03-31"
+   },
+   {
+    "title": "Migrated AdaIN tutorial to keras 3",
+    "url": "https://github.com/keras-team/keras-io/pull/2319",
+    "label": "keras-io#2319",
+    "date": "2026-03-30"
+   },
+   {
+    "title": "Fix `JaxLayer` tests on TPU.",
+    "url": "https://github.com/keras-team/keras/pull/22556",
+    "label": "keras#22556",
+    "date": "2026-03-26"
+   },
+   {
+    "title": "Use `pull_request_target` event for GPU and TPU tests.",
+    "url": "https://github.com/keras-team/keras/pull/22551",
+    "label": "keras#22551",
+    "date": "2026-03-26"
+   },
+   {
+    "title": "Fix incorrect call to `removeLabel`.",
+    "url": "https://github.com/keras-team/keras/pull/22508",
+    "label": "keras#22508",
+    "date": "2026-03-25"
+   },
+   {
+    "title": "Make `setUp` and `tearDown` call `super` in unit tests.",
+    "url": "https://github.com/keras-team/keras/pull/22506",
+    "label": "keras#22506",
+    "date": "2026-03-25"
+   },
+   {
+    "title": "Replace Kokoro app unlabeling behavior with github workflow.",
+    "url": "https://github.com/keras-team/keras/pull/22504",
+    "label": "keras#22504",
+    "date": "2026-03-25"
+   },
+   {
+    "title": "Mark multi-device tests and run them separately on CPU.",
+    "url": "https://github.com/keras-team/keras/pull/22484",
+    "label": "keras#22484",
+    "date": "2026-03-23"
+   },
+   {
+    "title": "Move TensorFlow CUDA tests to GPU runners.",
+    "url": "https://github.com/keras-team/keras/pull/22461",
+    "label": "keras#22461",
+    "date": "2026-03-20"
+   },
+   {
+    "title": "Fix `_parameterize_data` in OpenVino `Trainer` class.",
+    "url": "https://github.com/keras-team/keras/pull/22453",
+    "label": "keras#22453",
+    "date": "2026-03-20"
+   },
+   {
+    "title": "Skip tests not for sparsecore in `setUp` instead of the decorator.",
+    "url": "https://github.com/keras-team/keras-rs/pull/184",
+    "label": "keras-rs#184",
+    "date": "2026-03-03"
+   },
+   {
+    "title": "Add Qwen2 VL",
+    "url": "https://github.com/keras-team/keras-hub/pull/2604",
+    "label": "keras-hub#2604",
+    "date": "2026-02-18"
+   },
+   {
+    "title": "Register Qwen2.5-Coder presets",
+    "url": "https://github.com/keras-team/keras-hub/pull/2547",
+    "label": "keras-hub#2547",
+    "date": "2026-01-28"
+   },
+   {
+    "title": "Gemma3 vision models keras to hf checkpoint conversion",
+    "url": "https://github.com/keras-team/keras-hub/pull/2526",
+    "label": "keras-hub#2526",
+    "date": "2026-01-18"
+   },
+   {
+    "title": "ModernBERT Implementation",
+    "url": "https://github.com/keras-team/keras-hub/pull/2518",
+    "label": "keras-hub#2518",
+    "date": "2026-01-12"
+   },
+   {
+    "title": "Move Torch CUDA tests to GPU runners.",
+    "url": "https://github.com/keras-team/keras/pull/21957",
+    "label": "keras#21957",
+    "date": "2025-12-26"
+   },
+   {
+    "title": "Version bump 0.25.0",
+    "url": "https://github.com/keras-team/keras-hub/pull/2481",
+    "label": "keras-hub#2481",
+    "date": "2025-12-18"
+   },
+   {
+    "title": "Update latest synced models",
+    "url": "https://github.com/keras-team/keras-hub/pull/2475",
+    "label": "keras-hub#2475",
+    "date": "2025-12-18"
+   },
+   {
+    "title": "mark preset test to extra large to skip GPU testing",
+    "url": "https://github.com/keras-team/keras-hub/pull/2458",
+    "label": "keras-hub#2458",
+    "date": "2025-11-20"
+   },
+   {
+    "title": "register mobilenet presets",
+    "url": "https://github.com/keras-team/keras-hub/pull/2443",
+    "label": "keras-hub#2443",
+    "date": "2025-10-17"
+   },
+   {
+    "title": "register parseq preset",
+    "url": "https://github.com/keras-team/keras-hub/pull/2438",
+    "label": "keras-hub#2438",
+    "date": "2025-10-15"
+   },
+   {
+    "title": "add DINOv2 preset details",
+    "url": "https://github.com/keras-team/keras-hub/pull/2336",
+    "label": "keras-hub#2336",
+    "date": "2025-07-18"
+   },
+   {
+    "title": "Update gemma_attention.py",
+    "url": "https://github.com/keras-team/keras-hub/pull/2109",
+    "label": "keras-hub#2109",
+    "date": "2025-02-21"
+   },
+   {
+    "title": "fix mobilenet tests",
+    "url": "https://github.com/keras-team/keras-hub/pull/2096",
+    "label": "keras-hub#2096",
+    "date": "2025-02-12"
+   },
+   {
+    "title": "Differential Binarization model",
+    "url": "https://github.com/keras-team/keras-hub/pull/2095",
+    "label": "keras-hub#2095",
+    "date": "2025-02-12"
+   },
+   {
+    "title": "Updating the typos in TF document",
+    "url": "https://github.com/tensorflow/models/pull/10883",
+    "label": "models#10883",
+    "date": "2023-01-06"
+   },
+   {
+    "title": "Remove opencv-python-headless strict version requirement",
+    "url": "https://github.com/tensorflow/models/pull/10855",
+    "label": "models#10855",
+    "date": "2022-12-09"
+   },
+   {
+    "title": "Update Broken link",
+    "url": "https://github.com/tensorflow/models/pull/10790",
+    "label": "models#10790",
+    "date": "2022-09-23"
+   },
+   {
+    "title": "Add a dedicated padding token to beam search to avoid padding with the start sentence token",
+    "url": "https://github.com/tensorflow/models/pull/10386",
+    "label": "models#10386",
+    "date": "2021-11-23"
+   }
+  ]
+ }
+}
