@@ -382,11 +382,12 @@ Model Porter generates KerasHub model files for text-only decoder LLMs from thei
 <!-- contributions:end -->
 
 <!-- reviews:start -->
-Reviews on 212 pull requests by 40 other authors across 7 repositories.
+Reviews on 213 pull requests by 40 other authors across 7 repositories.
 
 <details>
-<summary><picture><img src="assets/categories/code-reviews.svg" width="94%" alt="Code reviews, 212 PRs"></picture></summary>
+<summary><picture><img src="assets/categories/code-reviews.svg" width="94%" alt="Code reviews, 213 PRs"></picture></summary>
 
+- [Bump the github-actions group with 4 updates](https://github.com/keras-team/keras-hub/pull/3270) · keras-hub#3270
 - [Remove Jules integration.](https://github.com/keras-team/keras/pull/24217) · keras#24217
 - [Add Qwen2 VL model API documentation](https://github.com/keras-team/keras-io/pull/2463) · keras-io#2463
 - [Add GPT-NeoX presets and Hugging Face converter, fix generation and tokenization](https://github.com/keras-team/keras-hub/pull/3259) · keras-hub#3259

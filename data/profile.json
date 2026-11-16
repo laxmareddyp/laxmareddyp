@@ -1835,12 +1835,18 @@
   ]
  },
  "reviews": {
-  "total": 212,
+  "total": 213,
   "authors": 40,
   "repositories": 7,
   "colour": "#9BE3E0",
   "url": "https://github.com/search?q=is%3Apr+reviewed-by%3Alaxmareddyp+-author%3Alaxmareddyp+org%3Akeras-team+org%3Atensorflow&type=pullrequests",
   "prs": [
+   {
+    "title": "Bump the github-actions group with 4 updates",
+    "url": "https://github.com/keras-team/keras-hub/pull/3270",
+    "label": "keras-hub#3270",
+    "date": "2026-11-16"
+   },
    {
     "title": "Remove Jules integration.",
     "url": "https://github.com/keras-team/keras/pull/24217",
